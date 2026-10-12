@@ -1,0 +1,11 @@
+{
+  "name": "関西コミティア 個人Webカタログ",
+  "short_name": "関コミカタログ",
+  "description": "関西コミティアの個人用Webカタログ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
