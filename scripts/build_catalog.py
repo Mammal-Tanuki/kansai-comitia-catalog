@@ -38,7 +38,7 @@ def valid_url(raw):
 def kind_of(url):
     host=(urlparse(url).hostname or '').lower().removeprefix('www.')
     if host in ('x.com','twitter.com'):return 'x'
-    if host=='pixiv.net':return 'pixiv'
+    if host in ('pixiv.net','pixiv.me'):return 'pixiv'
     if host.endswith('.booth.pm') or host=='booth.pm':return 'booth'
     if host.endswith('.fanbox.cc'):return 'fanbox'
     return {'bsky.app':'bluesky','skeb.jp':'skeb','instagram.com':'instagram','misskey.io':'misskey'}.get(host,'web')
@@ -56,6 +56,42 @@ def combine_sources(base,more):
         key=(item['url'],item['note'])
         if key not in seen:seen.add(key);out.append(item)
     return out
+
+def apply_native_profile_urls(records,evidence):
+    """Recover an author's selected website from identity-matched X profile metadata.
+
+    Only the profile's URL field is eligible for primary links. Mentions and other
+    URLs in biography text are not assumed to belong to the same author.
+    """
+    excluded={'portal.circle.ms','wavebox.me','marshmallow-qa.com','spoon.onelink.me'}
+    aliases={'tabihito':'37778','rino_cnc':'3442151','sunsun28':'4718780'}
+    for item in evidence:
+        r=records.get(item.get('space'))
+        if not r or not valid_url(r.get('x','')):continue
+        if valid_url(item.get('owner','')).lower()!=valid_url(r['x']).lower():continue
+        selected=[]
+        for link in item.get('websiteLinks',[]):
+            u=valid_url(link.get('url',''))
+            if not u:continue
+            p=urlparse(u);host=(p.hostname or '').lower().removeprefix('www.')
+            if host in excluded:continue
+            if host=='pixiv.me':
+                alias=p.path.strip('/')
+                u='https://www.pixiv.net/users/'+aliases[alias] if alias in aliases else 'https://pixiv.me/'+alias
+            selected.append((kind_of(u),u))
+        selected=list(dict.fromkeys(selected))
+        added=[]
+        for channel in ('pixiv','web'):
+            candidates=[u for kind,u in selected if (kind=='pixiv' if channel=='pixiv' else kind not in ('pixiv','x'))]
+            if not r.get(channel) and len(candidates)==1:
+                r[channel]=candidates[0];r.setdefault('status',{})[channel]='found';added.append(channel)
+        if added:
+            if r.get('notes'):
+                r['notes']='追加照合で本人XのURL欄から'+'・'.join('Web' if k=='web' else k for k in added)+'を確認。以前の確認メモ：'+r['notes'].strip()
+            r['sources']=combine_sources(r.get('sources',[]),[{
+                'url':item['owner'],'title':'本人XプロフィールのURL欄',
+                'note':'保存済み公開ページのprofile_bio内URL欄から取得。screen_nameが登録済み本人Xと一致することを照合。本文の他者へのリンクは採用しない。'
+            }])
 
 def normalize(record,official):
     r=dict(record)
@@ -114,6 +150,8 @@ def build(research,draft=False):
             records[r['space']]=merged;supp_count+=1;supplementary_done.add(r['space'])
     expected_supp=sum(len(json.loads((research/'batches'/f'official-{i}.json').read_text())) for i in range(1,7))
     if not draft and (initial_count!=743 or supp_count!=expected_supp):raise ValueError(f'Research unfinished: initial {initial_count}/743; supplemental {supp_count}/{expected_supp}')
+    native_path=research/'native-profile-url-evidence.json'
+    if native_path.exists():apply_native_profile_urls(records,json.loads(native_path.read_text()))
     final=[normalize(records[c['space']],c) for c in roster]
     supplemental_spaces={c['space'] for i in range(1,7) for c in json.loads((research/'batches'/f'official-{i}.json').read_text())}
     for c in final:
@@ -141,7 +179,7 @@ def build(research,draft=False):
     (ROOT/'data/circles77.json').write_text(compact+'\n')
     (ROOT/'data/circles77.js').write_text('window.CATALOG_DATA='+compact+';\n')
     (ROOT/'data/research77.full.json').write_text(json.dumps({'summary':counts,'generatedAt':now,'complete':counts['additionalSearchPending']==0,'circles':final},ensure_ascii=False,indent=2)+'\n')
-    buffer=io.StringIO();writer=csv.writer(buffer)
+    buffer=io.StringIO();writer=csv.writer(buffer,lineterminator='\n')
     writer.writerow(['配置','サークル名','X','pixiv','Web','X調査状況','pixiv調査状況','Web調査状況','補助リンク','根拠URL','検索語','確認メモ'])
     labels={'found':'発見済み','not_found':'調査済み・未発見','blocked':'要確認・閲覧制限等','ambiguous':'要確認・同一性未確定','pending':'追加確認待ち','unresearched':'未調査'}
     def csv_safe(s):
