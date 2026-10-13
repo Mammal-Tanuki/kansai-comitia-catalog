@@ -1,5 +1,17 @@
-const CACHE='kansai-comitia-catalog-v1';
-const CORE=['./','./index.html','./manifest.webmanifest','./icon.svg'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('kansai-comitia-catalog-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith(caches.match(e.request).then(hit=>hit||fetch(e.request).then(r=>{if(r&&r.ok&&new URL(e.request.url).origin===location.origin){const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));}return r;}).catch(()=>caches.match('./index.html'))));});
+const CACHE = 'kansai-comitia-catalog-v2';
+const PREFIX = 'kansai-comitia-catalog-';
+const CORE = ['./','./index.html','./app.js','./style.css','./data/circles77.js','./data/circles77.json','./data/research77.csv','./RESEARCH.md','./manifest.webmanifest','./icon.svg'];
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith(PREFIX)&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',event=>{
+  const request=event.request,url=new URL(request.url);
+  if(request.method!=='GET'||url.origin!==self.location.origin||!url.pathname.startsWith(new URL(self.registration.scope).pathname))return;
+  if(url.searchParams.has('update')){event.respondWith(fetch(request));return;}
+  if(request.mode==='navigate'){
+    event.respondWith(caches.open(CACHE).then(async cache=>{try{const response=await fetch(request);if(response.ok)await cache.put('./index.html',response.clone()).catch(()=>{});return response;}catch{return cache.match('./index.html');}}));return;
+  }
+  if(url.pathname.endsWith('/data/circles77.js')||url.pathname.endsWith('/data/circles77.json')){
+    event.respondWith(caches.open(CACHE).then(async cache=>{try{const response=await fetch(request);if(!response.ok)throw new Error('Catalog not available');await cache.put(request,response.clone()).catch(()=>{});return response;}catch{return cache.match(request);}}));return;
+  }
+  event.respondWith(caches.open(CACHE).then(async cache=>{const cached=await cache.match(request);if(cached)return cached;const response=await fetch(request);if(response.ok)await cache.put(request,response.clone()).catch(()=>{});return response;}));
+});
