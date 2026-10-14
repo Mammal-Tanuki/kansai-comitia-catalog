@@ -1,0 +1,5587 @@
+{
+  "id": "2026-10-15-kc7",
+  "checkedDate": "2026-10-15",
+  "startedDate": "2026-10-14",
+  "initialUnidentified": 302,
+  "methods": [
+    "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+    "BOOTH内のサークル名検索",
+    "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合",
+    "保存済み作者名・候補からの外部検索と公開プロフィールの自己リンク確認"
+  ],
+  "scopeNote": "主催名簿・BOOTH内検索は10/14に実施。保存した根拠を10/15に確認し、当回タグの新着投稿も追加照合した。本人名・当回サークル名・当回配置・自己掲載リンクを区別して記録。全投稿や全画像の網羅ではない。",
+  "statistics": {
+    "boothQueries": 302,
+    "boothPagesFetched": 302,
+    "olderDirectoryPages": 64,
+    "timelineEntriesScanned": 950,
+    "uniqueTimelinePosts": 944,
+    "quotedPostsIncluded": true,
+    "unresolvedDecisions": 9
+  },
+  "checks": [
+    {
+      "space": "A-08",
+      "name": "白川夜船",
+      "query": "白川夜船",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%99%BD%E5%B7%9D%E5%A4%9C%E8%88%B9",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"みつしらせ\"",
+        "\"白川夜船\" \"関西コミティア77\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-09",
+      "name": "桃李園",
+      "query": "桃李園",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%A1%83%E6%9D%8E%E5%9C%92",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-10",
+      "name": "mgoose",
+      "query": "mgoose",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/mgoose",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-31",
+      "name": "BLACK LABEL",
+      "query": "BLACK LABEL",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/BLACK%20LABEL",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-34",
+      "name": "legends上田",
+      "query": "legends上田",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/legends%E4%B8%8A%E7%94%B0",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-36",
+      "name": "＆書房",
+      "query": "＆書房",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%EF%BC%86%E6%9B%B8%E6%88%BF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-37",
+      "name": "南蛮唐茄子",
+      "query": "南蛮唐茄子",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%8D%97%E8%9B%AE%E5%94%90%E8%8C%84%E5%AD%90",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-45",
+      "name": "スピリダム",
+      "query": "スピリダム",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%B9%E3%83%94%E3%83%AA%E3%83%80%E3%83%A0",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-47",
+      "name": "茸書",
+      "query": "茸書",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%8C%B8%E6%9B%B8",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-55",
+      "name": "ともえ造",
+      "query": "ともえ造",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%A8%E3%82%82%E3%81%88%E9%80%A0",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-61",
+      "name": "ユッピーさん",
+      "query": "ユッピーさん",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%A6%E3%83%83%E3%83%94%E3%83%BC%E3%81%95%E3%82%93",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-63",
+      "name": "おうじさまの星",
+      "query": "おうじさまの星",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%8A%E3%81%86%E3%81%98%E3%81%95%E3%81%BE%E3%81%AE%E6%98%9F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-67",
+      "name": "ギロチン団地打首断棟404号室",
+      "query": "ギロチン団地打首断棟404号室",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%AE%E3%83%AD%E3%83%81%E3%83%B3%E5%9B%A3%E5%9C%B0%E6%89%93%E9%A6%96%E6%96%AD%E6%A3%9F404%E5%8F%B7%E5%AE%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-76",
+      "name": "細切れ屋",
+      "query": "細切れ屋",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%B4%B0%E5%88%87%E3%82%8C%E5%B1%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-91",
+      "name": "ネコころ堂",
+      "query": "ネコころ堂",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%8D%E3%82%B3%E3%81%93%E3%82%8D%E5%A0%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-93",
+      "name": "RANBU",
+      "query": "RANBU",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/RANBU",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-94",
+      "name": "しまこ",
+      "query": "しまこ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%97%E3%81%BE%E3%81%93",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "A-95",
+      "name": "レモンバターソテイ",
+      "query": "レモンバターソテイ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%AC%E3%83%A2%E3%83%B3%E3%83%90%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%86%E3%82%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-06",
+      "name": "プテノグ",
+      "query": "プテノグ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%97%E3%83%86%E3%83%8E%E3%82%B0",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-07",
+      "name": "無辺世界",
+      "query": "無辺世界",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%84%A1%E8%BE%BA%E4%B8%96%E7%95%8C",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-18",
+      "name": "M45",
+      "query": "M45",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/M45",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-21",
+      "name": "にゃこにゃこ神社",
+      "query": "にゃこにゃこ神社",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%AB%E3%82%83%E3%81%93%E3%81%AB%E3%82%83%E3%81%93%E7%A5%9E%E7%A4%BE",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-35",
+      "name": "HANA∞",
+      "query": "HANA∞",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/HANA%E2%88%9E",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-42",
+      "name": "ほうしゅつ",
+      "query": "ほうしゅつ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BB%E3%81%86%E3%81%97%E3%82%85%E3%81%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"ho_syutsu18\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-43",
+      "name": "星詠屋",
+      "query": "星詠屋",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%98%9F%E8%A9%A0%E5%B1%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-47",
+      "name": "タイとエビ＋揺れる蛙",
+      "query": "タイとエビ＋揺れる蛙",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%BF%E3%82%A4%E3%81%A8%E3%82%A8%E3%83%93%EF%BC%8B%E6%8F%BA%E3%82%8C%E3%82%8B%E8%9B%99",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-48",
+      "name": "sprout",
+      "query": "sprout",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/sprout",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-60",
+      "name": "つつじの頃",
+      "query": "つつじの頃",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%A4%E3%81%A4%E3%81%98%E3%81%AE%E9%A0%83",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"リキョウ\" \"つつじの頃\"",
+        "4860464",
+        "リキョウ つつじ 同人",
+        "\"ourikyouttj\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-61",
+      "name": "ほっけ家",
+      "query": "ほっけ家",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BB%E3%81%A3%E3%81%91%E5%AE%B6",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-67",
+      "name": "アンクキャッチ",
+      "query": "アンクキャッチ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%A2%E3%83%B3%E3%82%AF%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-76",
+      "name": "pronron",
+      "query": "pronron",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/pronron",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-79",
+      "name": "白黒幻想譚",
+      "query": "白黒幻想譚",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%99%BD%E9%BB%92%E5%B9%BB%E6%83%B3%E8%AD%9A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-81",
+      "name": "Fomalhaut",
+      "query": "Fomalhaut",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Fomalhaut",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-87",
+      "name": "YELLOW MOON",
+      "query": "YELLOW MOON",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/YELLOW%20MOON",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-93",
+      "name": "よろずや",
+      "query": "よろずや",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%88%E3%82%8D%E3%81%9A%E3%82%84",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "B-95",
+      "name": "眼鏡観測所",
+      "query": "眼鏡観測所",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%9C%BC%E9%8F%A1%E8%A6%B3%E6%B8%AC%E6%89%80",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-01",
+      "name": "あのにま",
+      "query": "あのにま",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%82%E3%81%AE%E3%81%AB%E3%81%BE",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-02",
+      "name": "ぽんぽんすきぺこ",
+      "query": "ぽんぽんすきぺこ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BD%E3%82%93%E3%81%BD%E3%82%93%E3%81%99%E3%81%8D%E3%81%BA%E3%81%93",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-03",
+      "name": "甘味処",
+      "query": "甘味処",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%94%98%E5%91%B3%E5%87%A6",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-07",
+      "name": "高空腹",
+      "query": "高空腹",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%AB%98%E7%A9%BA%E8%85%B9",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-08",
+      "name": "ひだりて",
+      "query": "ひだりて",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%B2%E3%81%A0%E3%82%8A%E3%81%A6",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"ひだりて\" \"C-08\"",
+        "1946618",
+        "\"ひだりて\" \"関西コミティア\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-10",
+      "name": "Ray",
+      "query": "Ray",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Ray",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-12",
+      "name": "surasura",
+      "query": "surasura",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/surasura",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-20",
+      "name": "二度見の雑貨やさん",
+      "query": "二度見の雑貨やさん",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E4%BA%8C%E5%BA%A6%E8%A6%8B%E3%81%AE%E9%9B%91%E8%B2%A8%E3%82%84%E3%81%95%E3%82%93",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-21",
+      "name": "南南西の風",
+      "query": "南南西の風",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%8D%97%E5%8D%97%E8%A5%BF%E3%81%AE%E9%A2%A8",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-23",
+      "name": "「よ」。",
+      "query": "「よ」。",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%80%8C%E3%82%88%E3%80%8D%E3%80%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-29",
+      "name": "オルカトゥーン",
+      "query": "オルカトゥーン",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%AA%E3%83%AB%E3%82%AB%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-32",
+      "name": "非売品",
+      "query": "非売品",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%9D%9E%E5%A3%B2%E5%93%81",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-40",
+      "name": "空を眺めるくらぶ",
+      "query": "空を眺めるくらぶ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%A9%BA%E3%82%92%E7%9C%BA%E3%82%81%E3%82%8B%E3%81%8F%E3%82%89%E3%81%B6",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-41",
+      "name": "いちごしろっぷ",
+      "query": "いちごしろっぷ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%84%E3%81%A1%E3%81%94%E3%81%97%E3%82%8D%E3%81%A3%E3%81%B7",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-43",
+      "name": "BACK LABRET",
+      "query": "BACK LABRET",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/BACK%20LABRET",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"BACK LABRET\" -site:comitia.co.jp -site:k-comitia.com"
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-46",
+      "name": "みなぎそら",
+      "query": "みなぎそら",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BF%E3%81%AA%E3%81%8E%E3%81%9D%E3%82%89",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-47",
+      "name": "Y-BURN",
+      "query": "Y-BURN",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Y-BURN",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-52",
+      "name": "マガポポ",
+      "query": "マガポポ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%9E%E3%82%AC%E3%83%9D%E3%83%9D",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-53",
+      "name": "アトリエ夜半",
+      "query": "アトリエ夜半",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8%E5%A4%9C%E5%8D%8A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-54",
+      "name": "惨憺たる有様。",
+      "query": "惨憺たる有様。",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%83%A8%E6%86%BA%E3%81%9F%E3%82%8B%E6%9C%89%E6%A7%98%E3%80%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-55",
+      "name": "ギザギザシッポ",
+      "query": "ギザギザシッポ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%AE%E3%82%B6%E3%82%AE%E3%82%B6%E3%82%B7%E3%83%83%E3%83%9D",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-56",
+      "name": "ゆゆしき山",
+      "query": "ゆゆしき山",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%86%E3%82%86%E3%81%97%E3%81%8D%E5%B1%B1",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-59",
+      "name": "あめーじんぐぱんだ",
+      "query": "あめーじんぐぱんだ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%82%E3%82%81%E3%83%BC%E3%81%98%E3%82%93%E3%81%90%E3%81%B1%E3%82%93%E3%81%A0",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-61",
+      "name": "芋屋",
+      "query": "芋屋",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%8A%8B%E5%B1%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-65",
+      "name": "寝て壱畳",
+      "query": "寝て壱畳",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%AF%9D%E3%81%A6%E5%A3%B1%E7%95%B3",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-68",
+      "name": "しお屋",
+      "query": "しお屋",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%97%E3%81%8A%E5%B1%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-70",
+      "name": "夏のおわり",
+      "query": "夏のおわり",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%A4%8F%E3%81%AE%E3%81%8A%E3%82%8F%E3%82%8A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-77",
+      "name": "食々酒場",
+      "query": "食々酒場",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%A3%9F%E3%80%85%E9%85%92%E5%A0%B4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-78",
+      "name": "藤篭",
+      "query": "藤篭",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%97%A4%E7%AF%AD",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-80",
+      "name": "しめたろ家",
+      "query": "しめたろ家",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%97%E3%82%81%E3%81%9F%E3%82%8D%E5%AE%B6",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "C-84",
+      "name": "玉結び協会",
+      "query": "玉結び協会",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%8E%89%E7%B5%90%E3%81%B3%E5%8D%94%E4%BC%9A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"玉結び協会\" -site:k-comitia.com"
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-18",
+      "name": "またたびあとりえ",
+      "query": "またたびあとりえ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BE%E3%81%9F%E3%81%9F%E3%81%B3%E3%81%82%E3%81%A8%E3%82%8A%E3%81%88",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-19",
+      "name": "はっちゃモフ",
+      "query": "はっちゃモフ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%AF%E3%81%A3%E3%81%A1%E3%82%83%E3%83%A2%E3%83%95",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"ひよっこまめだ\" -site:comitia.co.jp",
+        "\"ひよっこまめだ\" \"X\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-21",
+      "name": "スイートルーム",
+      "query": "スイートルーム",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%88%E3%83%AB%E3%83%BC%E3%83%A0",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-24",
+      "name": "ルユヲコーヒー",
+      "query": "ルユヲコーヒー",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%AB%E3%83%A6%E3%83%B2%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-28",
+      "name": "食物繊維豊富",
+      "query": "食物繊維豊富",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%A3%9F%E7%89%A9%E7%B9%8A%E7%B6%AD%E8%B1%8A%E5%AF%8C",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-42",
+      "name": "羊肉定食",
+      "query": "羊肉定食",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%BE%8A%E8%82%89%E5%AE%9A%E9%A3%9F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-43",
+      "name": "あまやどり",
+      "query": "あまやどり",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%82%E3%81%BE%E3%82%84%E3%81%A9%E3%82%8A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"キザキアキ\"",
+        "\"あまやどり\" \"雨水れいや\"",
+        "\"あまやどり\" \"キザキアキ\"",
+        "amemori58n",
+        "\"あまやどり\" \"関西コミティア77\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-46",
+      "name": "マカロンチーノ",
+      "query": "マカロンチーノ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%9E%E3%82%AB%E3%83%AD%E3%83%B3%E3%83%81%E3%83%BC%E3%83%8E",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-52",
+      "name": "Yellow Rose",
+      "query": "Yellow Rose",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Yellow%20Rose",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-54",
+      "name": "陽気なジャンドゥーヤ",
+      "query": "陽気なジャンドゥーヤ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%99%BD%E6%B0%97%E3%81%AA%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%89%E3%82%A5%E3%83%BC%E3%83%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-58",
+      "name": "Pixelic Velvetique",
+      "query": "Pixelic Velvetique",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Pixelic%20Velvetique",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-60",
+      "name": "Cradle",
+      "query": "Cradle",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Cradle",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-68",
+      "name": "ちょこじゃむ",
+      "query": "ちょこじゃむ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%A1%E3%82%87%E3%81%93%E3%81%98%E3%82%83%E3%82%80",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-75",
+      "name": "鯨堂",
+      "query": "鯨堂",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%AF%A8%E5%A0%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-78",
+      "name": "まがつき",
+      "query": "まがつき",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BE%E3%81%8C%E3%81%A4%E3%81%8D",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "D-90",
+      "name": "マジ水1000%ゼラチン",
+      "query": "マジ水1000%ゼラチン",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%9E%E3%82%B8%E6%B0%B41000%25%E3%82%BC%E3%83%A9%E3%83%81%E3%83%B3",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-06",
+      "name": "しおみみ",
+      "query": "しおみみ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%97%E3%81%8A%E3%81%BF%E3%81%BF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-11",
+      "name": "陰鬱堂",
+      "query": "陰鬱堂",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%99%B0%E9%AC%B1%E5%A0%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-14",
+      "name": "テツジン兵団",
+      "query": "テツジン兵団",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%86%E3%83%84%E3%82%B8%E3%83%B3%E5%85%B5%E5%9B%A3",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-18",
+      "name": "da We nci 2",
+      "query": "da We nci 2",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/da%20We%20nci%202",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-21",
+      "name": "ビバリウム",
+      "query": "ビバリウム",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%93%E3%83%90%E3%83%AA%E3%82%A6%E3%83%A0",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-30",
+      "name": "くじらの銀河",
+      "query": "くじらの銀河",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%8F%E3%81%98%E3%82%89%E3%81%AE%E9%8A%80%E6%B2%B3",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-31",
+      "name": "そんな日もある。",
+      "query": "そんな日もある。",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%9D%E3%82%93%E3%81%AA%E6%97%A5%E3%82%82%E3%81%82%E3%82%8B%E3%80%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-45",
+      "name": "聖夜白愛婚",
+      "query": "聖夜白愛婚",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%81%96%E5%A4%9C%E7%99%BD%E6%84%9B%E5%A9%9A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-46",
+      "name": "未来水槽",
+      "query": "未来水槽",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%9C%AA%E6%9D%A5%E6%B0%B4%E6%A7%BD",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-51",
+      "name": "ぷろm2",
+      "query": "ぷろm2",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%B7%E3%82%8Dm2",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-54",
+      "name": "ツインテールコレクション",
+      "query": "ツインテールコレクション",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%84%E3%82%A4%E3%83%B3%E3%83%86%E3%83%BC%E3%83%AB%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-58",
+      "name": "夜",
+      "query": "夜",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%A4%9C",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-59",
+      "name": "夢の余白",
+      "query": "夢の余白",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%A4%A2%E3%81%AE%E4%BD%99%E7%99%BD",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"yume-no-yohaku.booth.pm\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-64",
+      "name": "きち",
+      "query": "きち",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%8D%E3%81%A1",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-76",
+      "name": "VIVIT BURGER",
+      "query": "VIVIT BURGER",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/VIVIT%20BURGER",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-77",
+      "name": "Anymore",
+      "query": "Anymore",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Anymore",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"anymorevvv.booth.pm\"",
+        "\"エニモ\" \"コミティア\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-79",
+      "name": "kakukazoku",
+      "query": "kakukazoku",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/kakukazoku",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-84",
+      "name": "ぷるるんらんど",
+      "query": "ぷるるんらんど",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%B7%E3%82%8B%E3%82%8B%E3%82%93%E3%82%89%E3%82%93%E3%81%A9",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "E-93",
+      "name": "藤乃屋",
+      "query": "藤乃屋",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%97%A4%E4%B9%83%E5%B1%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-05",
+      "name": "緑硝子温室",
+      "query": "緑硝子温室",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%B7%91%E7%A1%9D%E5%AD%90%E6%B8%A9%E5%AE%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-20",
+      "name": "UKIYO",
+      "query": "UKIYO",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/UKIYO",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-26",
+      "name": "宇宙の片隅の星",
+      "query": "宇宙の片隅の星",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%AE%87%E5%AE%99%E3%81%AE%E7%89%87%E9%9A%85%E3%81%AE%E6%98%9F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-30",
+      "name": "ANNY書店",
+      "query": "ANNY書店",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/ANNY%E6%9B%B8%E5%BA%97",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-36",
+      "name": "竜のきつねうどん",
+      "query": "竜のきつねうどん",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%AB%9C%E3%81%AE%E3%81%8D%E3%81%A4%E3%81%AD%E3%81%86%E3%81%A9%E3%82%93",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-37",
+      "name": "NONON",
+      "query": "NONON",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/NONON",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-40",
+      "name": "柚月",
+      "query": "柚月",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%9F%9A%E6%9C%88",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-43",
+      "name": "YNOF",
+      "query": "YNOF",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/YNOF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-44",
+      "name": "ぼんぼんねずみ",
+      "query": "ぼんぼんねずみ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BC%E3%82%93%E3%81%BC%E3%82%93%E3%81%AD%E3%81%9A%E3%81%BF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-47",
+      "name": "しゅうさく",
+      "query": "しゅうさく",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%97%E3%82%85%E3%81%86%E3%81%95%E3%81%8F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-57",
+      "name": "さんぽめぐり",
+      "query": "さんぽめぐり",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%95%E3%82%93%E3%81%BD%E3%82%81%E3%81%90%E3%82%8A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-65",
+      "name": "SaSa舟",
+      "query": "SaSa舟",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/SaSa%E8%88%9F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-66",
+      "name": "Doro舟",
+      "query": "Doro舟",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Doro%E8%88%9F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-69",
+      "name": "Wack Wack CIRCUS",
+      "query": "Wack Wack CIRCUS",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Wack%20Wack%20CIRCUS",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-70",
+      "name": "Wack Wack CIRCUS +",
+      "query": "Wack Wack CIRCUS +",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Wack%20Wack%20CIRCUS%20%2B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-78",
+      "name": "金平糖ぽしぇっと",
+      "query": "金平糖ぽしぇっと",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%87%91%E5%B9%B3%E7%B3%96%E3%81%BD%E3%81%97%E3%81%87%E3%81%A3%E3%81%A8",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-80",
+      "name": "Glixcel403",
+      "query": "Glixcel403",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Glixcel403",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-83",
+      "name": "きまぐれモンスター工房",
+      "query": "きまぐれモンスター工房",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%8D%E3%81%BE%E3%81%90%E3%82%8C%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E5%B7%A5%E6%88%BF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-86",
+      "name": "@時空",
+      "query": "@時空",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%40%E6%99%82%E7%A9%BA",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "F-96",
+      "name": "Abendrot",
+      "query": "Abendrot",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Abendrot",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"abentrot.booth.pm\"",
+        "\"瓏\" \"ABENDROT\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-04",
+      "name": "朗らかようび。",
+      "query": "朗らかようび。",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%9C%97%E3%82%89%E3%81%8B%E3%82%88%E3%81%86%E3%81%B3%E3%80%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-05",
+      "name": "ＫＵＲＵＫＵＲＵ",
+      "query": "ＫＵＲＵＫＵＲＵ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%EF%BC%AB%EF%BC%B5%EF%BC%B2%EF%BC%B5%EF%BC%AB%EF%BC%B5%EF%BC%B2%EF%BC%B5",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"ＫＵＲＵＫＵＲＵ\" \"関西コミティア77\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-13",
+      "name": "ミソニコミ",
+      "query": "ミソニコミ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%9F%E3%82%BD%E3%83%8B%E3%82%B3%E3%83%9F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-17",
+      "name": "Nishinoki商店",
+      "query": "Nishinoki商店",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Nishinoki%E5%95%86%E5%BA%97",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-20",
+      "name": "SIREN KID",
+      "query": "SIREN KID",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/SIREN%20KID",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-22",
+      "name": "無色",
+      "query": "無色",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%84%A1%E8%89%B2",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-23",
+      "name": "砂",
+      "query": "砂",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%A0%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-25",
+      "name": "茶々and福",
+      "query": "茶々and福",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%8C%B6%E3%80%85and%E7%A6%8F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-38",
+      "name": "ぽむぽめ2",
+      "query": "ぽむぽめ2",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BD%E3%82%80%E3%81%BD%E3%82%812",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-41",
+      "name": "hanatsuki",
+      "query": "hanatsuki",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/hanatsuki",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-52",
+      "name": "焼き貝",
+      "query": "焼き貝",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%84%BC%E3%81%8D%E8%B2%9D",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-55",
+      "name": "ゆきんこハウス",
+      "query": "ゆきんこハウス",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%86%E3%81%8D%E3%82%93%E3%81%93%E3%83%8F%E3%82%A6%E3%82%B9",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-56",
+      "name": "××シンドローム",
+      "query": "××シンドローム",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%C3%97%C3%97%E3%82%B7%E3%83%B3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%A0",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"××シンドローム\" 助 -site:comitia.co.jp -site:k-comitia.com"
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-59",
+      "name": "Fairy Tale",
+      "query": "Fairy Tale",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Fairy%20Tale",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-64",
+      "name": "torutessimo",
+      "query": "torutessimo",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/torutessimo",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-65",
+      "name": "こもれ日",
+      "query": "こもれ日",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%93%E3%82%82%E3%82%8C%E6%97%A5",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-67",
+      "name": "トウキョ~トリップ",
+      "query": "トウキョ~トリップ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%88%E3%82%A6%E3%82%AD%E3%83%A7~%E3%83%88%E3%83%AA%E3%83%83%E3%83%97",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-69",
+      "name": "わたぼこり",
+      "query": "わたぼこり",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%8F%E3%81%9F%E3%81%BC%E3%81%93%E3%82%8A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-70",
+      "name": "あの時の患者です!",
+      "query": "あの時の患者です!",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%82%E3%81%AE%E6%99%82%E3%81%AE%E6%82%A3%E8%80%85%E3%81%A7%E3%81%99%21",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-76",
+      "name": "きになりす",
+      "query": "きになりす",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%8D%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%99",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "G-81",
+      "name": "ゆかいだね。",
+      "query": "ゆかいだね。",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%86%E3%81%8B%E3%81%84%E3%81%A0%E3%81%AD%E3%80%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-11",
+      "name": "ばらえ氏＆どうぶつ工房",
+      "query": "ばらえ氏＆どうぶつ工房",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%B0%E3%82%89%E3%81%88%E6%B0%8F%EF%BC%86%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E5%B7%A5%E6%88%BF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-14",
+      "name": "うめ吉工房",
+      "query": "うめ吉工房",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%86%E3%82%81%E5%90%89%E5%B7%A5%E6%88%BF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-18",
+      "name": "ぽんこつの森",
+      "query": "ぽんこつの森",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BD%E3%82%93%E3%81%93%E3%81%A4%E3%81%AE%E6%A3%AE",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-19",
+      "name": "しらす",
+      "query": "しらす",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%97%E3%82%89%E3%81%99",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-21",
+      "name": "かめかめカフェ",
+      "query": "かめかめカフェ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%8B%E3%82%81%E3%81%8B%E3%82%81%E3%82%AB%E3%83%95%E3%82%A7",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-24",
+      "name": "とてもねむたい",
+      "query": "とてもねむたい",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%A8%E3%81%A6%E3%82%82%E3%81%AD%E3%82%80%E3%81%9F%E3%81%84",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-26",
+      "name": "かとさンち",
+      "query": "かとさンち",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%8B%E3%81%A8%E3%81%95%E3%83%B3%E3%81%A1",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-32",
+      "name": "ゲームハート",
+      "query": "ゲームハート",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%8F%E3%83%BC%E3%83%88",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-33",
+      "name": "イソヒヨ商店出張所",
+      "query": "イソヒヨ商店出張所",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%A4%E3%82%BD%E3%83%92%E3%83%A8%E5%95%86%E5%BA%97%E5%87%BA%E5%BC%B5%E6%89%80",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-34",
+      "name": "イソヒヨ商店　出張所３",
+      "query": "イソヒヨ商店　出張所３",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%A4%E3%82%BD%E3%83%92%E3%83%A8%E5%95%86%E5%BA%97%E3%80%80%E5%87%BA%E5%BC%B5%E6%89%80%EF%BC%93",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-35",
+      "name": "ORIGINとまめまめ",
+      "query": "ORIGINとまめまめ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/ORIGIN%E3%81%A8%E3%81%BE%E3%82%81%E3%81%BE%E3%82%81",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-38",
+      "name": "成瀬川",
+      "query": "成瀬川",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%88%90%E7%80%AC%E5%B7%9D",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-41",
+      "name": "Yuu",
+      "query": "Yuu",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Yuu",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-44",
+      "name": "ぷくこな（山本こなつ）",
+      "query": "ぷくこな（山本こなつ）",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%B7%E3%81%8F%E3%81%93%E3%81%AA%EF%BC%88%E5%B1%B1%E6%9C%AC%E3%81%93%E3%81%AA%E3%81%A4%EF%BC%89",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-51",
+      "name": "ココノエ",
+      "query": "ココノエ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%B3%E3%82%B3%E3%83%8E%E3%82%A8",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-54",
+      "name": "スランプ産業",
+      "query": "スランプ産業",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%B9%E3%83%A9%E3%83%B3%E3%83%97%E7%94%A3%E6%A5%AD",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-56",
+      "name": "哀の雪",
+      "query": "哀の雪",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%93%80%E3%81%AE%E9%9B%AA",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"哀の雪\" 月野 白蝶"
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-63",
+      "name": "あしゅらぺんてる",
+      "query": "あしゅらぺんてる",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%82%E3%81%97%E3%82%85%E3%82%89%E3%81%BA%E3%82%93%E3%81%A6%E3%82%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"いまだに\" \"あしゅらぺんてる\"",
+        "\"あしゅらぺんてる\" -site:comitia.co.jp -site:k-comitia.com",
+        "\"あしゅらぺんてる\" いまだに pixiv"
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-66",
+      "name": "整腸剤置き場（仮）",
+      "query": "整腸剤置き場（仮）",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%95%B4%E8%85%B8%E5%89%A4%E7%BD%AE%E3%81%8D%E5%A0%B4%EF%BC%88%E4%BB%AE%EF%BC%89",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-67",
+      "name": "平田池温泉①",
+      "query": "平田池温泉①",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%B9%B3%E7%94%B0%E6%B1%A0%E6%B8%A9%E6%B3%89%E2%91%A0",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-68",
+      "name": "平田池温泉②",
+      "query": "平田池温泉②",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%B9%B3%E7%94%B0%E6%B1%A0%E6%B8%A9%E6%B3%89%E2%91%A1",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-71",
+      "name": "チョコミント同盟",
+      "query": "チョコミント同盟",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%81%E3%83%A7%E3%82%B3%E3%83%9F%E3%83%B3%E3%83%88%E5%90%8C%E7%9B%9F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-74",
+      "name": "with BE~ウィズ・ビー~",
+      "query": "with BE~ウィズ・ビー~",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/with%20BE~%E3%82%A6%E3%82%A3%E3%82%BA%E3%83%BB%E3%83%93%E3%83%BC~",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-79",
+      "name": "高弥",
+      "query": "高弥",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%AB%98%E5%BC%A5",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-84",
+      "name": "マロン",
+      "query": "マロン",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%9E%E3%83%AD%E3%83%B3",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-88",
+      "name": "380dou",
+      "query": "380dou",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/380dou",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "H-89",
+      "name": "えもしゆま＆異界工房",
+      "query": "えもしゆま＆異界工房",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%88%E3%82%82%E3%81%97%E3%82%86%E3%81%BE%EF%BC%86%E7%95%B0%E7%95%8C%E5%B7%A5%E6%88%BF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-05",
+      "name": "もちもちのひみつ",
+      "query": "もちもちのひみつ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%82%E3%81%A1%E3%82%82%E3%81%A1%E3%81%AE%E3%81%B2%E3%81%BF%E3%81%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-09",
+      "name": "うさギニョール",
+      "query": "うさギニョール",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%86%E3%81%95%E3%82%AE%E3%83%8B%E3%83%A7%E3%83%BC%E3%83%AB",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-22",
+      "name": "三",
+      "query": "三",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E4%B8%89",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-26",
+      "name": "鯱とくじら",
+      "query": "鯱とくじら",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%AF%B1%E3%81%A8%E3%81%8F%E3%81%98%E3%82%89",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-32",
+      "name": "もけもけ",
+      "query": "もけもけ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%82%E3%81%91%E3%82%82%E3%81%91",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-34",
+      "name": "忘れもの保管室",
+      "query": "忘れもの保管室",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%BF%98%E3%82%8C%E3%82%82%E3%81%AE%E4%BF%9D%E7%AE%A1%E5%AE%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-36",
+      "name": "スピード特化",
+      "query": "スピード特化",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E7%89%B9%E5%8C%96",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-39",
+      "name": "拉麺粥",
+      "query": "拉麺粥",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%8B%89%E9%BA%BA%E7%B2%A5",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-42",
+      "name": "ねろりのこんぺいどう",
+      "query": "ねろりのこんぺいどう",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%AD%E3%82%8D%E3%82%8A%E3%81%AE%E3%81%93%E3%82%93%E3%81%BA%E3%81%84%E3%81%A9%E3%81%86",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-43",
+      "name": "AR",
+      "query": "AR",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/AR",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-44",
+      "name": "MYTH",
+      "query": "MYTH",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/MYTH",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-45",
+      "name": "止まるな走れ",
+      "query": "止まるな走れ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%AD%A2%E3%81%BE%E3%82%8B%E3%81%AA%E8%B5%B0%E3%82%8C",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-48",
+      "name": "mumu",
+      "query": "mumu",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/mumu",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-58",
+      "name": "酸性物体",
+      "query": "酸性物体",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%85%B8%E6%80%A7%E7%89%A9%E4%BD%93",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-60",
+      "name": "宝石店",
+      "query": "宝石店",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%AE%9D%E7%9F%B3%E5%BA%97",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-63",
+      "name": "そらの房たつよし",
+      "query": "そらの房たつよし",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%9D%E3%82%89%E3%81%AE%E6%88%BF%E3%81%9F%E3%81%A4%E3%82%88%E3%81%97",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-64",
+      "name": "とむきゃっとっき",
+      "query": "とむきゃっとっき",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%A8%E3%82%80%E3%81%8D%E3%82%83%E3%81%A3%E3%81%A8%E3%81%A3%E3%81%8D",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-67",
+      "name": "福業バンク",
+      "query": "福業バンク",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%A6%8F%E6%A5%AD%E3%83%90%E3%83%B3%E3%82%AF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-69",
+      "name": "ゆめかわ堂",
+      "query": "ゆめかわ堂",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%86%E3%82%81%E3%81%8B%E3%82%8F%E5%A0%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-71",
+      "name": "In a tab",
+      "query": "In a tab",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/In%20a%20tab",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-73",
+      "name": "ふかふかかちかち",
+      "query": "ふかふかかちかち",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%B5%E3%81%8B%E3%81%B5%E3%81%8B%E3%81%8B%E3%81%A1%E3%81%8B%E3%81%A1",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-81",
+      "name": "侑あか堂",
+      "query": "侑あか堂",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E4%BE%91%E3%81%82%E3%81%8B%E5%A0%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-82",
+      "name": "猟奇メンヘラ同好会",
+      "query": "猟奇メンヘラ同好会",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%8C%9F%E5%A5%87%E3%83%A1%E3%83%B3%E3%83%98%E3%83%A9%E5%90%8C%E5%A5%BD%E4%BC%9A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "I-96",
+      "name": "Daff Ray",
+      "query": "Daff Ray",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Daff%20Ray",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-04",
+      "name": "てこね道場",
+      "query": "てこね道場",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%A6%E3%81%93%E3%81%AD%E9%81%93%E5%A0%B4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-17",
+      "name": "桔梗原製作所",
+      "query": "桔梗原製作所",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%A1%94%E6%A2%97%E5%8E%9F%E8%A3%BD%E4%BD%9C%E6%89%80",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-24",
+      "name": "ハンドル日記",
+      "query": "ハンドル日記",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AB%E6%97%A5%E8%A8%98",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-25",
+      "name": "さにーさいどあっぷ",
+      "query": "さにーさいどあっぷ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%95%E3%81%AB%E3%83%BC%E3%81%95%E3%81%84%E3%81%A9%E3%81%82%E3%81%A3%E3%81%B7",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-38",
+      "name": "夏炉冬扇",
+      "query": "夏炉冬扇",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%A4%8F%E7%82%89%E5%86%AC%E6%89%87",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-48",
+      "name": "天体標本室",
+      "query": "天体標本室",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%A4%A9%E4%BD%93%E6%A8%99%E6%9C%AC%E5%AE%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-55",
+      "name": "aHs",
+      "query": "aHs",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/aHs",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-57",
+      "name": "さざなみ",
+      "query": "さざなみ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%95%E3%81%96%E3%81%AA%E3%81%BF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-74",
+      "name": "みけねこレクションズ",
+      "query": "みけねこレクションズ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BF%E3%81%91%E3%81%AD%E3%81%93%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-79",
+      "name": "ちいさいひと",
+      "query": "ちいさいひと",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%A1%E3%81%84%E3%81%95%E3%81%84%E3%81%B2%E3%81%A8",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "J-87",
+      "name": "忘れない",
+      "query": "忘れない",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%BF%98%E3%82%8C%E3%81%AA%E3%81%84",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-09",
+      "name": "AM2",
+      "query": "AM2",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/AM2",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-11",
+      "name": "Scarlet Star",
+      "query": "Scarlet Star",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Scarlet%20Star",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"scarletstar.booth.pm\"",
+        "\"八代秋\"",
+        "\"Scarlet Star\" \"八代秋\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-12",
+      "name": "北白川モータープール",
+      "query": "北白川モータープール",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%8C%97%E7%99%BD%E5%B7%9D%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%97%E3%83%BC%E3%83%AB",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-13",
+      "name": "豆大福屋",
+      "query": "豆大福屋",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%B1%86%E5%A4%A7%E7%A6%8F%E5%B1%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-18",
+      "name": "えむお工房",
+      "query": "えむお工房",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%88%E3%82%80%E3%81%8A%E5%B7%A5%E6%88%BF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-28",
+      "name": "恋ヶ丘診療所",
+      "query": "恋ヶ丘診療所",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%81%8B%E3%83%B6%E4%B8%98%E8%A8%BA%E7%99%82%E6%89%80",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-30",
+      "name": "はいかいいえでこたえてくだすん",
+      "query": "はいかいいえでこたえてくだすん",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%AF%E3%81%84%E3%81%8B%E3%81%84%E3%81%84%E3%81%88%E3%81%A7%E3%81%93%E3%81%9F%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%99%E3%82%93",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-31",
+      "name": "はづちゅっちゅ",
+      "query": "はづちゅっちゅ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%AF%E3%81%A5%E3%81%A1%E3%82%85%E3%81%A3%E3%81%A1%E3%82%85",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-38",
+      "name": "ご飯、いっぱいお食べ。",
+      "query": "ご飯、いっぱいお食べ。",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%94%E9%A3%AF%E3%80%81%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%8A%E9%A3%9F%E3%81%B9%E3%80%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-50",
+      "name": "犬も食わない",
+      "query": "犬も食わない",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%8A%AC%E3%82%82%E9%A3%9F%E3%82%8F%E3%81%AA%E3%81%84",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-58",
+      "name": "ダックス奮闘",
+      "query": "ダックス奮闘",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%80%E3%83%83%E3%82%AF%E3%82%B9%E5%A5%AE%E9%97%98",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-59",
+      "name": "らいせん軒",
+      "query": "らいせん軒",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%89%E3%81%84%E3%81%9B%E3%82%93%E8%BB%92",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-66",
+      "name": "碧の部屋",
+      "query": "碧の部屋",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%A2%A7%E3%81%AE%E9%83%A8%E5%B1%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-69",
+      "name": "みるみるおにぎり",
+      "query": "みるみるおにぎり",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%BF%E3%82%8B%E3%81%BF%E3%82%8B%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-78",
+      "name": "ゆめうつつ",
+      "query": "ゆめうつつ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%86%E3%82%81%E3%81%86%E3%81%A4%E3%81%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"淡田るむ\" \"ゆめうつつ\"",
+        "\"淡田るむ\" \"コミティア\"",
+        "\"ゆめうつつ\" \"関西コミティア77\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-80",
+      "name": "パン工場",
+      "query": "パン工場",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%91%E3%83%B3%E5%B7%A5%E5%A0%B4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-81",
+      "name": "ニューロマンティック",
+      "query": "ニューロマンティック",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-82",
+      "name": "トモヱ投げ",
+      "query": "トモヱ投げ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%88%E3%83%A2%E3%83%B1%E6%8A%95%E3%81%92",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-83",
+      "name": "上手にできない",
+      "query": "上手にできない",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E4%B8%8A%E6%89%8B%E3%81%AB%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "K-89",
+      "name": "らうらう",
+      "query": "らうらう",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%89%E3%81%86%E3%82%89%E3%81%86",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-06",
+      "name": "カタ六",
+      "query": "カタ六",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%AB%E3%82%BF%E5%85%AD",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-10",
+      "name": "JACKBOX",
+      "query": "JACKBOX",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/JACKBOX",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"jack-box.booth.pm\"",
+        "\"JACKBOX\" \"GETBACK\"",
+        "\"JACKBOX\" \"けもケット\"",
+        "\"GETBACK!\" \"shu\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-22",
+      "name": "ダダダダメ人間",
+      "query": "ダダダダメ人間",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%80%E3%83%80%E3%83%80%E3%83%80%E3%83%A1%E4%BA%BA%E9%96%93",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-30",
+      "name": "YULQA",
+      "query": "YULQA",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/YULQA",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-33",
+      "name": "牧風香の展示会",
+      "query": "牧風香の展示会",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%89%A7%E9%A2%A8%E9%A6%99%E3%81%AE%E5%B1%95%E7%A4%BA%E4%BC%9A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-35",
+      "name": "十三日月",
+      "query": "十三日月",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%8D%81%E4%B8%89%E6%97%A5%E6%9C%88",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-39",
+      "name": "若草",
+      "query": "若草",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%8B%A5%E8%8D%89",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-49",
+      "name": "竹立升一",
+      "query": "竹立升一",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%AB%B9%E7%AB%8B%E5%8D%87%E4%B8%80",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-51",
+      "name": "はがきのひとこと",
+      "query": "はがきのひとこと",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%AF%E3%81%8C%E3%81%8D%E3%81%AE%E3%81%B2%E3%81%A8%E3%81%93%E3%81%A8",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-54",
+      "name": "黄金骸骨",
+      "query": "黄金骸骨",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%BB%84%E9%87%91%E9%AA%B8%E9%AA%A8",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-56",
+      "name": "ミクロ・ドア",
+      "query": "ミクロ・ドア",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%9F%E3%82%AF%E3%83%AD%E3%83%BB%E3%83%89%E3%82%A2",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-61",
+      "name": "キノコフィーバー",
+      "query": "キノコフィーバー",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%AD%E3%83%8E%E3%82%B3%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-62",
+      "name": "犬ゴヤ",
+      "query": "犬ゴヤ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%8A%AC%E3%82%B4%E3%83%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-64",
+      "name": "タンスの角",
+      "query": "タンスの角",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%AE%E8%A7%92",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-65",
+      "name": "3度のコロッケ定食",
+      "query": "3度のコロッケ定食",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/3%E5%BA%A6%E3%81%AE%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B1%E5%AE%9A%E9%A3%9F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-67",
+      "name": "ねこまたや",
+      "query": "ねこまたや",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%AD%E3%81%93%E3%81%BE%E3%81%9F%E3%82%84",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-73",
+      "name": "可笑し工房",
+      "query": "可笑し工房",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%8F%AF%E7%AC%91%E3%81%97%E5%B7%A5%E6%88%BF",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-76",
+      "name": "朕は国家なり",
+      "query": "朕は国家なり",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%9C%95%E3%81%AF%E5%9B%BD%E5%AE%B6%E3%81%AA%E3%82%8A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-77",
+      "name": "水槽水草",
+      "query": "水槽水草",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%B0%B4%E6%A7%BD%E6%B0%B4%E8%8D%89",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-82",
+      "name": "甘噛みカルシウム",
+      "query": "甘噛みカルシウム",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%94%98%E5%99%9B%E3%81%BF%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-84",
+      "name": "Camellia",
+      "query": "Camellia",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Camellia",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-88",
+      "name": "ウォンバットEX",
+      "query": "ウォンバットEX",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%A6%E3%82%A9%E3%83%B3%E3%83%90%E3%83%83%E3%83%88EX",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "L-92",
+      "name": "四ツ角",
+      "query": "四ツ角",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%9B%9B%E3%83%84%E8%A7%92",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "\"yotsukado.booth.pm\"",
+        "\"しもとはつせ\" \"四ツ角\""
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "M-12",
+      "name": "規矩庵＆臨時ダイヤ",
+      "query": "規矩庵＆臨時ダイヤ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%A6%8F%E7%9F%A9%E5%BA%B5%EF%BC%86%E8%87%A8%E6%99%82%E3%83%80%E3%82%A4%E3%83%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "M-23",
+      "name": "花月亭",
+      "query": "花月亭",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%8A%B1%E6%9C%88%E4%BA%AD",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [
+        "monettetrip1887 花月亭",
+        "monettetrip1887",
+        "\"花月亭\" \"モネット\"",
+        "\"文月なみ\" -site:comitia.co.jp"
+      ],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "M-26",
+      "name": "遠征",
+      "query": "遠征",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%81%A0%E5%BE%81",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "M-27",
+      "name": "The Silence of Noblesse",
+      "query": "The Silence of Noblesse",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/The%20Silence%20of%20Noblesse",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "M-35",
+      "name": "ガパオライス",
+      "query": "ガパオライス",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%AC%E3%83%91%E3%82%AA%E3%83%A9%E3%82%A4%E3%82%B9",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "M-54",
+      "name": "ダブルニースラスト",
+      "query": "ダブルニースラスト",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%80%E3%83%96%E3%83%AB%E3%83%8B%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%B9%E3%83%88",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "M-62",
+      "name": "黒ゴマパン",
+      "query": "黒ゴマパン",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E9%BB%92%E3%82%B4%E3%83%9E%E3%83%91%E3%83%B3",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "M-72",
+      "name": "撒き魚",
+      "query": "撒き魚",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%92%92%E3%81%8D%E9%AD%9A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "M-78",
+      "name": "エンドウスコープ",
+      "query": "エンドウスコープ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A6%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-03",
+      "name": "Althea",
+      "query": "Althea",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Althea",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-10",
+      "name": "NP-hist.",
+      "query": "NP-hist.",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/NP-hist.",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-11",
+      "name": "にーえるでぃーつき",
+      "query": "にーえるでぃーつき",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%AB%E3%83%BC%E3%81%88%E3%82%8B%E3%81%A7%E3%81%83%E3%83%BC%E3%81%A4%E3%81%8D",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-20",
+      "name": "ざるざるざる",
+      "query": "ざるざるざる",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%96%E3%82%8B%E3%81%96%E3%82%8B%E3%81%96%E3%82%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-25",
+      "name": "最強本BLほか",
+      "query": "最強本BLほか",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%9C%80%E5%BC%B7%E6%9C%ACBL%E3%81%BB%E3%81%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-29",
+      "name": "ピリオド",
+      "query": "ピリオド",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-31",
+      "name": "らくがき工学研究所",
+      "query": "らくがき工学研究所",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%89%E3%81%8F%E3%81%8C%E3%81%8D%E5%B7%A5%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%89%80",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-35",
+      "name": "なんかムカツく",
+      "query": "なんかムカツく",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%AA%E3%82%93%E3%81%8B%E3%83%A0%E3%82%AB%E3%83%84%E3%81%8F",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-37",
+      "name": "どろっぷあうと",
+      "query": "どろっぷあうと",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%A9%E3%82%8D%E3%81%A3%E3%81%B7%E3%81%82%E3%81%86%E3%81%A8",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-38",
+      "name": "1953年",
+      "query": "1953年",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/1953%E5%B9%B4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-39",
+      "name": "きざみねぎねぎ",
+      "query": "きざみねぎねぎ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%8D%E3%81%96%E3%81%BF%E3%81%AD%E3%81%8E%E3%81%AD%E3%81%8E",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-43",
+      "name": "ゆがむほね",
+      "query": "ゆがむほね",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%86%E3%81%8C%E3%82%80%E3%81%BB%E3%81%AD",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-44",
+      "name": "チャーハンとSen",
+      "query": "チャーハンとSen",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%81%E3%83%A3%E3%83%BC%E3%83%8F%E3%83%B3%E3%81%A8Sen",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-45",
+      "name": "季節のフトン",
+      "query": "季節のフトン",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%AD%A3%E7%AF%80%E3%81%AE%E3%83%95%E3%83%88%E3%83%B3",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-46",
+      "name": "おべに",
+      "query": "おべに",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%8A%E3%81%B9%E3%81%AB",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-47",
+      "name": "ブロッコリー",
+      "query": "ブロッコリー",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%96%E3%83%AD%E3%83%83%E3%82%B3%E3%83%AA%E3%83%BC",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-54",
+      "name": "冒険者ギルト・ラウ",
+      "query": "冒険者ギルト・ラウ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%86%92%E9%99%BA%E8%80%85%E3%82%AE%E3%83%AB%E3%83%88%E3%83%BB%E3%83%A9%E3%82%A6",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-59",
+      "name": "デニムデーモン",
+      "query": "デニムデーモン",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%87%E3%83%8B%E3%83%A0%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-71",
+      "name": "ニョロリ",
+      "query": "ニョロリ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%83%8B%E3%83%A7%E3%83%AD%E3%83%AA",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-78",
+      "name": "子午線",
+      "query": "子午線",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%AD%90%E5%8D%88%E7%B7%9A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-80",
+      "name": "甲殻クラブ",
+      "query": "甲殻クラブ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%94%B2%E6%AE%BB%E3%82%AF%E3%83%A9%E3%83%96",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "N-92",
+      "name": "はなみ屋",
+      "query": "はなみ屋",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%AF%E3%81%AA%E3%81%BF%E5%B1%8B",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "O-05",
+      "name": "シャンバララ",
+      "query": "シャンバララ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%90%E3%83%A9%E3%83%A9",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "O-09",
+      "name": "背景美術資料準備室",
+      "query": "背景美術資料準備室",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%83%8C%E6%99%AF%E7%BE%8E%E8%A1%93%E8%B3%87%E6%96%99%E6%BA%96%E5%82%99%E5%AE%A4",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "O-11",
+      "name": "Atelier MiNe",
+      "query": "Atelier MiNe",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Atelier%20MiNe",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "O-18",
+      "name": "Texas Burger",
+      "query": "Texas Burger",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Texas%20Burger",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "O-19",
+      "name": "星渡り",
+      "query": "星渡り",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%98%9F%E6%B8%A1%E3%82%8A",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-05",
+      "name": "深海商店",
+      "query": "深海商店",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%B7%B1%E6%B5%B7%E5%95%86%E5%BA%97",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-06",
+      "name": "物憂いココロ",
+      "query": "物憂いココロ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%89%A9%E6%86%82%E3%81%84%E3%82%B3%E3%82%B3%E3%83%AD",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-07",
+      "name": "Atelier VR.",
+      "query": "Atelier VR.",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Atelier%20VR.",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-10",
+      "name": "水館",
+      "query": "水館",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%B0%B4%E9%A4%A8",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-15",
+      "name": "CHISATO",
+      "query": "CHISATO",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/CHISATO",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-19",
+      "name": "だんだん",
+      "query": "だんだん",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%A0%E3%82%93%E3%81%A0%E3%82%93",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-27",
+      "name": "しかとゆきやなぎ",
+      "query": "しかとゆきやなぎ",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%97%E3%81%8B%E3%81%A8%E3%82%86%E3%81%8D%E3%82%84%E3%81%AA%E3%81%8E",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-28",
+      "name": "春の栞",
+      "query": "春の栞",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E6%98%A5%E3%81%AE%E6%A0%9E",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-29",
+      "name": "からあげもち",
+      "query": "からあげもち",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%8B%E3%82%89%E3%81%82%E3%81%92%E3%82%82%E3%81%A1",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-34",
+      "name": "しろゆめ堂",
+      "query": "しろゆめ堂",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%81%97%E3%82%8D%E3%82%86%E3%82%81%E5%A0%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-38",
+      "name": "ゆらぎの底",
+      "query": "ゆらぎの底",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%86%E3%82%89%E3%81%8E%E3%81%AE%E5%BA%95",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-48",
+      "name": "Kumada Kumao",
+      "query": "Kumada Kumao",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Kumada%20Kumao",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-49",
+      "name": "もふりんず。",
+      "query": "もふりんず。",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E3%82%82%E3%81%B5%E3%82%8A%E3%82%93%E3%81%9A%E3%80%82",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-53",
+      "name": "畜生みち",
+      "query": "畜生みち",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%95%9C%E7%94%9F%E3%81%BF%E3%81%A1",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-55",
+      "name": "床下犬収納",
+      "query": "床下犬収納",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E5%BA%8A%E4%B8%8B%E7%8A%AC%E5%8F%8E%E7%B4%8D",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-57",
+      "name": "猫最高！",
+      "query": "猫最高！",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E7%8C%AB%E6%9C%80%E9%AB%98%EF%BC%81",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-65",
+      "name": "蒼天白龍",
+      "query": "蒼天白龍",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/%E8%92%BC%E5%A4%A9%E7%99%BD%E9%BE%8D",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    },
+    {
+      "space": "P-70",
+      "name": "Osenko",
+      "query": "Osenko",
+      "queryService": "BOOTH",
+      "queryUrl": "https://booth.pm/ja/search/Osenko",
+      "checkedDate": "2026-10-14",
+      "additionalQueries": [],
+      "methods": [
+        "主催名簿の全対象名照合（東京137〜152・名古屋60〜64・新潟59〜62）",
+        "BOOTH内のサークル名検索",
+        "当回タグの公開投稿本文・表示名・引用元を対象配置へ照合"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "space": "A-31",
+      "name": "BLACK LABEL",
+      "links": {
+        "x": "https://x.com/sin78747622"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://tias.n-comitia.com/4503/",
+          "title": "名古屋COMITIA61 主催カット一覧C",
+          "note": "BLACK LABELの本人指定Xから追跡"
+        },
+        {
+          "url": "https://x.com/sin78747622",
+          "title": "sin｜本人X",
+          "note": "サークルBLACK LABELを名乗り、現在の表示名で10/18関西コミティアA-31を明記。10/12の新刊告知も確認"
+        }
+      ],
+      "note": "名古屋の過去主催指定先を起点に、本人プロフィールのサークル名・今回の10/18・A-31を直接照合。Xを追加。pixiv・Webは未特定。"
+    },
+    {
+      "space": "B-42",
+      "name": "ほうしゅつ",
+      "links": {
+        "x": "https://x.com/ho_syutsu1",
+        "web": "https://www.instagram.com/ho_syutsu18/"
+      },
+      "extras": [
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/ho_syutsu18/",
+          "label": "Instagram"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.comitia.co.jp/history/147list.html",
+          "title": "東京COMITIA147 主催参加リスト",
+          "note": "ほうしゅつの本人指定Instagram"
+        },
+        {
+          "url": "https://www.instagram.com/ho_syutsu18/",
+          "title": "ほうしゅつ｜Instagram",
+          "note": "現在の公開プロフィールで本人名を確認"
+        },
+        {
+          "url": "https://x.com/ho_syutsu1",
+          "title": "ほうしゅつ｜本人X",
+          "note": "同じ本人名と、主催指定Instagramへの自己リンクを確認。創作漫画・キャラクターデザインの投稿を確認"
+        }
+      ],
+      "note": "過去の東京主催名簿が指定するInstagramと、同じ本人名・同じInstagramを自己リンクするXを照合して追加。今回B-42の本人出展告知は未確認。pixivは未特定。"
+    },
+    {
+      "space": "C-70",
+      "name": "夏のおわり",
+      "links": {
+        "x": "https://x.com/tat_828",
+        "pixiv": "https://www.pixiv.net/users/9187175",
+        "web": "https://kayarou.booth.pm/"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@tat_828",
+          "label": "Skeb"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tias.n-comitia.com/6436/",
+          "title": "名古屋COMITIA62 主催カット一覧B",
+          "note": "夏のおわりの本人指定X"
+        },
+        {
+          "url": "https://x.com/tat_828",
+          "title": "カヤロウ｜本人X",
+          "note": "主催指定の作者が2026年6/16にも同じサークル夏のおわりで名古屋69へ申込告知。プロフィールの本人pixiv・BOOTH・Skebを確認"
+        }
+      ],
+      "note": "過去の名古屋主催指定Xと、現在の作者による同じサークル名の申込告知を照合。自己リンクのpixiv・BOOTH・Skebも追加。今回C-70の直接の出展告知は未確認。coconala.com/mypage/userは個人ページでないため採用しない。"
+    },
+    {
+      "space": "M-23",
+      "name": "花月亭",
+      "links": {
+        "web": "https://booth.pm/ja/items/8313924"
+      },
+      "extras": [
+        {
+          "kind": "booth",
+          "url": "https://monettetrip1887.booth.pm/items",
+          "label": "BOOTH（作品一覧）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.comitia.co.jp/history/146list.html",
+          "title": "東京COMITIA146 主催参加リスト",
+          "note": "花月亭が指定するBOOTH"
+        },
+        {
+          "url": "https://www.comitia.co.jp/history/155list.html",
+          "title": "東京COMITIA155 主催参加リスト",
+          "note": "同名サークルの作者・文月なみを確認"
+        },
+        {
+          "url": "https://monettetrip1887.booth.pm/items",
+          "title": "花月亭booth｜本人作品一覧",
+          "note": "作者文月、幕末長州藩の歴創漫画、次回10/18関西コミティア参加予定と明記"
+        },
+        {
+          "url": "https://booth.pm/ja/items/3829505",
+          "title": "花月亭の奇兵隊総管トート。｜本人BOOTH",
+          "note": "主催指定ショップの公開作品ページを確認"
+        },
+        {
+          "url": "https://booth.pm/ja/items/8313924",
+          "title": "萩藩の算学家｜本人BOOTH",
+          "note": "主催指定ショップの、幕長の歴史創作漫画公開作品ページを確認"
+        }
+      ],
+      "note": "過去の東京主催指定BOOTHを現在の本人作品ページまで照合。作品一覧プロフィールに次回10/18関西コミティア参加予定を明記。今回M-23の配置の直接表記は未確認。ショップのトップは取得403で、作品一覧HTMLには非公開中という表示も混在するため、現在読める公開商品ページを主Webに採用。本人SNSは未特定。"
+    },
+    {
+      "space": "A-08",
+      "name": "白川夜船",
+      "links": {
+        "x": "https://x.com/MiTSUSHiRACE",
+        "pixiv": "https://www.pixiv.net/users/2933474",
+        "web": "https://booth.pm/ja/items/2332356"
+      },
+      "extras": [
+        {
+          "kind": "booth",
+          "url": "https://shiracawayofune.booth.pm/items",
+          "label": "BOOTH（作品一覧）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://shiracawayofune.booth.pm/items",
+          "title": "白川夜船電子航路｜本人BOOTH",
+          "note": "同人サークル白川夜船の頒布物と明記。作者みつしらせとpixiv自己リンクを確認"
+        },
+        {
+          "url": "https://x.com/MiTSUSHiRACE",
+          "title": "みつしらせ｜本人X",
+          "note": "サークル白川夜船と明記し、BOOTHと同じpixiv2933474を自己掲載。複数人で運用するアカウント"
+        },
+        {
+          "url": "https://booth.pm/ja/items/2332356",
+          "title": "創作同人誌・森のエフェメラ｜本人BOOTH",
+          "note": "同じショップの創作漫画公開作品ページを確認"
+        }
+      ],
+      "note": "BOOTH内検索から、サークル名を自称する本人ショップと作者みつしらせのX・同じpixiv自己リンクを照合して追加。Xは本人が複数人運用と明記。今回A-08の直接の出展告知は未確認。Webは現在読める本人の創作作品ページを採用。"
+    },
+    {
+      "space": "B-60",
+      "name": "つつじの頃",
+      "links": {
+        "x": "https://x.com/ohashirikyo",
+        "pixiv": "https://www.pixiv.net/users/4860464",
+        "web": "https://booth.pm/ja/items/7557666"
+      },
+      "extras": [
+        {
+          "kind": "x",
+          "url": "https://x.com/tsutsujirikyou",
+          "label": "X（二次創作）"
+        },
+        {
+          "kind": "booth",
+          "url": "https://ourikyouttj.booth.pm/items",
+          "label": "BOOTH（作品一覧）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ourikyouttj.booth.pm/items",
+          "title": "つつじの頃｜本人BOOTH",
+          "note": "作者リキョウ、pixiv4860464、同名サークルの創作作品を確認"
+        },
+        {
+          "url": "https://x.com/tsutsujirikyou",
+          "title": "リキョウ｜二次創作X",
+          "note": "BOOTHと同じpixivIDと、一次創作アカウントohashirikyoを自己掲載"
+        },
+        {
+          "url": "https://x.com/ohashirikyo",
+          "title": "リキョウ｜一次創作X",
+          "note": "現在の表示名で関コミB-60、10/12の関西コミティア77告知とBOOTHの同シリーズ・龍のお嬢様を確認"
+        },
+        {
+          "url": "https://booth.pm/ja/items/7557666",
+          "title": "龍のお嬢様④｜本人BOOTH",
+          "note": "同じ作者・同じシリーズの公開作品ページを確認"
+        }
+      ],
+      "note": "BOOTH内検索の作者名から二次創作Xを経由し、本人が指定する一次創作Xへ到達。今回のB-60と関西コミティア77の新刊告知を直接照合。主Xには一次創作アカウントを掲載し、別アカウントは補助リンクへ。pixivはショップと本人自己掲載の同じIDを採用。Webは現在読める本人作品ページ。"
+    },
+    {
+      "space": "C-84",
+      "name": "玉結び協会",
+      "links": {
+        "x": "https://x.com/hh2gaa",
+        "pixiv": "https://www.pixiv.net/users/84075913",
+        "web": "https://lit.link/imamonao"
+      },
+      "extras": [
+        {
+          "kind": "x",
+          "url": "https://x.com/H3lloMyL0VE",
+          "label": "X（別アカウント）"
+        },
+        {
+          "kind": "booth",
+          "url": "https://imamonao.booth.pm/items",
+          "label": "BOOTH（作品一覧）"
+        },
+        {
+          "kind": "pixiv",
+          "url": "https://www.pixiv.net/users/128526118",
+          "label": "pixiv（BOOTH指定）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://imamonao.booth.pm/items",
+          "title": "玉結び協会本部｜本人BOOTH",
+          "note": "本人指定X hh2gaaとpixiv128526118を確認"
+        },
+        {
+          "url": "https://x.com/hh2gaa",
+          "title": "今もなお考え中｜一次創作X",
+          "note": "表示名の関コミC-84と9/28固定投稿の関西コミティア77お品書き、別アカウントへの自己リンクを確認"
+        },
+        {
+          "url": "https://x.com/H3lloMyL0VE",
+          "title": "考え中｜別アカウントX",
+          "note": "創作はhh2gaaと相互自己リンクし、本人のlit.linkを指定"
+        },
+        {
+          "url": "https://lit.link/imamonao",
+          "title": "考え中｜本人リンク集",
+          "note": "創作X・関西コミティア出展と、倉庫のpixiv84075913を本人指定。別のBOOTH指定IDも補助リンクに保持"
+        }
+      ],
+      "note": "サークル名を名乗るBOOTHの自己リンクから、今回C-84・関西コミティア77お品書きを直接照合。別アカウントは相互の本人指定を確認して補助リンクへ。主pixivは本人リンク集の作品倉庫、ショップ指定の別IDは補助リンク、Webは本人指定リンク集。"
+    },
+    {
+      "space": "G-69",
+      "name": "わたぼこり",
+      "links": {
+        "x": "https://x.com/watabokori1505",
+        "pixiv": "https://www.pixiv.net/users/55243840"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://www.k-comitia.com/list76/",
+          "title": "関西コミティア76 主催参加リスト",
+          "note": "同名サークルの本人指定pixiv55243840"
+        },
+        {
+          "url": "https://x.com/watabokori1505",
+          "title": "KANAN｜本人X",
+          "note": "創作漫画・関西コミティアと、本人pixivID wtbk1505を明記"
+        },
+        {
+          "url": "https://pixiv.me/wtbk1505",
+          "title": "本人pixiv IDの公開別名URL",
+          "note": "2026/10/14に301転送先https://www.pixiv.net/users/55243840を確認。主催指定先と一致。転送後のpixiv本文は取得制限・未確認"
+        }
+      ],
+      "note": "前版で保留したKANAN候補のpixivIDを公開別名URLで照合し、301転送先が過去の同名サークルの主催指定55243840と一致したためX・pixivを追加。pixiv本文は取得できていない。今回G-69の直接の出展告知は未確認。別のBOOTH・わたぼこりは自身を腸埃食べという別サークルと明記するため採用しない。"
+    },
+    {
+      "space": "K-11",
+      "name": "Scarlet Star",
+      "links": {
+        "x": "https://x.com/8246aki",
+        "pixiv": "https://www.pixiv.net/users/801017",
+        "web": "https://booth.pm/ja/items/4090122"
+      },
+      "extras": [
+        {
+          "kind": "x",
+          "url": "https://x.com/8246aki_ad",
+          "label": "X（成人向け別アカウント）"
+        },
+        {
+          "kind": "booth",
+          "url": "https://scarletstar.booth.pm/items",
+          "label": "BOOTH（作品一覧）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://scarletstar.booth.pm/items",
+          "title": "Scarlet Star｜本人BOOTH",
+          "note": "作者八代秋の個人サークルScarlet Starを明記し、pixiv801017を本人指定"
+        },
+        {
+          "url": "https://x.com/8246aki",
+          "title": "八代秋｜本人X",
+          "note": "表示名に10/18・K11。10/10の投稿で関西コミティア77・K-11・ScarletStarを明記。同じpixiv自己リンクと別アカウント指定も確認"
+        },
+        {
+          "url": "https://booth.pm/ja/items/4090122",
+          "title": "ピストでバンクを走ってみない？｜本人BOOTH",
+          "note": "同じサークルの公開漫画・解説本ページを確認"
+        }
+      ],
+      "note": "BOOTH内検索の本人名からXに到達し、本人の10/10告知で今回K-11とサークル名を直接照合。主X・pixiv・本人の公開作品ページを追加。別アカウントは本人プロフィール指定の補助リンク。"
+    },
+    {
+      "space": "D-19",
+      "name": "はっちゃモフ",
+      "links": {
+        "x": "https://x.com/hiyokkomameda_",
+        "web": "https://lit.link/mamedamu"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@mamedacoffee_",
+          "label": "Skeb"
+        },
+        {
+          "kind": "web",
+          "url": "https://kakuyomu.jp/works/822139843138741300",
+          "label": "カクヨム（本編連載）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/hiyokkomameda_/status/2110311162915201308",
+          "title": "ひよっこ豆田｜2026/10/14当回お品書き告知",
+          "note": "関西コミティア77・10/18・はっちゃモフ・D-19を本人が明記"
+        },
+        {
+          "url": "https://x.com/hiyokkomameda_",
+          "title": "ひよっこ豆田｜本人X",
+          "note": "主催別イベントのひよっこまめだに対応する本人名、今回配置、本人指定リンク集・Skebを確認。当回はバジルちゃんとの合同サークルと明記"
+        },
+        {
+          "url": "https://lit.link/mamedamu",
+          "title": "ひよっこまめだ｜本人リンク集",
+          "note": "本人名・ケモ耳創作、本人Xと公開本編連載リンクを確認"
+        }
+      ],
+      "note": "2026/10/14の当回告知から今回のサークル名・D-19・10/18を直接照合。作者名のひらがな表記と漢字表記を本人リンク集でも確認。主X・本人リンク集・Skebを追加。当回は合同サークルと本人が記すが、相方のアカウントは未特定。"
+    },
+    {
+      "space": "J-57",
+      "name": "さざなみ",
+      "links": {
+        "x": "https://x.com/hoshi_mikusawww",
+        "web": "https://potofu.me/010fusuki"
+      },
+      "extras": [
+        {
+          "kind": "x",
+          "url": "https://x.com/010fusuki",
+          "label": "X（本人指定の本アカウント）"
+        },
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/hoshimikusa1207/",
+          "label": "Instagram"
+        },
+        {
+          "kind": "note",
+          "url": "https://note.com/010fusuki",
+          "label": "note"
+        },
+        {
+          "kind": "booth",
+          "url": "https://10newmikusa.booth.pm/",
+          "label": "BOOTH"
+        },
+        {
+          "kind": "fanbox",
+          "url": "https://yabu-comedical.fanbox.cc/",
+          "label": "FANBOX"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/hoshi_mikusawww/status/2110313567815905330",
+          "title": "とーにゅう｜2026/10/14当回ペーパー告知",
+          "note": "関西コミティア77・J57・さざなみを明記"
+        },
+        {
+          "url": "https://x.com/hoshi_mikusawww",
+          "title": "とーにゅう｜創作告知X",
+          "note": "10/3と9/26の本人告知で関西コミティア77・10/18・J-57・さざなみ、ヒゲのお絵描き資料本等を確認。本アカウント010fusukiも本人指定"
+        },
+        {
+          "url": "https://x.com/010fusuki",
+          "title": "とーにゅう｜本人本アカウント",
+          "note": "創作告知アカウントへ相互の本人指定と、本人POTOFUを確認"
+        },
+        {
+          "url": "https://potofu.me/010fusuki",
+          "title": "とーにゅう｜本人リンク集",
+          "note": "本人指定のInstagram・note・BOOTH・FANBOXを確認。FANBOXはpixivプロフィールではない"
+        }
+      ],
+      "note": "2026/10/14の当回投稿と9/26・10/3の本人告知で、今回J-57・さざなみ・10/18を直接照合。主Xに創作告知アカウント、本人が指定する本アカウントは補助リンクへ。本人のPOTOFUと自己リンクの活動先も追加。pixivプロフィールは未特定。"
+    },
+    {
+      "space": "F-96",
+      "name": "Abendrot",
+      "links": {
+        "x": "https://x.com/10mori__",
+        "web": "https://lit.link/10mori__"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/10mori__/status/2110294791476936917",
+          "title": "燈守ゆう｜2026/10/14当回お品書き告知",
+          "note": "関西コミティア77・10/18・F-96・Abendrotを本人が明記"
+        },
+        {
+          "url": "https://x.com/10mori__",
+          "title": "燈守ゆう｜本人X",
+          "note": "今回F-96と、自分のリンク集を確認"
+        },
+        {
+          "url": "https://lit.link/10mori__",
+          "title": "燈守ゆう｜本人リンク集",
+          "note": "本人名とXのクレジット表記を確認"
+        }
+      ],
+      "note": "2026/10/14の当回お品書き告知で、サークル名・F-96・10/18を直接照合。本人Xと自己指定リンク集を追加。同名BOOTHの瓏による別ジャンル作品を本人に結び付けない。"
+    },
+    {
+      "space": "H-66",
+      "name": "整腸剤置き場（仮）",
+      "links": {
+        "x": "https://x.com/ri79005"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/ri79005/status/2110292649970446764",
+          "title": "強力わかリサン｜2026/10/14当回出展告知",
+          "note": "関西コミティア77・10/18・H-66・整腸剤置き場（仮）と本人の新刊TRPGを明記"
+        },
+        {
+          "url": "https://x.com/ri79005",
+          "title": "強力わかリサン｜本人X",
+          "note": "固定投稿が同じ当回告知であることを確認"
+        }
+      ],
+      "note": "2026/10/14の本人出展告知で、今回のサークル名・H-66・10/18と新刊を直接照合してXを追加。協力者のアカウントはサークル本人として採用しない。pixiv・Webは未特定。"
+    },
+    {
+      "space": "F-36",
+      "name": "竜のきつねうどん",
+      "links": {
+        "x": "https://x.com/Kiwi_kfn"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/Kiwi_kfn/status/2110275660539388407",
+          "title": "Kiwi｜2026/10/14当回出展告知",
+          "note": "関西コミティア77・10/18・F-36・竜のきつねうどんを本人が明記"
+        },
+        {
+          "url": "https://x.com/Kiwi_kfn",
+          "title": "Kiwi｜本人X",
+          "note": "現在の表示名でも10/18・F-36を確認"
+        }
+      ],
+      "note": "2026/10/14の本人出展告知で、今回のサークル名・F-36・10/18を直接照合してXを追加。プロフィールのヘッダー担当者は本人アカウントに採用しない。pixiv・Webは未特定。"
+    },
+    {
+      "space": "C-46",
+      "name": "みなぎそら",
+      "links": {
+        "x": "https://x.com/MinagiSora333",
+        "pixiv": "https://www.pixiv.net/users/534010",
+        "web": "https://bsky.app/profile/minagisora333.bsky.social"
+      },
+      "extras": [
+        {
+          "kind": "bluesky",
+          "url": "https://bsky.app/profile/minagisora333.bsky.social",
+          "label": "Bluesky"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/MinagiSora333/status/2110213179095883978",
+          "title": "巳凪そら｜2026/10/14当回出展告知",
+          "note": "関西コミティア77・10/18・C-46・みなぎそらを本人が明記"
+        },
+        {
+          "url": "https://x.com/MinagiSora333",
+          "title": "巳凪そら / みそら｜本人X",
+          "note": "同日の本人による改名告知と、主催名のひらがな表記の出展告知を確認。pixiv534010とBlueskyを本人自己リンク"
+        }
+      ],
+      "note": "2026/10/14の本人出展告知で、今回のサークル名・C-46・10/18を直接照合。本人が同日にペンネームを改名したと告知しているため、公式のひらがなサークル名は保持。X・自己掲載のpixiv・Blueskyを追加。"
+    },
+    {
+      "space": "P-28",
+      "name": "春の栞",
+      "links": {
+        "x": "https://x.com/shihalune",
+        "web": "https://skeb.jp/@shihalune"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@shihalune",
+          "label": "Skeb"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/shihalune/status/2109994911286354195",
+          "title": "shihalune｜2026/10/13当回新刊告知",
+          "note": "関西コミティア77の新刊を本人告知"
+        },
+        {
+          "url": "https://x.com/shihalune",
+          "title": "shihalune / しはるね｜本人X",
+          "note": "現在の表示名で10/18関コミP-28を明記。本人のSkeb指定を確認"
+        }
+      ],
+      "note": "本人表示名の今回10/18・P-28と、関西コミティア77の本人新刊告知を照合してX・自己掲載Skebを追加。サークル名「春の栞」の直接の文章記載は未確認。pixivは未特定。"
+    },
+    {
+      "space": "N-54",
+      "name": "冒険者ギルト・ラウ",
+      "links": {
+        "x": "https://x.com/nu09676906"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/nu09676906",
+          "title": "ぬ｜本人X",
+          "note": "本人プロフィールに関西コミティア77・10/18・N-54・冒険者ギルド・ラウを明記"
+        },
+        {
+          "url": "https://x.com/nu09676906/status/2109960013649436893",
+          "title": "ぬ｜2026/10/13当回頒布物告知",
+          "note": "同じ当回タグで魔法素材の頒布を告知"
+        }
+      ],
+      "note": "本人プロフィールの今回77・10/18・N-54とサークル名を直接照合してXを追加。公式一覧の「冒険者ギルト・ラウ」という表記を保持し、本人の「冒険者ギルド・ラウ」表記との対応をメモに記録。pixiv・Webは未特定。"
+    },
+    {
+      "space": "I-44",
+      "name": "MYTH",
+      "links": {
+        "x": "https://x.com/mizukiakina",
+        "pixiv": "https://www.pixiv.net/users/1628477",
+        "web": "https://lit.link/mizukiakina"
+      },
+      "extras": [
+        {
+          "kind": "bluesky",
+          "url": "https://bsky.app/profile/mizukiakina-bs.bsky.social",
+          "label": "Bluesky"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/mizukiakina",
+          "title": "みづき｜本人X",
+          "note": "9/24固定告知で10/18関西コミティアI-44、10/14告知で関西コミティア77と創作小説の頒布を明記。本人リンク集を指定"
+        },
+        {
+          "url": "https://x.com/mizukiakina/status/2110238230084014560",
+          "title": "みづき｜2026/10/14当回頒布告知",
+          "note": "関西コミティア77・10/18・創作小説の頒布を確認"
+        },
+        {
+          "url": "https://lit.link/mizukiakina",
+          "title": "みづき｜本人リンク集",
+          "note": "小説置き場のpixiv1628477とBlueskyを本人指定"
+        }
+      ],
+      "note": "本人固定告知の今回10/18・I-44と、77回の本人頒布告知を照合。X・自己掲載pixiv・本人リンク集・Blueskyを追加。サークル名MYTHの直接の文章記載は未確認。"
+    },
+    {
+      "space": "C-29",
+      "name": "オルカトゥーン",
+      "links": {
+        "x": "https://x.com/doran_256",
+        "pixiv": "https://www.pixiv.net/users/116303319",
+        "web": "https://www.instagram.com/doran_256/"
+      },
+      "extras": [
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/doran_256/",
+          "label": "Instagram"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/doran_256/status/2108912935686844856",
+          "title": "どらん｜2026/10/10当回お品書き告知",
+          "note": "関西コミティア77・10/18・C-29・ORCATOONを本人が明記"
+        },
+        {
+          "url": "https://x.com/doran_256",
+          "title": "どらん｜本人X",
+          "note": "固定投稿が同じ当回告知。pixiv116303319とInstagramを本人指定"
+        },
+        {
+          "url": "https://x.com/O_4183/status/2109599966637535461",
+          "title": "桜（オー）｜作者どらんの当回告知への引用",
+          "note": "友人どらんのサークルと明記して引用。桜自身は売り子・一部委託と明記しているため、主Xには作者どらんを採用"
+        }
+      ],
+      "note": "売り子による紹介の引用元を追い、作者どらんの本人告知で今回C-29・10/18・ORCATOONを直接照合。公式のカタカナサークル名は保持。X・自己掲載のpixiv・Instagramを追加。"
+    },
+    {
+      "space": "N-11",
+      "name": "にーえるでぃーつき",
+      "links": {
+        "x": "https://x.com/yaso80hachi",
+        "web": "https://xfolio.jp/portfolio/yaso80kano"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@yaso80hachi",
+          "label": "Skeb"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/yaso80hachi/status/2109245538457825607",
+          "title": "岡野ヤソハチ｜2026/10/11当回お品書き告知",
+          "note": "関西コミティア77・10/18・N-11・にーえるでぃーつきを本人が明記"
+        },
+        {
+          "url": "https://x.com/yaso80hachi",
+          "title": "岡野ヤソハチ｜本人X",
+          "note": "本人指定のXfolio作品ページとSkebを確認"
+        },
+        {
+          "url": "https://search.yahoo.co.jp/realtime/search?p=%E9%96%A2%E8%A5%BF%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A277%20%E3%81%AB%E3%83%BC%E3%81%88%E3%82%8B%E3%81%A7%E3%81%83%E3%83%BC%E3%81%A4%E3%81%8D",
+          "title": "Yahooリアルタイム検索｜本人お品書きの公開テキスト",
+          "note": "本人ポストのサークル名・配置・10/18が読める公開検索情報を照合"
+        }
+      ],
+      "note": "本人お品書き告知で今回のサークル名・N-11・10/18を直接照合。X・本人指定Xfolio・Skebを追加。pixivは未特定。 お品書きの文章はYahoo公開検索に掲載された本人投稿の情報を確認。X本体の当該投稿は閲覧制限、Xfolio本文はBot対策画面のため未確認。 当回は友人と2人で参加と本人が明記するが、掲載したのは確認できた岡野ヤソハチの活動先のみ。"
+    },
+    {
+      "space": "I-69",
+      "name": "ゆめかわ堂",
+      "links": {
+        "x": "https://x.com/yumechan331",
+        "web": "https://yumechan331.fanbox.cc/"
+      },
+      "extras": [
+        {
+          "kind": "fanbox",
+          "url": "https://yumechan331.fanbox.cc/",
+          "label": "FANBOX"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/yumechan331",
+          "title": "おおつかゆめ｜本人X",
+          "note": "現在の本人表示名に関コミI-69。前版の別イベント同名サークル作者おおつかゆめとも一致。本人FANBOX指定を確認"
+        },
+        {
+          "url": "https://x.com/yumechan331/status/2109935228508889162",
+          "title": "おおつかゆめ｜2026/10/13当回新刊告知",
+          "note": "関西コミティア77の新刊を本人告知"
+        }
+      ],
+      "note": "前版の作者名候補から、今回I-69を明記する本人Xと77回の新刊告知を照合。X・本人指定FANBOXを追加。サークル名ゆめかわ堂の当回文章による直接表記は未確認。別のメルヘンゆめかわ堂というショップは採用しない。pixivプロフィールは未特定。"
+    },
+    {
+      "space": "I-32",
+      "name": "もけもけ",
+      "links": {
+        "x": "https://x.com/ryokuchakamo"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/ryokuchakamo",
+          "title": "志田ヤヨ｜本人X",
+          "note": "現在の表示名の関コミI-32、7/11の10/18京都・関西コミティア77申込告知と、10/5の当回新刊サンプル告知を確認"
+        },
+        {
+          "url": "https://x.com/ryokuchakamo/status/2109157814166020572",
+          "title": "志田ヤヨ｜2026/10/11当回お品書き告知",
+          "note": "関西コミティア77のお品書き投稿の表示名にI-32"
+        }
+      ],
+      "note": "本人表示名のI-32と、本人の10/18京都・関西コミティア77申込告知／新刊告知を照合してXを追加。サークル名もけもけの文章による直接表記は未確認。pixiv・Webは未特定。"
+    },
+    {
+      "space": "H-74",
+      "name": "with BE~ウィズ・ビー~",
+      "links": {
+        "x": "https://x.com/magoreika",
+        "pixiv": "https://www.pixiv.net/users/15105064",
+        "web": "https://bokureika.booth.pm/items"
+      },
+      "extras": [
+        {
+          "kind": "bluesky",
+          "url": "https://bsky.app/profile/bokureika.bsky.social",
+          "label": "Bluesky"
+        },
+        {
+          "kind": "x",
+          "url": "https://x.com/CYg86942",
+          "label": "X（参加作者・あまざらし）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/magoreika/status/2108467550426447911",
+          "title": "朴玲華｜2026/10/09当回共同制作告知",
+          "note": "関西コミティア77・with BE・H74と、手分けして同人誌・イラスト集・ポストカードを制作したと本人が明記"
+        },
+        {
+          "url": "https://x.com/magoreika",
+          "title": "朴玲華｜本人X",
+          "note": "表示名で10/18・H73,H74を明記。pixiv・BOOTH・Blueskyを本人指定。同じ作者の個人サークルLyongは別のH-73と確認"
+        },
+        {
+          "url": "https://x.com/CYg86942",
+          "title": "あまざらし｜参加作者X",
+          "note": "10/8に関西コミティア77・H74・自身が描いた擬人化イラストを明記。9/26に友人と漫画やイラストを出すと本人告知し、朴玲華の投稿も引用"
+        },
+        {
+          "url": "https://bokureika.booth.pm/items",
+          "title": "朴玲華（Lyong）｜本人作品一覧",
+          "note": "自己指定の個人サークル作品販売先。with BEの共同本のショップとは確認していない"
+        }
+      ],
+      "note": "本人表示名だけではH-73の個人サークルと区別できなかったが、10/9の投稿でwith BE・H74の共同制作を本人が明記していることを追加確認。H-74の参加作者として朴玲華のX・自己指定pixiv・BOOTH・Blueskyを掲載。同じH74で自身が描いたイラストを出すと告知するあまざらしのXを補助リンクに追加。今回確認できた参加作者2名であり、共同メンバー全員の網羅ではない。BOOTHは朴玲華の個人サークルLyongの作品一覧で、with BEの共同本ショップとは未確認。"
+    },
+    {
+      "space": "L-22",
+      "name": "ダダダダメ人間",
+      "links": {
+        "x": "https://x.com/Twinklemilk0223",
+        "pixiv": "https://www.pixiv.net/users/42955871"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/Twinklemilk0223",
+          "title": "馬尾坂ユア｜本人X",
+          "note": "現在の本人表示名に関コミL-22、創作作品の公開プロフィールとpixiv42955871の自己リンクを確認"
+        },
+        {
+          "url": "https://x.com/Twinklemilk0223/status/2108515038277628177",
+          "title": "馬尾坂ユア｜2026/10/09当回作品告知",
+          "note": "関西コミティア77タグの本人作品告知の表示名にL-22"
+        }
+      ],
+      "note": "本人表示名のL-22と、関西コミティア77の本人作品告知を照合。X・自己掲載pixivを追加。サークル名ダダダダメ人間の文章による直接表記は未確認。Webは未特定。"
+    },
+    {
+      "space": "C-59",
+      "name": "あめーじんぐぱんだ",
+      "links": {
+        "x": "https://x.com/menoppmenoko",
+        "web": "https://suzuri.jp/menoppmenoko"
+      },
+      "extras": [
+        {
+          "kind": "web",
+          "url": "https://www.tiktok.com/@menomenoko",
+          "label": "TikTok"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/menoppmenoko",
+          "title": "めの子｜本人X",
+          "note": "現在の本人表示名で10/18関コミ77・C-59、単眼イラストレーター、本人TikTok・SUZURIを確認"
+        },
+        {
+          "url": "https://x.com/menoppmenoko/status/2108214936304546112",
+          "title": "めの子｜2026/10/08当回お品書き告知",
+          "note": "関西コミティア77のお品書き投稿の本人表示名に今回C-59"
+        }
+      ],
+      "note": "本人表示名の今回10/18・77回・C-59と、本人お品書き告知を照合。X・自己掲載SUZURI・TikTokを追加。サークル名あめーじんぐぱんだの文章による直接表記は未確認。pixivは未特定。"
+    },
+    {
+      "space": "J-25",
+      "name": "さにーさいどあっぷ",
+      "links": {
+        "x": "https://x.com/ssup_13"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/ssup_13",
+          "title": "いちは｜本人X",
+          "note": "現在の表示名で関西コミティア77・J-25、10/7の本人投稿で旅行記等の新刊と初参加を確認"
+        },
+        {
+          "url": "https://x.com/ssup_13/status/2107832059897196952",
+          "title": "いちは｜2026/10/07当回新刊告知",
+          "note": "関西コミティア77の旅行記・旅行に関する本の頒布告知の表示名にJ-25"
+        }
+      ],
+      "note": "本人表示名の今回77回・J-25と、本人の当回新刊・初参加告知を照合してXを追加。サークル名さにーさいどあっぷの文章による直接表記は未確認。pixiv・Webは未特定。"
+    },
+    {
+      "space": "L-84",
+      "name": "Camellia",
+      "links": {
+        "x": "https://x.com/iyo_matsuda"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/iyo_matsuda/status/2110386961060114565",
+          "title": "マツダ イヨ｜2026/10/14当回本人告知",
+          "note": "当回の本人告知を公開検索から発見し、本人プロフィールと照合"
+        },
+        {
+          "url": "https://x.com/iyo_matsuda",
+          "title": "マツダ イヨ｜本人X",
+          "note": "当回投稿・配置・自己掲載の活動先を確認"
+        }
+      ],
+      "note": "10/15時点の追加確認：本人固定告知の関西コミティア77・10/18・L84を直接照合してXを追加。サークル名Camelliaの文章による直接表記は未確認。同名BOOTHや別イベントの申込サークル名とは区別。pixiv・Webは未特定。"
+    },
+    {
+      "space": "G-22",
+      "name": "無色",
+      "links": {
+        "x": "https://x.com/nagi09lazulite"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/nagi09lazulite/status/2110356009252446672",
+          "title": "凪｜2026/10/14当回本人告知",
+          "note": "当回の本人告知を公開検索から発見し、本人プロフィールと照合"
+        },
+        {
+          "url": "https://x.com/nagi09lazulite",
+          "title": "凪｜本人X",
+          "note": "当回投稿・配置・自己掲載の活動先を確認"
+        }
+      ],
+      "note": "10/15時点の追加確認：本人の関西コミティア77・G-22出展告知を直接照合してXを追加。サークル名無色の文章による直接表記は未確認。pixiv・Webは未特定。"
+    },
+    {
+      "space": "D-58",
+      "name": "Pixelic Velvetique",
+      "links": {
+        "x": "https://x.com/koh9083",
+        "web": "https://www.instagram.com/koh908372/"
+      },
+      "extras": [
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/koh908372/",
+          "label": "Instagram"
+        },
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@koh9083",
+          "label": "Skeb"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/koh9083/status/2110343578329526592",
+          "title": "koh｜2026/10/14当回本人告知",
+          "note": "当回の本人告知を公開検索から発見し、本人プロフィールと照合"
+        },
+        {
+          "url": "https://x.com/koh9083",
+          "title": "koh｜本人X",
+          "note": "当回投稿・配置・自己掲載の活動先を確認"
+        },
+        {
+          "url": "https://www.instagram.com/koh908372/",
+          "title": "koh｜本人Instagram",
+          "note": "本人名・Pixel artist・同じSkebを公開プロフィールで照合"
+        }
+      ],
+      "note": "10/15時点の追加確認：本人固定のお品書き告知で今回Pixelic Velvetique・D-58・10/18を直接照合。X・自己掲載Instagram・Skebを追加。仕事のゲームアカウントや依頼者は本人のアカウントとして採用しない。pixivは未特定。"
+    },
+    {
+      "space": "E-30",
+      "name": "くじらの銀河",
+      "links": {
+        "x": "https://x.com/yy_vodka"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/yy_vodka/status/2110340157811708173",
+          "title": "山佐 / まさみ｜2026/10/14当回本人告知",
+          "note": "当回の本人告知を公開検索から発見し、本人プロフィールと照合"
+        },
+        {
+          "url": "https://x.com/yy_vodka",
+          "title": "山佐 / まさみ｜本人X",
+          "note": "当回投稿・配置・自己掲載の活動先を確認"
+        }
+      ],
+      "note": "10/15時点の追加確認：本人の今回くじらの銀河・E-30・10/18出展告知を直接照合してXを追加。現在の表示名はまさみ、公開検索時の表示名は山佐だったがハンドルと告知本文は同じ。pixiv・Webは未特定。"
+    },
+    {
+      "space": "E-77",
+      "name": "Anymore",
+      "links": {
+        "x": "https://x.com/suzulab",
+        "web": "https://www.instagram.com/satoisuzu/"
+      },
+      "extras": [
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/satoisuzu/",
+          "label": "Instagram"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.tiktok.com/@satoisuzu",
+          "label": "TikTok（本人指定）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/suzulab/status/2110339720370925906",
+          "title": "佐藤いすず｜2026/10/14当回本人告知",
+          "note": "当回の本人告知を公開検索から発見し、本人プロフィールと照合"
+        },
+        {
+          "url": "https://x.com/suzulab",
+          "title": "佐藤いすず｜本人X",
+          "note": "当回投稿・配置・自己掲載の活動先を確認"
+        },
+        {
+          "url": "https://www.instagram.com/satoisuzu/",
+          "title": "佐藤いすず｜本人Instagram",
+          "note": "本人指定ハンドルと同じ作者名を公開プロフィールで照合"
+        }
+      ],
+      "note": "10/15時点の追加確認：保留していた同名ショップ候補のエニモは採用せず、佐藤いすずの本人出展告知から今回E-77・Anymore・10/18を直接照合。本人X・指定Instagram・TikTokを追加。pixivは未特定。"
+    },
+    {
+      "space": "B-18",
+      "name": "M45",
+      "links": {
+        "x": "https://x.com/69___mk",
+        "web": "https://skeb.jp/@69___mk"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@69___mk",
+          "label": "Skeb"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/69___mk/status/2110333810147787093",
+          "title": "無辜と無垢 / MUKU｜2026/10/14当回本人告知",
+          "note": "当回の本人告知を公開検索から発見し、本人プロフィールと照合"
+        },
+        {
+          "url": "https://x.com/69___mk",
+          "title": "無辜と無垢 / MUKU｜本人X",
+          "note": "当回投稿・配置・自己掲載の活動先を確認"
+        }
+      ],
+      "note": "10/15時点の追加確認：本人表示名の今回10/18・B-18と、77回の本人頒布物告知を直接照合。X・自己掲載Skebを追加。サークル名M45の文章による直接表記は未確認。pixivは未特定。"
+    },
+    {
+      "space": "C-12",
+      "name": "surasura",
+      "links": {
+        "x": "https://x.com/kus2daya",
+        "pixiv": "https://www.pixiv.net/users/13830743",
+        "web": "https://profcard.info/u/7sR4MIQsV2MEfGiHXBQgRQCLOkx1"
+      },
+      "extras": [
+        {
+          "kind": "booth",
+          "url": "https://surari.booth.pm/",
+          "label": "BOOTH"
+        },
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@kus2daya",
+          "label": "Skeb"
+        },
+        {
+          "kind": "x",
+          "url": "https://x.com/suC_A_su",
+          "label": "X（本人指定の創作・TRPG）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/kus2daya/status/2110324394530898302",
+          "title": "Ca / くすだやしえ｜2026/10/14当回本人告知",
+          "note": "当回の本人告知を公開検索から発見し、本人プロフィールと照合"
+        },
+        {
+          "url": "https://x.com/kus2daya",
+          "title": "Ca / くすだやしえ｜本人X",
+          "note": "当回投稿・配置・自己掲載の活動先を確認"
+        },
+        {
+          "url": "https://profcard.info/u/7sR4MIQsV2MEfGiHXBQgRQCLOkx1",
+          "title": "くすだやしえ｜本人プロフカード",
+          "note": "本人X・創作TRPG別アカウント・pixiv13830743・BOOTH・Skebを本人が指定"
+        }
+      ],
+      "note": "10/15時点の追加確認：本人の7/26固定申込告知と今回お品書きで、surasura・C-12・10/18を直接照合。X・本人プロフカード・自己掲載pixiv等を追加。当回は友人と共有スペースと本人が記すが、掲載したのは確認できたCaの本人活動先のみ。"
+    },
+    {
+      "space": "B-48",
+      "name": "sprout",
+      "links": {
+        "x": "https://x.com/asuka82470",
+        "web": "https://endpoint.booth.pm/items",
+        "pixiv": "https://www.pixiv.net/users/6151234"
+      },
+      "extras": [
+        {
+          "kind": "x",
+          "url": "https://x.com/Sprout0248",
+          "label": "X（本人指定の宣伝用）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/asuka82470/status/2110318847458967935",
+          "title": "稀世｜2026/10/14当回本人告知",
+          "note": "当回の本人告知を公開検索から発見し、本人プロフィールと照合"
+        },
+        {
+          "url": "https://x.com/asuka82470",
+          "title": "稀世｜本人X",
+          "note": "当回投稿・配置・自己掲載の活動先を確認"
+        },
+        {
+          "url": "https://x.com/Sprout0248",
+          "title": "Sprout｜本人指定の宣伝用X",
+          "note": "稀世の作品を引用し、本人BOOTH endpointを指定"
+        },
+        {
+          "url": "https://endpoint.booth.pm/items",
+          "title": "Sprout｜本人BOOTH",
+          "note": "作者宮野稀世・本人作品紡ぐ物語・pixiv6151234を確認"
+        }
+      ],
+      "note": "10/15時点の追加確認：本人お品書き告知で今回B-48・Sprout・10/18を直接照合。本人指定の宣伝用Xを経由し、指定BOOTHを追加。同名候補ftb-28やつきのショップは採用しない。保存済み東京名簿のもう一人の作者愛宮ゆうの活動先は未特定。本人指定ショップのpixiv6151234を追加。"
+    },
+    {
+      "space": "F-78",
+      "name": "金平糖ぽしぇっと",
+      "links": {
+        "x": "https://x.com/R0x0Toa",
+        "web": "https://skeb.jp/@R0x0Toa"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@R0x0Toa",
+          "label": "Skeb"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/R0x0Toa/status/2110318366770778442",
+          "title": "らむねモネ｜2026/10/14当回本人告知",
+          "note": "当回の本人告知を公開検索から発見し、本人プロフィールと照合"
+        },
+        {
+          "url": "https://x.com/R0x0Toa",
+          "title": "らむねモネ｜本人X",
+          "note": "当回投稿・配置・自己掲載の活動先を確認"
+        }
+      ],
+      "note": "10/15時点の追加確認：本人の77回・F-78新刊告知と9/10の10/18申込告知を照合。X・自己掲載Skebを追加。サークル名金平糖ぽしぇっとの文章による直接表記は未確認。pixivは未特定。"
+    }
+  ],
+  "unresolved": [
+    {
+      "space": "C-03",
+      "name": "甘味処",
+      "note": "BOOTHで同名ショップfried4を確認したが、作者はチャーハン、pixiv106260910。保存済み主催名簿には伊緒・θ・黒糖黒蜜抹茶わらび餅という複数の同名作者もいる。今回C-03との対応が確定できず保留。",
+      "sources": [
+        "https://fried4.booth.pm/items",
+        "https://www.comitia.co.jp/history/152list.html",
+        "https://gataket.com/comitia/list/t62/"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "web",
+          "url": "https://fried4.booth.pm/items",
+          "reason": "同名ショップの別作者候補。今回C-03との対応未確認。"
+        }
+      ]
+    },
+    {
+      "space": "C-08",
+      "name": "ひだりて",
+      "note": "BOOTHでrelasima（本人がひだりてを名乗る二次創作ショップ、pixiv1946618）を確認。同名・近い名前のショップも複数あり、今回C-08の出展者との対応は確定できず保留。",
+      "sources": [
+        "https://booth.pm/ja/search/%E3%81%B2%E3%81%A0%E3%82%8A%E3%81%A6",
+        "https://relasima.booth.pm/items"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "web",
+          "url": "https://relasima.booth.pm/items",
+          "reason": "ひだりてを名乗る本人ショップだが当回サークルとの対応未確認。"
+        },
+        {
+          "kind": "pixiv",
+          "url": "https://www.pixiv.net/users/1946618",
+          "reason": "同名ショップ指定の作者ID。今回C-08の本人との対応未確認。"
+        }
+      ]
+    },
+    {
+      "space": "C-61",
+      "name": "芋屋",
+      "note": "BOOTHの同名ショップcrisps30（作者ポテ子、pixiv25399592）を確認したが、今回C-61との直接の対応を確認できず保留。",
+      "sources": [
+        "https://crisps30.booth.pm/items"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "web",
+          "url": "https://crisps30.booth.pm/items",
+          "reason": "同名ショップだが今回C-61の本人との対応未確認。"
+        },
+        {
+          "kind": "pixiv",
+          "url": "https://www.pixiv.net/users/25399592",
+          "reason": "同名ショップ指定の作者ID。今回本人との対応未確認。"
+        }
+      ]
+    },
+    {
+      "space": "D-43",
+      "name": "あまやどり",
+      "note": "過去の東京152主催名簿にキザキアキ、東京143指定先に雨水れいや、過去の関西67指定先に取得404の別サイトがあり、BOOTH内にも多数の同名ショップがある。現在読める候補作者の活動先は確認できたが、今回D-43がどの作者かを確定できず保留。",
+      "sources": [
+        "https://www.comitia.co.jp/history/152list.html",
+        "https://www.comitia.co.jp/history/143list.html",
+        "https://x.com/kizaki_aki",
+        "https://potofu.me/am-reiya52",
+        "https://booth.pm/ja/search/%E3%81%82%E3%81%BE%E3%82%84%E3%81%A9%E3%82%8A"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "x",
+          "url": "https://x.com/kizaki_aki",
+          "reason": "過去の東京同名サークル作者の本人X。当回D-43の対応は未確認。"
+        },
+        {
+          "kind": "x",
+          "url": "https://x.com/am_reiya52",
+          "reason": "別の過去東京同名サークル指定先の作者。当回D-43の対応は未確認。"
+        }
+      ]
+    },
+    {
+      "space": "E-59",
+      "name": "夢の余白",
+      "note": "BOOTHの同名ショップyume-no-yohaku（作者まの、pixiv58589156）を確認。SNSアイコン用の絵を扱うが、今回E-59のサークル本人との対応が確定できず保留。",
+      "sources": [
+        "https://yume-no-yohaku.booth.pm/items"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "web",
+          "url": "https://yume-no-yohaku.booth.pm/items",
+          "reason": "同名ショップ候補。今回E-59の本人との対応未確認。"
+        }
+      ]
+    },
+    {
+      "space": "J-38",
+      "name": "夏炉冬扇",
+      "note": "同名BOOTHショップmutsuki-rikuはリバリバ・メルストの二次創作グッズを扱う。保存済み主催名簿の作者桂之介による旅行記サークルとの同一性が確認できないため、同名だけで採用しない。",
+      "sources": [
+        "https://mutsuki-riku.booth.pm/items",
+        "https://gataket.com/comitia/list/t60/"
+      ],
+      "candidateLinks": []
+    },
+    {
+      "space": "K-78",
+      "name": "ゆめうつつ",
+      "note": "過去の東京143主催名簿が指定するPOTOFUは淡田るむの現行プロフィール・Xに到達するが、同じ一般的な名前の作品・ショップも存在する。今回K-78の出展者との対応は確定できず保留。",
+      "sources": [
+        "https://www.comitia.co.jp/history/143list.html",
+        "https://potofu.me/awadaroom",
+        "https://x.com/awada_room"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "web",
+          "url": "https://potofu.me/awadaroom",
+          "reason": "過去の東京同名サークルの主催指定先。当回K-78の対応未確認。"
+        },
+        {
+          "kind": "x",
+          "url": "https://x.com/awada_room",
+          "reason": "過去指定先が示す作者本人の現行X。当回K-78の対応未確認。"
+        }
+      ]
+    },
+    {
+      "space": "L-10",
+      "name": "JACKBOX",
+      "note": "BOOTH内検索で自らサークルJACKBOXを名乗るショップ（作者shu、pixiv29132260）と創作漫画GETBACK!を確認。今回L-10の出展者と同一かを照合する追加根拠は未確認のため候補として保持。",
+      "sources": [
+        "https://jack-box.booth.pm/items",
+        "https://booth.pm/ja/items/8254043"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "web",
+          "url": "https://jack-box.booth.pm/items",
+          "reason": "同名サークルを名乗る創作漫画ショップ。当回L-10の対応未確認。"
+        },
+        {
+          "kind": "pixiv",
+          "url": "https://www.pixiv.net/users/29132260",
+          "reason": "同名ショップ指定の作者ID。当回L-10の対応未確認。"
+        }
+      ]
+    },
+    {
+      "space": "L-92",
+      "name": "四ツ角",
+      "note": "文学フリマ主催の四ツ角・しもとはつせによる作品紹介（The Book of KI）を確認。保存済み東京主催名簿の作者と一致する。一方、同名BOOTH yotsukadoの作者名tabiとの対応は未確認。主催上の作品紹介を根拠として保持し、個人SNS・個人サイトは未特定のまま。",
+      "sources": [
+        "https://c.bunfree.net/p/osaka14/69170",
+        "https://c.bunfree.net/c/osaka14/65289",
+        "https://yotsukado.booth.pm/items"
+      ],
+      "candidateLinks": []
+    }
+  ]
+}
