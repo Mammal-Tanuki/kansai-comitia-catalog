@@ -36,10 +36,17 @@ def apply(path):
     for space, check in checks.items():
         c = records[space]
         assert c['name'] == check['name']
-        c['queries'] = list(dict.fromkeys(c.get('queries', []) + [check['query']]))
+        new_queries = [str(q).strip() for q in [check['query'], *check.get('additionalQueries', [])] if str(q).strip()]
+        c['queries'] = list(dict.fromkeys(str(q).strip() for q in c.get('queries', []) + new_queries if str(q).strip()))
         logs = c.setdefault('followupSearches', [])
-        if not any(log['roundId'] == round_data['id'] for log in logs):
-            logs.append({'roundId': round_data['id'], 'checkedDate': round_data['checkedDate'], 'query': check['query']})
+        log = next((item for item in logs if item['roundId'] == round_data['id']), None)
+        if log is None:
+            log = {'roundId': round_data['id']}
+            logs.append(log)
+        log.update(checkedDate=round_data['checkedDate'], query=check['query'].strip())
+        for field in ('additionalQueries', 'methods'):
+            if check.get(field):
+                log[field] = [str(v).strip() for v in check[field]]
 
     for space, patch in updates.items():
         c = records[space]
@@ -75,8 +82,10 @@ def apply(path):
         for candidate in item.get('candidateLinks', []):
             if not any(v.get('url') == candidate['url'] for v in candidates):
                 candidates.append(candidate)
-        if item.get('candidateLinks'):
-            c.setdefault('status', {})['x'] = 'ambiguous'
+        for candidate in item.get('candidateLinks', []):
+            channel = candidate.get('kind')
+            if channel in CHANNELS:
+                c.setdefault('status', {})[channel] = 'ambiguous'
         assert not linked(c), item['space']
 
     final = [records[c['space']] for c in research['circles']]
