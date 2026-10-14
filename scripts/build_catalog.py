@@ -170,6 +170,11 @@ def build(research,draft=False):
     counts['individuallyQueried']=sum(bool(c['queries']) for c in final)
     counts['sourceChecked']=sum(c['searched'] for c in final)
     counts['additionalSearchPending']=sum(c['additionalSearchPending'] for c in final)
+    deep=[c for c in final if c.get('wasUnidentifiedAtDeepStart')]
+    if deep:
+        counts['deepSearchTarget']=len(deep)
+        counts['deepSearchChecked']=sum(bool(c.get('deepSearched')) for c in deep)
+        counts['deepSearchIdentified']=sum(any(c[k] for k in CHANNELS) or bool(c['extras']) for c in deep)
     now=datetime.now(timezone.utc).isoformat(timespec='seconds')
     data={'schemaVersion':2,'revision':now,'researchedAt':now,'event':{'number':77,'name':'関西コミティア77','date':'2026-10-18','official':OFFICIAL},'counts':counts,'circles':[]}
     for c in final:

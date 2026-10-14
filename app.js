@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = '2026-10-13-kc3';
+const VERSION = '2026-10-14-kc4';
 const OFFICIAL = 'https://www.k-comitia.com/list77/';
 const KEY = 'kansai_comitia_catalog_v1';
 const PREF = 'kansai_comitia_catalog_prefs_v1';
@@ -43,7 +43,7 @@ function applyCatalog(data){
   if(result.orphans.length){try{const archived=load(ARCHIVE,[]);const combined=new Map((Array.isArray(archived)?archived:[]).concat(result.orphans).map(c=>[c.id||idOf(c.space,c.name),c]));localStorage.setItem(ARCHIVE,JSON.stringify([...combined.values()]));}catch{throw new Error('旧データの退避ができないため更新を中止しました。先にバックアップを保存してください');}}
   circles=result.circles;dataset=data;syncInfo={at:new Date().toISOString(),count:circles.length,revision:data.revision,researchedAt:data.researchedAt,source:OFFICIAL};save();render();
 }
-function summaryText(){if(storageError)return storageError;const date=dataset?.researchedAt||syncInfo?.researchedAt;const pending=circles.filter(c=>c.additionalSearchPending).length;return `${circles.length.toLocaleString('ja-JP')}件 · ${date?new Date(date).toLocaleDateString('ja-JP')+' 調査版':'保存済みデータ'} · 追加確認待ち ${pending}件`+(dataset?'':'（更新データを読み込めませんでした）');}
+function summaryText(){if(storageError)return storageError;const date=dataset?.researchedAt||syncInfo?.researchedAt;const pending=circles.filter(c=>c.additionalSearchPending).length;const unknown=circles.filter(c=>!(c.x||c.pixiv||c.web||c.extras?.length)).length;return `${circles.length.toLocaleString('ja-JP')}件 · ${date?new Date(date).toLocaleDateString('ja-JP')+' 調査版':'保存済みデータ'} · 本人リンクあり ${circles.length-unknown}件／未特定 ${unknown}件`+(pending?` · 追加確認待ち ${pending}件`:'')+(dataset?'':'（更新データを読み込めませんでした）');}
 function meta(text){$('syncMeta').textContent=text;}
 function filtered(){const q=String(prefs.q||'').normalize('NFKC').toLowerCase();return circles.filter(c=>{
   if(prefs.view==='check'&&c.state.color==='gray')return false;
