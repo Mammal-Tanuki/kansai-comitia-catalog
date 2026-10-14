@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = '2026-10-14-kc4';
+const VERSION = '2026-10-14-kc5';
 const OFFICIAL = 'https://www.k-comitia.com/list77/';
 const KEY = 'kansai_comitia_catalog_v1';
 const PREF = 'kansai_comitia_catalog_prefs_v1';

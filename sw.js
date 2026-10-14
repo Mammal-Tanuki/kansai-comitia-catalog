@@ -1,4 +1,4 @@
-const CACHE = 'kansai-comitia-catalog-v4';
+const CACHE = 'kansai-comitia-catalog-v5';
 const PREFIX = 'kansai-comitia-catalog-';
 const CORE = ['./','./index.html','./app.js','./style.css','./data/circles77.js','./data/circles77.json','./data/research77.csv','./RESEARCH.md','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting())));
