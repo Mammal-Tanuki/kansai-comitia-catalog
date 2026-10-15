@@ -1,0 +1,4621 @@
+{
+  "id": "2026-10-15-kc10",
+  "checkedDate": "2026-10-15",
+  "initialUnidentified": 229,
+  "methods": [
+    "未特定229掲載件の一般Web個別検索",
+    "候補名・過去主催名簿・主催の指定SNSと本人公開ページを追加照合",
+    "主催掲載HTMLの文字のないSNSアイコン内URLを確認",
+    "本人Xの公開URL欄と自己指定リンク集を照合",
+    "最新の公開投稿検索を229件試行し、取得成功と接続制限を分けて記録"
+  ],
+  "scopeNote": "前チャットの未公開kc9（8件追加、237→229）を復元・検証し公開した上で継続したラウンド。229件の一般Web検索はすべて実施。別途の最新投稿検索は85件で取得、144件は接続制限により未取得。一般語・記号・短い名義の検索には無関係の結果が含まれる。全投稿・全画像・全SNS本文の網羅ではない。当回配置に直接一致した確認と、過去同名サークル・主催が直接指定する作者活動先の確認を各メモで区別する。本人が指定するURLは先方本文が取得できなくても帰属を確認できる場合があり、その制限を明記。単なる作品タイトル、読者紹介、別配置の本人、委託先は本人の主リンクにしない。",
+  "statistics": {
+    "generalWebQueries": 229,
+    "generalWebSearchCalls": 58,
+    "generalWebSearchErrors": 0,
+    "latestPostSearchAttempts": 229,
+    "latestPostSearchSuccess": 85,
+    "latestPostSearchBlocked": 144,
+    "latestPostSearchWithEntries": 42,
+    "latestPostTimelineEntries": 1172,
+    "newlyIdentified": 8,
+    "unresolvedDecisions": 7
+  },
+  "checks": [
+    {
+      "space": "A-09",
+      "name": "桃李園",
+      "query": "\"桃李園\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"桃李園\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"桃李園\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%A1%83%E6%9D%8E%E5%9C%92%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 2
+      }
+    },
+    {
+      "space": "A-10",
+      "name": "mgoose",
+      "query": "\"mgoose\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"mgoose\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"mgoose\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22mgoose%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "A-34",
+      "name": "legends上田",
+      "query": "\"legends上田\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"legends上田\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"legends上田\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22legends%E4%B8%8A%E7%94%B0%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "A-36",
+      "name": "＆書房",
+      "query": "\"＆書房\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"＆書房\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"＆書房\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%EF%BC%86%E6%9B%B8%E6%88%BF%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "A-37",
+      "name": "南蛮唐茄子",
+      "query": "\"南蛮唐茄子\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"南蛮唐茄子\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"南蛮唐茄子\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8D%97%E8%9B%AE%E5%94%90%E8%8C%84%E5%AD%90%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "A-47",
+      "name": "茸書",
+      "query": "\"茸書\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"茸書\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"茸書\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8C%B8%E6%9B%B8%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "A-55",
+      "name": "ともえ造",
+      "query": "\"ともえ造\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ともえ造\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ともえ造\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A8%E3%82%82%E3%81%88%E9%80%A0%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "A-61",
+      "name": "ユッピーさん",
+      "query": "\"ユッピーさん\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ユッピーさん\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ユッピーさん\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%A6%E3%83%83%E3%83%94%E3%83%BC%E3%81%95%E3%82%93%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "A-63",
+      "name": "おうじさまの星",
+      "query": "\"おうじさまの星\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"おうじさまの星\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"おうじさまの星\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8A%E3%81%86%E3%81%98%E3%81%95%E3%81%BE%E3%81%AE%E6%98%9F%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "A-67",
+      "name": "ギロチン団地打首断棟404号室",
+      "query": "\"ギロチン団地打首断棟404号室\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ギロチン団地打首断棟404号室\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ギロチン団地打首断棟404号室\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AE%E3%83%AD%E3%83%81%E3%83%B3%E5%9B%A3%E5%9C%B0%E6%89%93%E9%A6%96%E6%96%AD%E6%A3%9F404%E5%8F%B7%E5%AE%A4%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "A-93",
+      "name": "RANBU",
+      "query": "\"RANBU\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"RANBU\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"RANBU\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22RANBU%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "A-94",
+      "name": "しまこ",
+      "query": "\"しまこ\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"しまこ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"しまこ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%81%BE%E3%81%93%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "B-06",
+      "name": "プテノグ",
+      "query": "\"プテノグ\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"プテノグ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"プテノグ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%97%E3%83%86%E3%83%8E%E3%82%B0%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "B-07",
+      "name": "無辺世界",
+      "query": "\"無辺世界\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"無辺世界\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"無辺世界\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%84%A1%E8%BE%BA%E4%B8%96%E7%95%8C%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 2
+      }
+    },
+    {
+      "space": "B-21",
+      "name": "にゃこにゃこ神社",
+      "query": "\"にゃこにゃこ神社\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"にゃこにゃこ神社\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"にゃこにゃこ神社\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AB%E3%82%83%E3%81%93%E3%81%AB%E3%82%83%E3%81%93%E7%A5%9E%E7%A4%BE%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "B-35",
+      "name": "HANA∞",
+      "query": "\"HANA∞\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"HANA∞\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"HANA∞\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22HANA%E2%88%9E%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "B-43",
+      "name": "星詠屋",
+      "query": "\"星詠屋\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"星詠屋\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"星詠屋\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%98%9F%E8%A9%A0%E5%B1%8B%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "B-47",
+      "name": "タイとエビ＋揺れる蛙",
+      "query": "\"タイとエビ＋揺れる蛙\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"タイとエビ＋揺れる蛙\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"タイとエビ＋揺れる蛙\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%BF%E3%82%A4%E3%81%A8%E3%82%A8%E3%83%93%EF%BC%8B%E6%8F%BA%E3%82%8C%E3%82%8B%E8%9B%99%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "B-61",
+      "name": "ほっけ家",
+      "query": "\"ほっけ家\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ほっけ家\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ほっけ家\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BB%E3%81%A3%E3%81%91%E5%AE%B6%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 5
+      }
+    },
+    {
+      "space": "B-67",
+      "name": "アンクキャッチ",
+      "query": "\"アンクキャッチ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"アンクキャッチ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"アンクキャッチ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A2%E3%83%B3%E3%82%AF%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "B-76",
+      "name": "pronron",
+      "query": "\"pronron\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"pronron\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"pronron\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22pronron%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "B-79",
+      "name": "白黒幻想譚",
+      "query": "\"白黒幻想譚\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"白黒幻想譚\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"白黒幻想譚\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%99%BD%E9%BB%92%E5%B9%BB%E6%83%B3%E8%AD%9A%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "B-81",
+      "name": "Fomalhaut",
+      "query": "\"Fomalhaut\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Fomalhaut\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Fomalhaut\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Fomalhaut%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "B-87",
+      "name": "YELLOW MOON",
+      "query": "\"YELLOW MOON\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"YELLOW MOON\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"YELLOW MOON\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22YELLOW+MOON%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 24
+      }
+    },
+    {
+      "space": "B-93",
+      "name": "よろずや",
+      "query": "\"よろずや\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"よろずや\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"よろずや\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%88%E3%82%8D%E3%81%9A%E3%82%84%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "C-01",
+      "name": "あのにま",
+      "query": "\"あのにま\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"あのにま\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"あのにま\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%AE%E3%81%AB%E3%81%BE%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 3
+      }
+    },
+    {
+      "space": "C-02",
+      "name": "ぽんぽんすきぺこ",
+      "query": "\"ぽんぽんすきぺこ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ぽんぽんすきぺこ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ぽんぽんすきぺこ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BD%E3%82%93%E3%81%BD%E3%82%93%E3%81%99%E3%81%8D%E3%81%BA%E3%81%93%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "C-03",
+      "name": "甘味処",
+      "query": "\"甘味処\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"甘味処\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"甘味処\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%94%98%E5%91%B3%E5%87%A6%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "C-07",
+      "name": "高空腹",
+      "query": "\"高空腹\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"高空腹\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"高空腹\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AB%98%E7%A9%BA%E8%85%B9%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "C-08",
+      "name": "ひだりて",
+      "query": "\"ひだりて\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ひだりて\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ひだりて\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B2%E3%81%A0%E3%82%8A%E3%81%A6%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "C-10",
+      "name": "Ray",
+      "query": "\"Ray\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Ray\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Ray\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Ray%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "C-20",
+      "name": "二度見の雑貨やさん",
+      "query": "\"二度見の雑貨やさん\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"二度見の雑貨やさん\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"二度見の雑貨やさん\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%BA%8C%E5%BA%A6%E8%A6%8B%E3%81%AE%E9%9B%91%E8%B2%A8%E3%82%84%E3%81%95%E3%82%93%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "C-23",
+      "name": "「よ」。",
+      "query": "\"「よ」。\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"「よ」。\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"「よ」。\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%80%8C%E3%82%88%E3%80%8D%E3%80%82%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "C-32",
+      "name": "非売品",
+      "query": "\"非売品\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"非売品\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"非売品\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%9D%9E%E5%A3%B2%E5%93%81%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "C-40",
+      "name": "空を眺めるくらぶ",
+      "query": "\"空を眺めるくらぶ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"空を眺めるくらぶ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"空を眺めるくらぶ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A9%BA%E3%82%92%E7%9C%BA%E3%82%81%E3%82%8B%E3%81%8F%E3%82%89%E3%81%B6%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "C-41",
+      "name": "いちごしろっぷ",
+      "query": "\"いちごしろっぷ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"いちごしろっぷ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"いちごしろっぷ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%84%E3%81%A1%E3%81%94%E3%81%97%E3%82%8D%E3%81%A3%E3%81%B7%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 1
+      }
+    },
+    {
+      "space": "C-43",
+      "name": "BACK LABRET",
+      "query": "\"BACK LABRET\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"BACK LABRET\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"BACK LABRET\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22BACK+LABRET%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "C-47",
+      "name": "Y-BURN",
+      "query": "\"Y-BURN\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Y-BURN\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Y-BURN\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Y-BURN%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 2
+      }
+    },
+    {
+      "space": "C-52",
+      "name": "マガポポ",
+      "query": "\"マガポポ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"マガポポ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"マガポポ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%82%AC%E3%83%9D%E3%83%9D%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "C-53",
+      "name": "アトリエ夜半",
+      "query": "\"アトリエ夜半\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"アトリエ夜半\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"アトリエ夜半\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8%E5%A4%9C%E5%8D%8A%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "C-54",
+      "name": "惨憺たる有様。",
+      "query": "\"惨憺たる有様。\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"惨憺たる有様。\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"惨憺たる有様。\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%83%A8%E6%86%BA%E3%81%9F%E3%82%8B%E6%9C%89%E6%A7%98%E3%80%82%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "C-55",
+      "name": "ギザギザシッポ",
+      "query": "\"ギザギザシッポ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ギザギザシッポ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ギザギザシッポ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AE%E3%82%B6%E3%82%AE%E3%82%B6%E3%82%B7%E3%83%83%E3%83%9D%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 1
+      }
+    },
+    {
+      "space": "C-61",
+      "name": "芋屋",
+      "query": "\"芋屋\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"芋屋\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"芋屋\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8A%8B%E5%B1%8B%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "C-65",
+      "name": "寝て壱畳",
+      "query": "\"寝て壱畳\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"寝て壱畳\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"寝て壱畳\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AF%9D%E3%81%A6%E5%A3%B1%E7%95%B3%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "C-77",
+      "name": "食々酒場",
+      "query": "\"食々酒場\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"食々酒場\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"食々酒場\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%A3%9F%E3%80%85%E9%85%92%E5%A0%B4%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "C-78",
+      "name": "藤篭",
+      "query": "\"藤篭\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"藤篭\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"藤篭\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%97%A4%E7%AF%AD%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 1
+      }
+    },
+    {
+      "space": "C-80",
+      "name": "しめたろ家",
+      "query": "\"しめたろ家\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"しめたろ家\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"しめたろ家\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%81%E3%81%9F%E3%82%8D%E5%AE%B6%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "D-18",
+      "name": "またたびあとりえ",
+      "query": "\"またたびあとりえ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"またたびあとりえ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"またたびあとりえ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BE%E3%81%9F%E3%81%9F%E3%81%B3%E3%81%82%E3%81%A8%E3%82%8A%E3%81%88%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "D-21",
+      "name": "スイートルーム",
+      "query": "\"スイートルーム\"",
+      "additionalQueries": [
+        "\"スイートルーム\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"スイートルーム\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%88%E3%83%AB%E3%83%BC%E3%83%A0%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "D-24",
+      "name": "ルユヲコーヒー",
+      "query": "\"ルユヲコーヒー\"",
+      "additionalQueries": [
+        "\"ルユヲコーヒー\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ルユヲコーヒー\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%AB%E3%83%A6%E3%83%B2%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "D-43",
+      "name": "あまやどり",
+      "query": "\"あまやどり\"",
+      "additionalQueries": [
+        "\"あまやどり\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"あまやどり\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%BE%E3%82%84%E3%81%A9%E3%82%8A%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "D-46",
+      "name": "マカロンチーノ",
+      "query": "\"マカロンチーノ\"",
+      "additionalQueries": [
+        "\"マカロンチーノ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"マカロンチーノ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%82%AB%E3%83%AD%E3%83%B3%E3%83%81%E3%83%BC%E3%83%8E%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "D-52",
+      "name": "Yellow Rose",
+      "query": "\"Yellow Rose\"",
+      "additionalQueries": [
+        "\"Yellow Rose\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Yellow Rose\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Yellow+Rose%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "D-54",
+      "name": "陽気なジャンドゥーヤ",
+      "query": "\"陽気なジャンドゥーヤ\"",
+      "additionalQueries": [
+        "\"陽気なジャンドゥーヤ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"陽気なジャンドゥーヤ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%99%BD%E6%B0%97%E3%81%AA%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%89%E3%82%A5%E3%83%BC%E3%83%A4%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "D-60",
+      "name": "Cradle",
+      "query": "\"Cradle\"",
+      "additionalQueries": [
+        "\"Cradle\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Cradle\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Cradle%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "D-68",
+      "name": "ちょこじゃむ",
+      "query": "\"ちょこじゃむ\"",
+      "additionalQueries": [
+        "\"ちょこじゃむ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ちょこじゃむ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A1%E3%82%87%E3%81%93%E3%81%98%E3%82%83%E3%82%80%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "D-75",
+      "name": "鯨堂",
+      "query": "\"鯨堂\"",
+      "additionalQueries": [
+        "\"鯨堂\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"鯨堂\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AF%A8%E5%A0%82%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 6
+      }
+    },
+    {
+      "space": "D-78",
+      "name": "まがつき",
+      "query": "\"まがつき\"",
+      "additionalQueries": [
+        "\"まがつき\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"まがつき\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BE%E3%81%8C%E3%81%A4%E3%81%8D%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 37
+      }
+    },
+    {
+      "space": "D-90",
+      "name": "マジ水1000%ゼラチン",
+      "query": "\"マジ水1000%ゼラチン\"",
+      "additionalQueries": [
+        "\"マジ水1000%ゼラチン\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"マジ水1000%ゼラチン\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%82%B8%E6%B0%B41000%25%E3%82%BC%E3%83%A9%E3%83%81%E3%83%B3%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "E-06",
+      "name": "しおみみ",
+      "query": "\"しおみみ\"",
+      "additionalQueries": [
+        "\"しおみみ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"しおみみ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%81%8A%E3%81%BF%E3%81%BF%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 12
+      }
+    },
+    {
+      "space": "E-11",
+      "name": "陰鬱堂",
+      "query": "\"陰鬱堂\"",
+      "additionalQueries": [
+        "\"陰鬱堂\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"陰鬱堂\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%99%B0%E9%AC%B1%E5%A0%82%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "E-14",
+      "name": "テツジン兵団",
+      "query": "\"テツジン兵団\"",
+      "additionalQueries": [
+        "\"テツジン兵団\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"テツジン兵団\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%86%E3%83%84%E3%82%B8%E3%83%B3%E5%85%B5%E5%9B%A3%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "E-18",
+      "name": "da We nci 2",
+      "query": "\"da We nci 2\"",
+      "additionalQueries": [
+        "\"da We nci 2\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"da We nci 2\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22da+We+nci+2%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "E-21",
+      "name": "ビバリウム",
+      "query": "\"ビバリウム\"",
+      "additionalQueries": [
+        "\"ビバリウム\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ビバリウム\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%93%E3%83%90%E3%83%AA%E3%82%A6%E3%83%A0%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "E-31",
+      "name": "そんな日もある。",
+      "query": "\"そんな日もある。\"",
+      "additionalQueries": [
+        "\"そんな日もある。\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"そんな日もある。\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%9D%E3%82%93%E3%81%AA%E6%97%A5%E3%82%82%E3%81%82%E3%82%8B%E3%80%82%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "E-51",
+      "name": "ぷろm2",
+      "query": "\"ぷろm2\"",
+      "additionalQueries": [
+        "\"ぷろm2\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ぷろm2\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B7%E3%82%8Dm2%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "E-54",
+      "name": "ツインテールコレクション",
+      "query": "\"ツインテールコレクション\"",
+      "additionalQueries": [
+        "\"ツインテールコレクション\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ツインテールコレクション\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%84%E3%82%A4%E3%83%B3%E3%83%86%E3%83%BC%E3%83%AB%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "E-58",
+      "name": "夜",
+      "query": "\"夜\"",
+      "additionalQueries": [
+        "\"夜\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"夜\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%9C%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "E-59",
+      "name": "夢の余白",
+      "query": "\"夢の余白\"",
+      "additionalQueries": [
+        "\"夢の余白\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"夢の余白\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%A2%E3%81%AE%E4%BD%99%E7%99%BD%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 5
+      }
+    },
+    {
+      "space": "E-64",
+      "name": "きち",
+      "query": "\"きち\"",
+      "additionalQueries": [
+        "\"きち\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"きち\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%A1%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "E-76",
+      "name": "VIVIT BURGER",
+      "query": "\"VIVIT BURGER\"",
+      "additionalQueries": [
+        "\"VIVIT BURGER\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"VIVIT BURGER\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22VIVIT+BURGER%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "E-84",
+      "name": "ぷるるんらんど",
+      "query": "\"ぷるるんらんど\"",
+      "additionalQueries": [
+        "\"ぷるるんらんど\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ぷるるんらんど\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B7%E3%82%8B%E3%82%8B%E3%82%93%E3%82%89%E3%82%93%E3%81%A9%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 1
+      }
+    },
+    {
+      "space": "E-93",
+      "name": "藤乃屋",
+      "query": "\"藤乃屋\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"藤乃屋\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"藤乃屋\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%97%A4%E4%B9%83%E5%B1%8B%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "F-05",
+      "name": "緑硝子温室",
+      "query": "\"緑硝子温室\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"緑硝子温室\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"緑硝子温室\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%B7%91%E7%A1%9D%E5%AD%90%E6%B8%A9%E5%AE%A4%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "F-20",
+      "name": "UKIYO",
+      "query": "\"UKIYO\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"UKIYO\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"UKIYO\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22UKIYO%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "F-26",
+      "name": "宇宙の片隅の星",
+      "query": "\"宇宙の片隅の星\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"宇宙の片隅の星\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"宇宙の片隅の星\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AE%87%E5%AE%99%E3%81%AE%E7%89%87%E9%9A%85%E3%81%AE%E6%98%9F%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "F-30",
+      "name": "ANNY書店",
+      "query": "\"ANNY書店\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ANNY書店\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ANNY書店\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22ANNY%E6%9B%B8%E5%BA%97%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "F-37",
+      "name": "NONON",
+      "query": "\"NONON\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"NONON\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"NONON\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22NONON%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 39
+      }
+    },
+    {
+      "space": "F-40",
+      "name": "柚月",
+      "query": "\"柚月\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"柚月\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"柚月\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9F%9A%E6%9C%88%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "F-43",
+      "name": "YNOF",
+      "query": "\"YNOF\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"YNOF\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"YNOF\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22YNOF%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "F-44",
+      "name": "ぼんぼんねずみ",
+      "query": "\"ぼんぼんねずみ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ぼんぼんねずみ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ぼんぼんねずみ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BC%E3%82%93%E3%81%BC%E3%82%93%E3%81%AD%E3%81%9A%E3%81%BF%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "F-47",
+      "name": "しゅうさく",
+      "query": "\"しゅうさく\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"しゅうさく\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"しゅうさく\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%85%E3%81%86%E3%81%95%E3%81%8F%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 40
+      }
+    },
+    {
+      "space": "F-57",
+      "name": "さんぽめぐり",
+      "query": "\"さんぽめぐり\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"さんぽめぐり\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"さんぽめぐり\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%95%E3%82%93%E3%81%BD%E3%82%81%E3%81%90%E3%82%8A%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 6
+      }
+    },
+    {
+      "space": "F-65",
+      "name": "SaSa舟",
+      "query": "\"SaSa舟\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"SaSa舟\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"SaSa舟\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22SaSa%E8%88%9F%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "F-66",
+      "name": "Doro舟",
+      "query": "\"Doro舟\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Doro舟\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Doro舟\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Doro%E8%88%9F%22&ei=UTF-8",
+        "status": "success",
+        "timelineEntries": 0
+      }
+    },
+    {
+      "space": "F-80",
+      "name": "Glixcel403",
+      "query": "\"Glixcel403\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Glixcel403\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Glixcel403\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Glixcel403%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "F-83",
+      "name": "きまぐれモンスター工房",
+      "query": "\"きまぐれモンスター工房\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"きまぐれモンスター工房\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"きまぐれモンスター工房\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%BE%E3%81%90%E3%82%8C%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E5%B7%A5%E6%88%BF%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "F-86",
+      "name": "@時空",
+      "query": "\"@時空\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"@時空\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"@時空\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%40%E6%99%82%E7%A9%BA%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-04",
+      "name": "朗らかようび。",
+      "query": "\"朗らかようび。\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"朗らかようび。\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"朗らかようび。\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9C%97%E3%82%89%E3%81%8B%E3%82%88%E3%81%86%E3%81%B3%E3%80%82%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-05",
+      "name": "ＫＵＲＵＫＵＲＵ",
+      "query": "\"ＫＵＲＵＫＵＲＵ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ＫＵＲＵＫＵＲＵ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ＫＵＲＵＫＵＲＵ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%EF%BC%AB%EF%BC%B5%EF%BC%B2%EF%BC%B5%EF%BC%AB%EF%BC%B5%EF%BC%B2%EF%BC%B5%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-13",
+      "name": "ミソニコミ",
+      "query": "\"ミソニコミ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ミソニコミ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ミソニコミ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9F%E3%82%BD%E3%83%8B%E3%82%B3%E3%83%9F%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-17",
+      "name": "Nishinoki商店",
+      "query": "\"Nishinoki商店\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Nishinoki商店\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Nishinoki商店\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Nishinoki%E5%95%86%E5%BA%97%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-20",
+      "name": "SIREN KID",
+      "query": "\"SIREN KID\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"SIREN KID\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"SIREN KID\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22SIREN+KID%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-23",
+      "name": "砂",
+      "query": "\"砂\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"砂\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"砂\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A0%82%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-25",
+      "name": "茶々and福",
+      "query": "\"茶々and福\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"茶々and福\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"茶々and福\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8C%B6%E3%80%85and%E7%A6%8F%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-38",
+      "name": "ぽむぽめ2",
+      "query": "\"ぽむぽめ2\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ぽむぽめ2\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ぽむぽめ2\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BD%E3%82%80%E3%81%BD%E3%82%812%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-41",
+      "name": "hanatsuki",
+      "query": "\"hanatsuki\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"hanatsuki\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"hanatsuki\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22hanatsuki%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-52",
+      "name": "焼き貝",
+      "query": "\"焼き貝\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"焼き貝\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"焼き貝\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%84%BC%E3%81%8D%E8%B2%9D%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-55",
+      "name": "ゆきんこハウス",
+      "query": "\"ゆきんこハウス\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ゆきんこハウス\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ゆきんこハウス\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%81%8D%E3%82%93%E3%81%93%E3%83%8F%E3%82%A6%E3%82%B9%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-56",
+      "name": "××シンドローム",
+      "query": "\"××シンドローム\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"××シンドローム\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"××シンドローム\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%C3%97%C3%97%E3%82%B7%E3%83%B3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%A0%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-59",
+      "name": "Fairy Tale",
+      "query": "\"Fairy Tale\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Fairy Tale\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Fairy Tale\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Fairy+Tale%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-65",
+      "name": "こもれ日",
+      "query": "\"こもれ日\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"こもれ日\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"こもれ日\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%93%E3%82%82%E3%82%8C%E6%97%A5%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-67",
+      "name": "トウキョ~トリップ",
+      "query": "\"トウキョ~トリップ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"トウキョ~トリップ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"トウキョ~トリップ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%88%E3%82%A6%E3%82%AD%E3%83%A7~%E3%83%88%E3%83%AA%E3%83%83%E3%83%97%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-70",
+      "name": "あの時の患者です!",
+      "query": "\"あの時の患者です!\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"あの時の患者です!\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"あの時の患者です!\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%AE%E6%99%82%E3%81%AE%E6%82%A3%E8%80%85%E3%81%A7%E3%81%99%21%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-76",
+      "name": "きになりす",
+      "query": "\"きになりす\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"きになりす\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"きになりす\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%99%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "G-81",
+      "name": "ゆかいだね。",
+      "query": "\"ゆかいだね。\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ゆかいだね。\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ゆかいだね。\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%81%8B%E3%81%84%E3%81%A0%E3%81%AD%E3%80%82%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-11",
+      "name": "ばらえ氏＆どうぶつ工房",
+      "query": "\"ばらえ氏＆どうぶつ工房\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ばらえ氏＆どうぶつ工房\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ばらえ氏＆どうぶつ工房\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B0%E3%82%89%E3%81%88%E6%B0%8F%EF%BC%86%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E5%B7%A5%E6%88%BF%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-14",
+      "name": "うめ吉工房",
+      "query": "\"うめ吉工房\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"うめ吉工房\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"うめ吉工房\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%86%E3%82%81%E5%90%89%E5%B7%A5%E6%88%BF%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-18",
+      "name": "ぽんこつの森",
+      "query": "\"ぽんこつの森\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ぽんこつの森\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ぽんこつの森\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BD%E3%82%93%E3%81%93%E3%81%A4%E3%81%AE%E6%A3%AE%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-19",
+      "name": "しらす",
+      "query": "\"しらす\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"しらす\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"しらす\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%89%E3%81%99%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-21",
+      "name": "かめかめカフェ",
+      "query": "\"かめかめカフェ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"かめかめカフェ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"かめかめカフェ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8B%E3%82%81%E3%81%8B%E3%82%81%E3%82%AB%E3%83%95%E3%82%A7%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-24",
+      "name": "とてもねむたい",
+      "query": "\"とてもねむたい\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"とてもねむたい\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"とてもねむたい\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A8%E3%81%A6%E3%82%82%E3%81%AD%E3%82%80%E3%81%9F%E3%81%84%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-26",
+      "name": "かとさンち",
+      "query": "\"かとさンち\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"かとさンち\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"かとさンち\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8B%E3%81%A8%E3%81%95%E3%83%B3%E3%81%A1%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-33",
+      "name": "イソヒヨ商店出張所",
+      "query": "\"イソヒヨ商店出張所\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"イソヒヨ商店出張所\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"イソヒヨ商店出張所\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A4%E3%82%BD%E3%83%92%E3%83%A8%E5%95%86%E5%BA%97%E5%87%BA%E5%BC%B5%E6%89%80%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-34",
+      "name": "イソヒヨ商店　出張所３",
+      "query": "\"イソヒヨ商店　出張所３\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"イソヒヨ商店　出張所３\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"イソヒヨ商店　出張所３\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A4%E3%82%BD%E3%83%92%E3%83%A8%E5%95%86%E5%BA%97%E3%80%80%E5%87%BA%E5%BC%B5%E6%89%80%EF%BC%93%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-35",
+      "name": "ORIGINとまめまめ",
+      "query": "\"ORIGINとまめまめ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ORIGINとまめまめ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ORIGINとまめまめ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22ORIGIN%E3%81%A8%E3%81%BE%E3%82%81%E3%81%BE%E3%82%81%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-38",
+      "name": "成瀬川",
+      "query": "\"成瀬川\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"成瀬川\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"成瀬川\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%88%90%E7%80%AC%E5%B7%9D%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-41",
+      "name": "Yuu",
+      "query": "\"Yuu\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Yuu\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Yuu\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Yuu%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-44",
+      "name": "ぷくこな（山本こなつ）",
+      "query": "\"ぷくこな（山本こなつ）\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ぷくこな（山本こなつ）\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ぷくこな（山本こなつ）\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B7%E3%81%8F%E3%81%93%E3%81%AA%EF%BC%88%E5%B1%B1%E6%9C%AC%E3%81%93%E3%81%AA%E3%81%A4%EF%BC%89%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-54",
+      "name": "スランプ産業",
+      "query": "\"スランプ産業\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"スランプ産業\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"スランプ産業\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%83%A9%E3%83%B3%E3%83%97%E7%94%A3%E6%A5%AD%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-63",
+      "name": "あしゅらぺんてる",
+      "query": "\"あしゅらぺんてる\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"あしゅらぺんてる\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"あしゅらぺんてる\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%97%E3%82%85%E3%82%89%E3%81%BA%E3%82%93%E3%81%A6%E3%82%8B%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-67",
+      "name": "平田池温泉①",
+      "query": "\"平田池温泉①\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"平田池温泉①\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"平田池温泉①\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%B9%B3%E7%94%B0%E6%B1%A0%E6%B8%A9%E6%B3%89%E2%91%A0%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-68",
+      "name": "平田池温泉②",
+      "query": "\"平田池温泉②\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"平田池温泉②\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"平田池温泉②\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%B9%B3%E7%94%B0%E6%B1%A0%E6%B8%A9%E6%B3%89%E2%91%A1%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-71",
+      "name": "チョコミント同盟",
+      "query": "\"チョコミント同盟\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"チョコミント同盟\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"チョコミント同盟\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%81%E3%83%A7%E3%82%B3%E3%83%9F%E3%83%B3%E3%83%88%E5%90%8C%E7%9B%9F%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-79",
+      "name": "高弥",
+      "query": "\"高弥\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"高弥\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"高弥\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AB%98%E5%BC%A5%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-84",
+      "name": "マロン",
+      "query": "\"マロン\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"マロン\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"マロン\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%83%AD%E3%83%B3%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "H-88",
+      "name": "380dou",
+      "query": "\"380dou\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"380dou\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"380dou\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22380dou%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-05",
+      "name": "もちもちのひみつ",
+      "query": "\"もちもちのひみつ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"もちもちのひみつ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"もちもちのひみつ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%82%E3%81%A1%E3%82%82%E3%81%A1%E3%81%AE%E3%81%B2%E3%81%BF%E3%81%A4%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-09",
+      "name": "うさギニョール",
+      "query": "\"うさギニョール\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"うさギニョール\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"うさギニョール\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%86%E3%81%95%E3%82%AE%E3%83%8B%E3%83%A7%E3%83%BC%E3%83%AB%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-22",
+      "name": "三",
+      "query": "\"三\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"三\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"三\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%B8%89%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-26",
+      "name": "鯱とくじら",
+      "query": "\"鯱とくじら\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"鯱とくじら\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"鯱とくじら\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AF%B1%E3%81%A8%E3%81%8F%E3%81%98%E3%82%89%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-34",
+      "name": "忘れもの保管室",
+      "query": "\"忘れもの保管室\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"忘れもの保管室\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"忘れもの保管室\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%BF%98%E3%82%8C%E3%82%82%E3%81%AE%E4%BF%9D%E7%AE%A1%E5%AE%A4%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-36",
+      "name": "スピード特化",
+      "query": "\"スピード特化\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"スピード特化\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"スピード特化\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E7%89%B9%E5%8C%96%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-39",
+      "name": "拉麺粥",
+      "query": "\"拉麺粥\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"拉麺粥\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"拉麺粥\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%8B%89%E9%BA%BA%E7%B2%A5%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-42",
+      "name": "ねろりのこんぺいどう",
+      "query": "\"ねろりのこんぺいどう\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ねろりのこんぺいどう\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ねろりのこんぺいどう\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AD%E3%82%8D%E3%82%8A%E3%81%AE%E3%81%93%E3%82%93%E3%81%BA%E3%81%84%E3%81%A9%E3%81%86%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-43",
+      "name": "AR",
+      "query": "\"AR\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"AR\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"AR\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22AR%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-45",
+      "name": "止まるな走れ",
+      "query": "\"止まるな走れ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"止まるな走れ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"止まるな走れ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%AD%A2%E3%81%BE%E3%82%8B%E3%81%AA%E8%B5%B0%E3%82%8C%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-58",
+      "name": "酸性物体",
+      "query": "\"酸性物体\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"酸性物体\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"酸性物体\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%85%B8%E6%80%A7%E7%89%A9%E4%BD%93%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-60",
+      "name": "宝石店",
+      "query": "\"宝石店\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"宝石店\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"宝石店\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AE%9D%E7%9F%B3%E5%BA%97%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-63",
+      "name": "そらの房たつよし",
+      "query": "\"そらの房たつよし\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"そらの房たつよし\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"そらの房たつよし\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%9D%E3%82%89%E3%81%AE%E6%88%BF%E3%81%9F%E3%81%A4%E3%82%88%E3%81%97%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-67",
+      "name": "福業バンク",
+      "query": "\"福業バンク\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"福業バンク\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"福業バンク\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A6%8F%E6%A5%AD%E3%83%90%E3%83%B3%E3%82%AF%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-71",
+      "name": "In a tab",
+      "query": "\"In a tab\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"In a tab\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"In a tab\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22In+a+tab%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-73",
+      "name": "ふかふかかちかち",
+      "query": "\"ふかふかかちかち\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ふかふかかちかち\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ふかふかかちかち\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B5%E3%81%8B%E3%81%B5%E3%81%8B%E3%81%8B%E3%81%A1%E3%81%8B%E3%81%A1%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-81",
+      "name": "侑あか堂",
+      "query": "\"侑あか堂\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"侑あか堂\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"侑あか堂\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%BE%91%E3%81%82%E3%81%8B%E5%A0%82%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "I-82",
+      "name": "猟奇メンヘラ同好会",
+      "query": "\"猟奇メンヘラ同好会\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"猟奇メンヘラ同好会\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"猟奇メンヘラ同好会\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8C%9F%E5%A5%87%E3%83%A1%E3%83%B3%E3%83%98%E3%83%A9%E5%90%8C%E5%A5%BD%E4%BC%9A%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "J-04",
+      "name": "てこね道場",
+      "query": "\"てこね道場\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"てこね道場\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"てこね道場\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A6%E3%81%93%E3%81%AD%E9%81%93%E5%A0%B4%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "J-17",
+      "name": "桔梗原製作所",
+      "query": "\"桔梗原製作所\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"桔梗原製作所\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"桔梗原製作所\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%A1%94%E6%A2%97%E5%8E%9F%E8%A3%BD%E4%BD%9C%E6%89%80%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "J-24",
+      "name": "ハンドル日記",
+      "query": "\"ハンドル日記\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ハンドル日記\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ハンドル日記\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AB%E6%97%A5%E8%A8%98%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "J-38",
+      "name": "夏炉冬扇",
+      "query": "\"夏炉冬扇\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"夏炉冬扇\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"夏炉冬扇\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%8F%E7%82%89%E5%86%AC%E6%89%87%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "J-48",
+      "name": "天体標本室",
+      "query": "\"天体標本室\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"天体標本室\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"天体標本室\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%A9%E4%BD%93%E6%A8%99%E6%9C%AC%E5%AE%A4%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "J-55",
+      "name": "aHs",
+      "query": "\"aHs\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"aHs\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"aHs\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22aHs%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "J-74",
+      "name": "みけねこレクションズ",
+      "query": "\"みけねこレクションズ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"みけねこレクションズ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"みけねこレクションズ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BF%E3%81%91%E3%81%AD%E3%81%93%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "J-79",
+      "name": "ちいさいひと",
+      "query": "\"ちいさいひと\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ちいさいひと\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ちいさいひと\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A1%E3%81%84%E3%81%95%E3%81%84%E3%81%B2%E3%81%A8%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "J-87",
+      "name": "忘れない",
+      "query": "\"忘れない\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"忘れない\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"忘れない\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%BF%98%E3%82%8C%E3%81%AA%E3%81%84%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-09",
+      "name": "AM2",
+      "query": "\"AM2\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"AM2\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"AM2\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22AM2%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-12",
+      "name": "北白川モータープール",
+      "query": "\"北白川モータープール\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"北白川モータープール\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"北白川モータープール\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8C%97%E7%99%BD%E5%B7%9D%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%97%E3%83%BC%E3%83%AB%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-28",
+      "name": "恋ヶ丘診療所",
+      "query": "\"恋ヶ丘診療所\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"恋ヶ丘診療所\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"恋ヶ丘診療所\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%81%8B%E3%83%B6%E4%B8%98%E8%A8%BA%E7%99%82%E6%89%80%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-30",
+      "name": "はいかいいえでこたえてくだすん",
+      "query": "\"はいかいいえでこたえてくだすん\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"はいかいいえでこたえてくだすん\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"はいかいいえでこたえてくだすん\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%84%E3%81%8B%E3%81%84%E3%81%84%E3%81%88%E3%81%A7%E3%81%93%E3%81%9F%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%99%E3%82%93%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-38",
+      "name": "ご飯、いっぱいお食べ。",
+      "query": "\"ご飯、いっぱいお食べ。\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ご飯、いっぱいお食べ。\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ご飯、いっぱいお食べ。\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%94%E9%A3%AF%E3%80%81%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%8A%E9%A3%9F%E3%81%B9%E3%80%82%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-50",
+      "name": "犬も食わない",
+      "query": "\"犬も食わない\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"犬も食わない\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"犬も食わない\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8A%AC%E3%82%82%E9%A3%9F%E3%82%8F%E3%81%AA%E3%81%84%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-58",
+      "name": "ダックス奮闘",
+      "query": "\"ダックス奮闘\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ダックス奮闘\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ダックス奮闘\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%80%E3%83%83%E3%82%AF%E3%82%B9%E5%A5%AE%E9%97%98%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-66",
+      "name": "碧の部屋",
+      "query": "\"碧の部屋\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"碧の部屋\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"碧の部屋\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A2%A7%E3%81%AE%E9%83%A8%E5%B1%8B%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-69",
+      "name": "みるみるおにぎり",
+      "query": "\"みるみるおにぎり\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"みるみるおにぎり\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"みるみるおにぎり\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BF%E3%82%8B%E3%81%BF%E3%82%8B%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-78",
+      "name": "ゆめうつつ",
+      "query": "\"ゆめうつつ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ゆめうつつ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ゆめうつつ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%82%81%E3%81%86%E3%81%A4%E3%81%A4%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-80",
+      "name": "パン工場",
+      "query": "\"パン工場\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"パン工場\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"パン工場\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%91%E3%83%B3%E5%B7%A5%E5%A0%B4%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-81",
+      "name": "ニューロマンティック",
+      "query": "\"ニューロマンティック\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ニューロマンティック\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ニューロマンティック\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-82",
+      "name": "トモヱ投げ",
+      "query": "\"トモヱ投げ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"トモヱ投げ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"トモヱ投げ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%88%E3%83%A2%E3%83%B1%E6%8A%95%E3%81%92%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-83",
+      "name": "上手にできない",
+      "query": "\"上手にできない\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"上手にできない\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"上手にできない\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%B8%8A%E6%89%8B%E3%81%AB%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "K-89",
+      "name": "らうらう",
+      "query": "\"らうらう\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"らうらう\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"らうらう\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%89%E3%81%86%E3%82%89%E3%81%86%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-30",
+      "name": "YULQA",
+      "query": "\"YULQA\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"YULQA\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"YULQA\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22YULQA%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-33",
+      "name": "牧風香の展示会",
+      "query": "\"牧風香の展示会\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"牧風香の展示会\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"牧風香の展示会\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%89%A7%E9%A2%A8%E9%A6%99%E3%81%AE%E5%B1%95%E7%A4%BA%E4%BC%9A%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-35",
+      "name": "十三日月",
+      "query": "\"十三日月\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"十三日月\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"十三日月\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8D%81%E4%B8%89%E6%97%A5%E6%9C%88%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-39",
+      "name": "若草",
+      "query": "\"若草\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"若草\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"若草\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8B%A5%E8%8D%89%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-49",
+      "name": "竹立升一",
+      "query": "\"竹立升一\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"竹立升一\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"竹立升一\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%AB%B9%E7%AB%8B%E5%8D%87%E4%B8%80%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-51",
+      "name": "はがきのひとこと",
+      "query": "\"はがきのひとこと\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"はがきのひとこと\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"はがきのひとこと\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%8C%E3%81%8D%E3%81%AE%E3%81%B2%E3%81%A8%E3%81%93%E3%81%A8%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-54",
+      "name": "黄金骸骨",
+      "query": "\"黄金骸骨\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"黄金骸骨\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"黄金骸骨\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%BB%84%E9%87%91%E9%AA%B8%E9%AA%A8%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-56",
+      "name": "ミクロ・ドア",
+      "query": "\"ミクロ・ドア\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ミクロ・ドア\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ミクロ・ドア\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9F%E3%82%AF%E3%83%AD%E3%83%BB%E3%83%89%E3%82%A2%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-61",
+      "name": "キノコフィーバー",
+      "query": "\"キノコフィーバー\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"キノコフィーバー\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"キノコフィーバー\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AD%E3%83%8E%E3%82%B3%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-62",
+      "name": "犬ゴヤ",
+      "query": "\"犬ゴヤ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"犬ゴヤ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"犬ゴヤ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8A%AC%E3%82%B4%E3%83%A4%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-64",
+      "name": "タンスの角",
+      "query": "\"タンスの角\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"タンスの角\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"タンスの角\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%AE%E8%A7%92%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-65",
+      "name": "3度のコロッケ定食",
+      "query": "\"3度のコロッケ定食\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"3度のコロッケ定食\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"3度のコロッケ定食\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%223%E5%BA%A6%E3%81%AE%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B1%E5%AE%9A%E9%A3%9F%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-67",
+      "name": "ねこまたや",
+      "query": "\"ねこまたや\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ねこまたや\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ねこまたや\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AD%E3%81%93%E3%81%BE%E3%81%9F%E3%82%84%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-73",
+      "name": "可笑し工房",
+      "query": "\"可笑し工房\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"可笑し工房\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"可笑し工房\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8F%AF%E7%AC%91%E3%81%97%E5%B7%A5%E6%88%BF%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-76",
+      "name": "朕は国家なり",
+      "query": "\"朕は国家なり\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"朕は国家なり\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"朕は国家なり\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9C%95%E3%81%AF%E5%9B%BD%E5%AE%B6%E3%81%AA%E3%82%8A%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-77",
+      "name": "水槽水草",
+      "query": "\"水槽水草\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"水槽水草\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"水槽水草\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%B0%B4%E6%A7%BD%E6%B0%B4%E8%8D%89%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-82",
+      "name": "甘噛みカルシウム",
+      "query": "\"甘噛みカルシウム\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"甘噛みカルシウム\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"甘噛みカルシウム\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%94%98%E5%99%9B%E3%81%BF%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-88",
+      "name": "ウォンバットEX",
+      "query": "\"ウォンバットEX\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ウォンバットEX\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ウォンバットEX\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A6%E3%82%A9%E3%83%B3%E3%83%90%E3%83%83%E3%83%88EX%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "L-92",
+      "name": "四ツ角",
+      "query": "\"四ツ角\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"四ツ角\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"四ツ角\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%9B%9B%E3%83%84%E8%A7%92%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "M-26",
+      "name": "遠征",
+      "query": "\"遠征\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"遠征\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"遠征\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%81%A0%E5%BE%81%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "M-27",
+      "name": "The Silence of Noblesse",
+      "query": "\"The Silence of Noblesse\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"The Silence of Noblesse\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"The Silence of Noblesse\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22The+Silence+of+Noblesse%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "M-54",
+      "name": "ダブルニースラスト",
+      "query": "\"ダブルニースラスト\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ダブルニースラスト\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ダブルニースラスト\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%80%E3%83%96%E3%83%AB%E3%83%8B%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%B9%E3%83%88%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "M-62",
+      "name": "黒ゴマパン",
+      "query": "\"黒ゴマパン\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"黒ゴマパン\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"黒ゴマパン\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%BB%92%E3%82%B4%E3%83%9E%E3%83%91%E3%83%B3%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "M-72",
+      "name": "撒き魚",
+      "query": "\"撒き魚\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"撒き魚\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"撒き魚\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%92%92%E3%81%8D%E9%AD%9A%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "M-78",
+      "name": "エンドウスコープ",
+      "query": "\"エンドウスコープ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"エンドウスコープ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"エンドウスコープ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A6%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-03",
+      "name": "Althea",
+      "query": "\"Althea\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Althea\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Althea\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Althea%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-10",
+      "name": "NP-hist.",
+      "query": "\"NP-hist.\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"NP-hist.\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"NP-hist.\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22NP-hist.%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-20",
+      "name": "ざるざるざる",
+      "query": "\"ざるざるざる\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ざるざるざる\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ざるざるざる\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%96%E3%82%8B%E3%81%96%E3%82%8B%E3%81%96%E3%82%8B%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-29",
+      "name": "ピリオド",
+      "query": "\"ピリオド\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ピリオド\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ピリオド\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-35",
+      "name": "なんかムカツく",
+      "query": "\"なんかムカツく\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"なんかムカツく\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"なんかムカツく\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AA%E3%82%93%E3%81%8B%E3%83%A0%E3%82%AB%E3%83%84%E3%81%8F%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-37",
+      "name": "どろっぷあうと",
+      "query": "\"どろっぷあうと\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"どろっぷあうと\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"どろっぷあうと\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A9%E3%82%8D%E3%81%A3%E3%81%B7%E3%81%82%E3%81%86%E3%81%A8%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-39",
+      "name": "きざみねぎねぎ",
+      "query": "\"きざみねぎねぎ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"きざみねぎねぎ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"きざみねぎねぎ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%96%E3%81%BF%E3%81%AD%E3%81%8E%E3%81%AD%E3%81%8E%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-43",
+      "name": "ゆがむほね",
+      "query": "\"ゆがむほね\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ゆがむほね\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ゆがむほね\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%81%8C%E3%82%80%E3%81%BB%E3%81%AD%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-44",
+      "name": "チャーハンとSen",
+      "query": "\"チャーハンとSen\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"チャーハンとSen\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"チャーハンとSen\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%81%E3%83%A3%E3%83%BC%E3%83%8F%E3%83%B3%E3%81%A8Sen%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-45",
+      "name": "季節のフトン",
+      "query": "\"季節のフトン\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"季節のフトン\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"季節のフトン\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AD%A3%E7%AF%80%E3%81%AE%E3%83%95%E3%83%88%E3%83%B3%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-46",
+      "name": "おべに",
+      "query": "\"おべに\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"おべに\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"おべに\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8A%E3%81%B9%E3%81%AB%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-71",
+      "name": "ニョロリ",
+      "query": "\"ニョロリ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ニョロリ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ニョロリ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%8B%E3%83%A7%E3%83%AD%E3%83%AA%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-78",
+      "name": "子午線",
+      "query": "\"子午線\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"子午線\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"子午線\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AD%90%E5%8D%88%E7%B7%9A%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "N-92",
+      "name": "はなみ屋",
+      "query": "\"はなみ屋\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"はなみ屋\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"はなみ屋\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%AA%E3%81%BF%E5%B1%8B%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "O-05",
+      "name": "シャンバララ",
+      "query": "\"シャンバララ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"シャンバララ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"シャンバララ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%90%E3%83%A9%E3%83%A9%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "O-09",
+      "name": "背景美術資料準備室",
+      "query": "\"背景美術資料準備室\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"背景美術資料準備室\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"背景美術資料準備室\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%83%8C%E6%99%AF%E7%BE%8E%E8%A1%93%E8%B3%87%E6%96%99%E6%BA%96%E5%82%99%E5%AE%A4%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "O-11",
+      "name": "Atelier MiNe",
+      "query": "\"Atelier MiNe\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Atelier MiNe\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Atelier MiNe\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Atelier+MiNe%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "O-19",
+      "name": "星渡り",
+      "query": "\"星渡り\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"星渡り\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"星渡り\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%98%9F%E6%B8%A1%E3%82%8A%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-05",
+      "name": "深海商店",
+      "query": "\"深海商店\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"深海商店\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"深海商店\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%B7%B1%E6%B5%B7%E5%95%86%E5%BA%97%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-06",
+      "name": "物憂いココロ",
+      "query": "\"物憂いココロ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"物憂いココロ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"物憂いココロ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%89%A9%E6%86%82%E3%81%84%E3%82%B3%E3%82%B3%E3%83%AD%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-07",
+      "name": "Atelier VR.",
+      "query": "\"Atelier VR.\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Atelier VR.\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Atelier VR.\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Atelier+VR.%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-10",
+      "name": "水館",
+      "query": "\"水館\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"水館\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"水館\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%B0%B4%E9%A4%A8%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-15",
+      "name": "CHISATO",
+      "query": "\"CHISATO\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"CHISATO\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"CHISATO\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22CHISATO%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-19",
+      "name": "だんだん",
+      "query": "\"だんだん\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"だんだん\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"だんだん\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A0%E3%82%93%E3%81%A0%E3%82%93%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-27",
+      "name": "しかとゆきやなぎ",
+      "query": "\"しかとゆきやなぎ\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"しかとゆきやなぎ\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"しかとゆきやなぎ\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%81%8B%E3%81%A8%E3%82%86%E3%81%8D%E3%82%84%E3%81%AA%E3%81%8E%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-29",
+      "name": "からあげもち",
+      "query": "\"からあげもち\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"からあげもち\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"からあげもち\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8B%E3%82%89%E3%81%82%E3%81%92%E3%82%82%E3%81%A1%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-34",
+      "name": "しろゆめ堂",
+      "query": "\"しろゆめ堂\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"しろゆめ堂\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"しろゆめ堂\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%8D%E3%82%86%E3%82%81%E5%A0%82%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-38",
+      "name": "ゆらぎの底",
+      "query": "\"ゆらぎの底\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"ゆらぎの底\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"ゆらぎの底\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%82%89%E3%81%8E%E3%81%AE%E5%BA%95%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-48",
+      "name": "Kumada Kumao",
+      "query": "\"Kumada Kumao\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Kumada Kumao\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Kumada Kumao\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Kumada+Kumao%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-49",
+      "name": "もふりんず。",
+      "query": "\"もふりんず。\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"もふりんず。\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"もふりんず。\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%82%E3%81%B5%E3%82%8A%E3%82%93%E3%81%9A%E3%80%82%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-53",
+      "name": "畜生みち",
+      "query": "\"畜生みち\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"畜生みち\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"畜生みち\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%95%9C%E7%94%9F%E3%81%BF%E3%81%A1%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-55",
+      "name": "床下犬収納",
+      "query": "\"床下犬収納\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"床下犬収納\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"床下犬収納\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%BA%8A%E4%B8%8B%E7%8A%AC%E5%8F%8E%E7%B4%8D%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-57",
+      "name": "猫最高！",
+      "query": "\"猫最高！\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"猫最高！\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"猫最高！\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8C%AB%E6%9C%80%E9%AB%98%EF%BC%81%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-65",
+      "name": "蒼天白龍",
+      "query": "\"蒼天白龍\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"蒼天白龍\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"蒼天白龍\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%92%BC%E5%A4%A9%E7%99%BD%E9%BE%8D%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    },
+    {
+      "space": "P-70",
+      "name": "Osenko",
+      "query": "\"Osenko\" 関西コミティア -site:k-comitia.com/list77/",
+      "additionalQueries": [
+        "\"Osenko\""
+      ],
+      "methods": [
+        "公開Webのサークル名別検索",
+        "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+      ],
+      "latestPostSearch": {
+        "query": "\"Osenko\"",
+        "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Osenko%22&ei=UTF-8",
+        "status": "connection_blocked",
+        "timelineEntries": 0,
+        "note": "接続制限（トンネル403）により今回の最新検索結果は未取得。過去の確認記録は保持。"
+      }
+    }
+  ],
+  "updates": [
+    {
+      "space": "F-66",
+      "name": "Doro舟",
+      "links": {
+        "x": "https://x.com/ZipHUAAEo6ikLlM"
+      },
+      "extras": [],
+      "note": "磯田安宏の本人Xに掲載された関西コミティアの自己出展告知が、サークル名Doro舟・過去配置K-44を明記していることを公開検索の当該プロフィール収録文から確認。過去の同名サークルの本人として追加。今回は公式名簿のF-66に対応付けているが、当回77・F-66を明記した本人投稿は未確認。プロフィール本文の最新取得分では過去告知本文が返らず、検索に収録された本人告知の確認である。",
+      "sources": [
+        {
+          "url": "https://x.com/ZipHUAAEo6ikLlM",
+          "title": "磯田安宏｜本人Xと過去の出展告知",
+          "note": "公開検索が本人プロフィール内のDoro舟・K-44の自己出展告知を表示。当回77の配置明記は未確認。"
+        }
+      ]
+    },
+    {
+      "space": "G-20",
+      "name": "SIREN KID",
+      "links": {
+        "x": "https://x.com/Akiratozka",
+        "pixiv": "https://www.pixiv.net/users/35921514",
+        "web": "https://potofu.me/akiratozka"
+      },
+      "extras": [
+        {
+          "kind": "instagram",
+          "url": "https://instagram.com/akiratozka",
+          "label": "Instagram"
+        },
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@Akiratozka",
+          "label": "Skeb"
+        },
+        {
+          "kind": "booth",
+          "url": "https://akiratozka.booth.pm/",
+          "label": "BOOTH（現在非公開）"
+        }
+      ],
+      "note": "おたクラブのそうさくマーケット主催サークルリストがSIREN KID.（さ01a）の指定SNSとしてAkiratozkaを直接掲載。本人Xも同イベントさ01aの設営報告と10/18の関西コミティア出展を明記し、対応を確認。本人XのURL欄からPOTOFUへ連結し、そこで本人が指定するpixiv・Instagram・Skeb・BOOTHを確認。pixivとInstagramの本文取得は制限があり、本人指定URLとしての確認。BOOTHは現時点で非公開表示。本人の当回10/18参加は確認、G-20の明記は未確認。",
+      "sources": [
+        {
+          "url": "https://otaclub.jp/circlelist_v4/",
+          "title": "主催サークルリスト｜SIREN KID.の指定SNS",
+          "note": "SIREN KID.（さ01a）のSNS欄がAkiratozkaへ直接リンク。別イベントの配置を当回配置として扱わない。"
+        },
+        {
+          "url": "https://x.com/Akiratozka",
+          "title": "本人Xの自己紹介・10/18参加告知・自己指定URL",
+          "note": "表示名と公開投稿が当回10/18参加を明記。URL欄のPOTOFUへの連結も確認。"
+        },
+        {
+          "url": "https://potofu.me/akiratozka",
+          "title": "本人指定POTOFUと各活動先",
+          "note": "pixiv35921514、Instagram、Skeb、BOOTHを自己掲載。BOOTHは非公開、pixiv・Instagramの本文は取得制限。"
+        }
+      ]
+    },
+    {
+      "space": "G-76",
+      "name": "きになりす",
+      "links": {},
+      "extras": [
+        {
+          "kind": "instagram",
+          "url": "https://instagram.com/kininarisu2024/",
+          "label": "Instagram"
+        }
+      ],
+      "note": "京都ハンドメイドマルシェ2026の主催出店者紹介が、きになりす・クリエイター名めぐみぐを明記。主催ページのSNS欄とプロフィールSNS欄が同じInstagram kininarisu2024を直接指定しているため、本人活動先として追加。検索に収録された関西コミティアの自己出展告知でも同じ名義とめぐみぐを確認したが、その投稿は過去配置L-31であり、当回77・G-76の明記は未確認。Instagramプロフィール本文は取得制限。",
+      "sources": [
+        {
+          "url": "https://kyoto.handmade-marche.jp/c/6339",
+          "title": "きになりす｜主催によるクリエイター名と指定Instagram",
+          "note": "HTMLのSNS欄・プロフィールSNS欄を確認。出店タイトルきになりす、クリエイター名めぐみぐと直接対応。"
+        }
+      ]
+    },
+    {
+      "space": "H-44",
+      "name": "ぷくこな（山本こなつ）",
+      "links": {
+        "x": "https://x.com/Yamamoto_bo",
+        "web": "https://2ceyt.crayonsite.com/"
+      },
+      "extras": [
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/Konatsu_yamamoto",
+          "label": "Instagram"
+        },
+        {
+          "kind": "x",
+          "url": "https://x.com/Konatsu_ku",
+          "label": "X（別名義）"
+        }
+      ],
+      "note": "公式名簿が括弧内に作者名山本こなつを明記。作者本人の公開サイトが山本こなつとkonatsu yamamotoの二名義を自称し、それぞれのXと共通Instagramを直接指定していることを確認。本人Xの作者名と、恵文社の個展紹介に掲載された作者名・同一SNSも一致。現在のXのURL欄には別のリンク集があるが、本文を確認できた本人サイトを主Webとして掲載。当回77・H-44の本人告知は未確認。",
+      "sources": [
+        {
+          "url": "https://2ceyt.crayonsite.com/",
+          "title": "山本こなつ｜本人サイトと自己指定SNS",
+          "note": "自己紹介、二名義の説明、Yamamoto_bo・Konatsu_ku・共通Instagramへの直接リンクを確認。"
+        },
+        {
+          "url": "https://x.com/Yamamoto_bo",
+          "title": "山本こなつ｜本人X",
+          "note": "作者名と本人サイトに指定されたアカウントが一致。"
+        },
+        {
+          "url": "https://note.com/keibunshabooks/n/n69172b5f20d9",
+          "title": "恵文社｜山本こなつの個展紹介",
+          "note": "2022年の主催個展紹介に同じ作者名とX・Instagramを掲載。"
+        }
+      ]
+    },
+    {
+      "space": "K-81",
+      "name": "ニューロマンティック",
+      "links": {
+        "x": "https://x.com/oyasumifancy"
+      },
+      "extras": [],
+      "note": "てづる本人のXの公開プロフィールにある2026年5月の頒布告知が、関西コミティア76・L-06・ニューロマンティックを明記。本人の同名サークルとして照合。最近の本人投稿にも関西コミティアに向けた新刊制作の言及があるが、当回77・K-81の明記は未確認。新刊の見通しに関する投稿を欠席告知としては扱わない。",
+      "sources": [
+        {
+          "url": "https://x.com/oyasumifancy",
+          "title": "てづる｜本人Xと同名サークル告知",
+          "note": "公開本文に関西コミティア76・L-06・サークル名を確認。"
+        },
+        {
+          "url": "https://x.com/oyasumifancy/status/2054905556058644916",
+          "title": "本人の関西コミティア76お品書き",
+          "note": "当該投稿はプロフィール公開本文にも収録。過去の配置と当回K-81を区別。"
+        },
+        {
+          "url": "https://x.com/oyasumifancy/status/2104426797605769327",
+          "title": "本人の関西コミティアに向けた制作状況",
+          "note": "公開検索で取得。新刊未確定と欠席を混同しない。"
+        }
+      ]
+    },
+    {
+      "space": "M-27",
+      "name": "The Silence of Noblesse",
+      "links": {
+        "x": "https://x.com/Nicca_pix",
+        "web": "https://piku.page/@Nika_/UK"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@NiCA",
+          "label": "Skeb"
+        },
+        {
+          "kind": "x",
+          "url": "https://x.com/Nikanikaaaa__",
+          "label": "X（本人指定sub）"
+        }
+      ],
+      "note": "Nica本人Xの公開自己紹介がThe Silence of Noblesseを装飾文字で明記しており、正規化した名前が公式サークル名と一致。本人プロフィールのURL欄がpiku.page/@Nika_/UK、自己紹介がSkeb @NiCAとsub Nikanikaaaa__を直接指定。主Webは本人指定URLとして追加したもので、piku.page本文は403のため未確認。当回77・M-27を明記した本人投稿は未確認。検索結果の推薦欄に出た墨田くりのアカウントは本人として登録しない。",
+      "sources": [
+        {
+          "url": "https://x.com/Nicca_pix",
+          "title": "Nica｜サークル名の自己紹介と自己指定URL",
+          "note": "公開HTMLのdescription、URL欄、装飾文字のサークル名を確認。"
+        },
+        {
+          "url": "https://x.com/Nicca_pix/status/2081355680532099473",
+          "title": "本人Xのサークル名表記を含む公開検索結果",
+          "note": "検索に収録された本人ページでも同じ自己紹介を照合。"
+        },
+        {
+          "url": "https://piku.page/@Nika_/UK",
+          "title": "本人プロフィールURL欄の指定先（本文取得制限）",
+          "note": "URLの帰属を本人Xで確認。先方本文は403で未確認。"
+        }
+      ]
+    },
+    {
+      "space": "N-37",
+      "name": "どろっぷあうと",
+      "links": {
+        "x": "https://x.com/monodorop",
+        "web": "https://monodorop.booth.pm/"
+      },
+      "extras": [],
+      "note": "どろ本人Xの現在の表示名が10/18関西コミティア【N-37】を明記し、当回配置と一致。過去の本人出展投稿がどろっぷあうとのサークル名と本人BOOTH monodorop.booth.pmを示し、名義・配置・販売先を照合。最新の公開プロフィールには10月14日のお品書き投稿も収録。BOOTH本文は403で未確認であり、本人指定販売先として掲載。",
+      "sources": [
+        {
+          "url": "https://x.com/monodorop",
+          "title": "どろ｜当回10/18・N-37の本人表示",
+          "note": "公開プロフィールのタイトルと表示名が当回配置に一致。"
+        },
+        {
+          "url": "https://x.com/monodorop/status/1787930950774734954",
+          "title": "本人によるどろっぷあうと名義の出展告知",
+          "note": "過去のCOMITIA148本人投稿でサークル名を確認。"
+        },
+        {
+          "url": "https://x.com/monodorop/status/1729913071773348110",
+          "title": "本人のお品書きとBOOTH指定",
+          "note": "過去のCOMITIA146本人投稿が同じサークル名とBOOTHを掲載。"
+        },
+        {
+          "url": "https://x.com/monodorop/status/2110408184187977924",
+          "title": "本人の2026年10月14日のお品書き投稿",
+          "note": "公開プロフィール収録文と表示名を確認。お品書き画像内の全記述は未確認。"
+        }
+      ]
+    },
+    {
+      "space": "P-15",
+      "name": "CHISATO",
+      "links": {
+        "x": "https://x.com/CHISATO_to_NICO"
+      },
+      "extras": [],
+      "note": "そうさくマーケット主催のサークルリストがCHISATO（し15b）の指定SNSとしてCHISATO_to_NICOを直接掲載。本人の公開プロフィールの9/22出展告知も同じし15b、3DCGの銭湯絵本・ポストカード等を示しており、別イベントの指定先と本人の対応を確認。関西コミティア76では公式名簿のCHISATO&ほよっぱ（T-56）と本人の同回T-56告知が一致する。今回はCHISATOの本人Xとして追加し、合同相手のアカウントは主リンクにしていない。当回77・P-15を明記した本人告知は未確認。",
+      "sources": [
+        {
+          "url": "https://otaclub.jp/circlelist_v4/",
+          "title": "主催サークルリスト｜CHISATOの指定SNS",
+          "note": "CHISATO（し15b）のSNS欄がCHISATO_to_NICOを直接指定。"
+        },
+        {
+          "url": "https://x.com/CHISATO_to_NICO",
+          "title": "にこ｜指定された本人Xとし15bの自己出展告知",
+          "note": "主催の指定先と本人投稿のし15b・作品内容が一致。"
+        },
+        {
+          "url": "https://www.k-comitia.com/list76/",
+          "title": "関西コミティア76｜CHISATO&ほよっぱ T-56",
+          "note": "過去の合同サークル名と本人の同回配置を照合。当回P-15と区別。"
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "space": "B-06",
+      "name": "プテノグ",
+      "note": "本人候補として検索に出たcorgiprioの告知は「プテノグさんと参加」という他者・同行者への言及であり、プテノグ本人のアカウントを直接指定していない。本人URLとしては追加しない。",
+      "sources": [
+        "https://x.com/corgiprio"
+      ],
+      "candidateLinks": []
+    },
+    {
+      "space": "B-93",
+      "name": "よろずや",
+      "note": "過去の関西コミティア74に「よろずや」で出展すると名乗るやすてぃの本人投稿を確認。ただし一般的なサークル名であり、当回77・B-93との同一性は未確定。候補として保持し、主リンクには追加しない。",
+      "sources": [
+        "https://x.com/Kv4kkKr5ivEwVhV"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "x",
+          "url": "https://x.com/Kv4kkKr5ivEwVhV",
+          "reason": "過去の同名サークル自己出展告知あり。当回B-93との同一性未確定。"
+        }
+      ]
+    },
+    {
+      "space": "C-01",
+      "name": "あのにま",
+      "note": "あのにま（仮）のBOOTHで関西コミティア74の自己頒布情報を確認。公式の同回名簿は「あのにま(仮)」だが、当回C-01「あのにま」への名称変更や本人の直接対応は未確認であり保留。",
+      "sources": [
+        "https://booth.pm/ja/items/7565583",
+        "https://www.k-comitia.com/list74/"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "booth",
+          "url": "https://yomibitoshiraz.booth.pm/",
+          "reason": "あのにま（仮）の自己通販。仮を外した当回名義との直接対応は未確認。"
+        }
+      ]
+    },
+    {
+      "space": "E-06",
+      "name": "しおみみ",
+      "note": "しおみみの創作アカウントshiomimidesuを確認したが、当回E-06との直接対応・自己出展告知は未確認。siomimidesuという別表記の検索結果や、Not Foundとなる旧lit.linkを本人の現行主リンクとして追加しない。",
+      "sources": [
+        "https://x.com/shiomimidesu",
+        "https://lit.link/shiomimi_"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "x",
+          "url": "https://x.com/shiomimidesu",
+          "reason": "同名の創作アカウント候補。当回E-06の本人との直接対応は未確認。"
+        }
+      ]
+    },
+    {
+      "space": "G-17",
+      "name": "Nishinoki商店",
+      "note": "2026-10-14 追加確認：過去のNishinoki商店告知は再確認できたが、現行の当回告知は隣のG-18もりうめこ。G-17の本人URLとして追加する根拠は引き続き不足しているため保留。 今回取得した本人の10/18出展告知もG-18もりうめこを明記しており、G-17への流用を引き続き保留。",
+      "sources": [
+        "https://x.com/umeco7mori/status/2110236010064023904"
+      ],
+      "candidateLinks": []
+    },
+    {
+      "space": "H-35",
+      "name": "ORIGINとまめまめ",
+      "note": "サクラ伎の本人お品書きに、過去配置C-63「ORIGINとまめまめ」でも同じORIGINのアンソロジーを扱う旨を確認。えんどうさやの装画クレジットも別作品紹介にあるが、委託・共同頒布先と当回H-35の本人アカウントを同一視せず保留。",
+      "sources": [
+        "https://xfolio.jp/portfolio/sacragi/works/4842427",
+        "https://booth.pm/ja/items/2385025"
+      ],
+      "candidateLinks": []
+    },
+    {
+      "space": "M-72",
+      "name": "撒き魚",
+      "note": "2026-10-14 追加確認：過去の関西コミティア76・撒き魚で出展したタブチブレイブを確認したが、今回の本人告知は隣のM-71「海綿増産倶楽部」。当回M-72の本人アカウントとして確定できないため保留。 今回も同じ過去出展情報が検索に出たが、隣のM-71を当回M-72の本人根拠としない。",
+      "sources": [
+        "https://bsky.app/profile/japanesesponge.bsky.social"
+      ],
+      "candidateLinks": []
+    }
+  ]
+}
