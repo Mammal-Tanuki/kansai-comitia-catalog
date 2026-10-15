@@ -13,7 +13,7 @@ function worker(){
   const cache={match:async request=>stored.get(key(request))?.clone(),put:async(request,response)=>stored.set(key(request),response),addAll:async()=>{}};
   vm.runInNewContext(script,{
     self:{location:{origin},registration:{scope},addEventListener:(type,fn)=>handlers[type]=fn,skipWaiting:async()=>{},clients:{claim:async()=>{}}},
-    caches:{open:async()=>cache,keys:async()=>['kansai-comitia-catalog-v1','kansai-comitia-catalog-v2','kansai-comitia-catalog-v3','kansai-comitia-catalog-v4','kansai-comitia-catalog-v5','kansai-comitia-catalog-v6','kansai-comitia-catalog-v7','kemoket-catalog-v12R15'],delete:async k=>deleted.push(k)},
+    caches:{open:async()=>cache,keys:async()=>['kansai-comitia-catalog-v1','kansai-comitia-catalog-v2','kansai-comitia-catalog-v3','kansai-comitia-catalog-v4','kansai-comitia-catalog-v5','kansai-comitia-catalog-v6','kansai-comitia-catalog-v7','kansai-comitia-catalog-v8','kemoket-catalog-v12R15'],delete:async k=>deleted.push(k)},
     URL,fetch:async()=>{throw new Error('offline');}
   });
   async function get(url,mode='cors'){
@@ -26,7 +26,7 @@ function worker(){
 
 test('activation removes only outdated caches belonging to this catalog',async()=>{
   const w=worker();let pending;w.handlers.activate({waitUntil:p=>pending=p});await pending;
-  assert.deepEqual(w.deleted,['kansai-comitia-catalog-v1','kansai-comitia-catalog-v2','kansai-comitia-catalog-v3','kansai-comitia-catalog-v4','kansai-comitia-catalog-v5','kansai-comitia-catalog-v6']);
+  assert.deepEqual(w.deleted,['kansai-comitia-catalog-v1','kansai-comitia-catalog-v2','kansai-comitia-catalog-v3','kansai-comitia-catalog-v4','kansai-comitia-catalog-v5','kansai-comitia-catalog-v6','kansai-comitia-catalog-v7']);
 });
 test('external profiles and the other catalog are not intercepted',async()=>{
   const w=worker();

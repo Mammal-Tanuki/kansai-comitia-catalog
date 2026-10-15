@@ -1,0 +1,5102 @@
+{
+  "id": "2026-10-15-kc8",
+  "checkedDate": "2026-10-15",
+  "initialUnidentified": 267,
+  "methods": [
+    "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+    "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+    "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+  ],
+  "scopeNote": "267掲載件の個別公開検索を全件取得して確認。公開イベント投稿は保存した取得分の本文・表示名・引用元を機械照合し、抽出候補の本人投稿・プロフィール・自己リンクを追加確認した。全投稿・全画像の網羅ではない。一般イベント検索の追加ページに一度取得失敗があり、通常の再取得で続行した。本人サークル名・当回日付・当回配置・過去同名サークルの照合を各メモで区別した。",
+  "statistics": {
+    "individualQueries": 267,
+    "individualPagesFetched": 267,
+    "individualQueriesWithPosts": 19,
+    "individualTimelineEntries": 191,
+    "eventTimelineEntriesScanned": 2610,
+    "eventUniquePosts": 2589,
+    "eventCandidatePostsReviewed": 68,
+    "userIdQueries": 17,
+    "unresolvedDecisions": 2
+  },
+  "eventQueries": [
+    {
+      "query": "関ティア",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=%E9%96%A2%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "entriesScanned": 29,
+      "uniquePosts": 29,
+      "candidatePostsReviewed": 7
+    },
+    {
+      "query": "関西ティア",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=%E9%96%A2%E8%A5%BF%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "entriesScanned": 65,
+      "uniquePosts": 65,
+      "candidatePostsReviewed": 0
+    },
+    {
+      "query": "関西コミティア",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=%E9%96%A2%E8%A5%BF%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "entriesScanned": 1640,
+      "uniquePosts": 1640,
+      "candidatePostsReviewed": 34
+    },
+    {
+      "query": "関コミ",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=%E9%96%A2%E3%82%B3%E3%83%9F&ei=UTF-8",
+      "entriesScanned": 876,
+      "uniquePosts": 876,
+      "candidatePostsReviewed": 27
+    }
+  ],
+  "checks": [
+    {
+      "space": "A-09",
+      "name": "桃李園",
+      "query": "\"桃李園\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%A1%83%E6%9D%8E%E5%9C%92%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-10",
+      "name": "mgoose",
+      "query": "\"mgoose\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22mgoose%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-34",
+      "name": "legends上田",
+      "query": "\"legends上田\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22legends%E4%B8%8A%E7%94%B0%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-36",
+      "name": "＆書房",
+      "query": "\"＆書房\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%EF%BC%86%E6%9B%B8%E6%88%BF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 6,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-37",
+      "name": "南蛮唐茄子",
+      "query": "\"南蛮唐茄子\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8D%97%E8%9B%AE%E5%94%90%E8%8C%84%E5%AD%90%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-45",
+      "name": "スピリダム",
+      "query": "\"スピリダム\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%83%94%E3%83%AA%E3%83%80%E3%83%A0%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-47",
+      "name": "茸書",
+      "query": "\"茸書\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8C%B8%E6%9B%B8%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-55",
+      "name": "ともえ造",
+      "query": "\"ともえ造\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A8%E3%82%82%E3%81%88%E9%80%A0%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-61",
+      "name": "ユッピーさん",
+      "query": "\"ユッピーさん\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%A6%E3%83%83%E3%83%94%E3%83%BC%E3%81%95%E3%82%93%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-63",
+      "name": "おうじさまの星",
+      "query": "\"おうじさまの星\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8A%E3%81%86%E3%81%98%E3%81%95%E3%81%BE%E3%81%AE%E6%98%9F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-67",
+      "name": "ギロチン団地打首断棟404号室",
+      "query": "\"ギロチン団地打首断棟404号室\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AE%E3%83%AD%E3%83%81%E3%83%B3%E5%9B%A3%E5%9C%B0%E6%89%93%E9%A6%96%E6%96%AD%E6%A3%9F404%E5%8F%B7%E5%AE%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-76",
+      "name": "細切れ屋",
+      "query": "\"細切れ屋\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%B4%B0%E5%88%87%E3%82%8C%E5%B1%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-91",
+      "name": "ネコころ堂",
+      "query": "\"ネコころ堂\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%8D%E3%82%B3%E3%81%93%E3%82%8D%E5%A0%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-93",
+      "name": "RANBU",
+      "query": "\"RANBU\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22RANBU%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-94",
+      "name": "しまこ",
+      "query": "\"しまこ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%81%BE%E3%81%93%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "A-95",
+      "name": "レモンバターソテイ",
+      "query": "\"レモンバターソテイ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%AC%E3%83%A2%E3%83%B3%E3%83%90%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%86%E3%82%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"レモンバターソテイ\" \"たてごと\"",
+        "\"レモンバターソテイ\" サークル"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-06",
+      "name": "プテノグ",
+      "query": "\"プテノグ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%97%E3%83%86%E3%83%8E%E3%82%B0%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-07",
+      "name": "無辺世界",
+      "query": "\"無辺世界\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%84%A1%E8%BE%BA%E4%B8%96%E7%95%8C%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-21",
+      "name": "にゃこにゃこ神社",
+      "query": "\"にゃこにゃこ神社\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AB%E3%82%83%E3%81%93%E3%81%AB%E3%82%83%E3%81%93%E7%A5%9E%E7%A4%BE%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"にゃこにゃこ神社\""
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-35",
+      "name": "HANA∞",
+      "query": "\"HANA∞\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22HANA%E2%88%9E%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-43",
+      "name": "星詠屋",
+      "query": "\"星詠屋\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%98%9F%E8%A9%A0%E5%B1%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-47",
+      "name": "タイとエビ＋揺れる蛙",
+      "query": "\"タイとエビ＋揺れる蛙\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%BF%E3%82%A4%E3%81%A8%E3%82%A8%E3%83%93%EF%BC%8B%E6%8F%BA%E3%82%8C%E3%82%8B%E8%9B%99%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-61",
+      "name": "ほっけ家",
+      "query": "\"ほっけ家\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BB%E3%81%A3%E3%81%91%E5%AE%B6%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-67",
+      "name": "アンクキャッチ",
+      "query": "\"アンクキャッチ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A2%E3%83%B3%E3%82%AF%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-76",
+      "name": "pronron",
+      "query": "\"pronron\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22pronron%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-79",
+      "name": "白黒幻想譚",
+      "query": "\"白黒幻想譚\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%99%BD%E9%BB%92%E5%B9%BB%E6%83%B3%E8%AD%9A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-81",
+      "name": "Fomalhaut",
+      "query": "\"Fomalhaut\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Fomalhaut%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-87",
+      "name": "YELLOW MOON",
+      "query": "\"YELLOW MOON\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22YELLOW+MOON%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-93",
+      "name": "よろずや",
+      "query": "\"よろずや\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%88%E3%82%8D%E3%81%9A%E3%82%84%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "B-95",
+      "name": "眼鏡観測所",
+      "query": "\"眼鏡観測所\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%9C%BC%E9%8F%A1%E8%A6%B3%E6%B8%AC%E6%89%80%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-01",
+      "name": "あのにま",
+      "query": "\"あのにま\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%AE%E3%81%AB%E3%81%BE%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-02",
+      "name": "ぽんぽんすきぺこ",
+      "query": "\"ぽんぽんすきぺこ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BD%E3%82%93%E3%81%BD%E3%82%93%E3%81%99%E3%81%8D%E3%81%BA%E3%81%93%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-03",
+      "name": "甘味処",
+      "query": "\"甘味処\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%94%98%E5%91%B3%E5%87%A6%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-07",
+      "name": "高空腹",
+      "query": "\"高空腹\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AB%98%E7%A9%BA%E8%85%B9%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-08",
+      "name": "ひだりて",
+      "query": "\"ひだりて\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B2%E3%81%A0%E3%82%8A%E3%81%A6%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-10",
+      "name": "Ray",
+      "query": "\"Ray\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Ray%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-20",
+      "name": "二度見の雑貨やさん",
+      "query": "\"二度見の雑貨やさん\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%BA%8C%E5%BA%A6%E8%A6%8B%E3%81%AE%E9%9B%91%E8%B2%A8%E3%82%84%E3%81%95%E3%82%93%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-21",
+      "name": "南南西の風",
+      "query": "\"南南西の風\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8D%97%E5%8D%97%E8%A5%BF%E3%81%AE%E9%A2%A8%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:Waka_ogura 関",
+        "id:Waka_ogura"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-23",
+      "name": "「よ」。",
+      "query": "\"「よ」。\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%80%8C%E3%82%88%E3%80%8D%E3%80%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-32",
+      "name": "非売品",
+      "query": "\"非売品\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%9D%9E%E5%A3%B2%E5%93%81%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 2,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-40",
+      "name": "空を眺めるくらぶ",
+      "query": "\"空を眺めるくらぶ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A9%BA%E3%82%92%E7%9C%BA%E3%82%81%E3%82%8B%E3%81%8F%E3%82%89%E3%81%B6%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-41",
+      "name": "いちごしろっぷ",
+      "query": "\"いちごしろっぷ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%84%E3%81%A1%E3%81%94%E3%81%97%E3%82%8D%E3%81%A3%E3%81%B7%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-43",
+      "name": "BACK LABRET",
+      "query": "\"BACK LABRET\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22BACK+LABRET%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-47",
+      "name": "Y-BURN",
+      "query": "\"Y-BURN\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Y-BURN%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-52",
+      "name": "マガポポ",
+      "query": "\"マガポポ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%82%AC%E3%83%9D%E3%83%9D%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-53",
+      "name": "アトリエ夜半",
+      "query": "\"アトリエ夜半\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8%E5%A4%9C%E5%8D%8A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"りおて\" \"アトリエ夜半\"",
+        "id:riote_048 関"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-54",
+      "name": "惨憺たる有様。",
+      "query": "\"惨憺たる有様。\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%83%A8%E6%86%BA%E3%81%9F%E3%82%8B%E6%9C%89%E6%A7%98%E3%80%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-55",
+      "name": "ギザギザシッポ",
+      "query": "\"ギザギザシッポ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AE%E3%82%B6%E3%82%AE%E3%82%B6%E3%82%B7%E3%83%83%E3%83%9D%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-56",
+      "name": "ゆゆしき山",
+      "query": "\"ゆゆしき山\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%82%86%E3%81%97%E3%81%8D%E5%B1%B1%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-61",
+      "name": "芋屋",
+      "query": "\"芋屋\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8A%8B%E5%B1%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-65",
+      "name": "寝て壱畳",
+      "query": "\"寝て壱畳\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AF%9D%E3%81%A6%E5%A3%B1%E7%95%B3%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-68",
+      "name": "しお屋",
+      "query": "\"しお屋\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%81%8A%E5%B1%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-77",
+      "name": "食々酒場",
+      "query": "\"食々酒場\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%A3%9F%E3%80%85%E9%85%92%E5%A0%B4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-78",
+      "name": "藤篭",
+      "query": "\"藤篭\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%97%A4%E7%AF%AD%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "C-80",
+      "name": "しめたろ家",
+      "query": "\"しめたろ家\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%81%E3%81%9F%E3%82%8D%E5%AE%B6%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-18",
+      "name": "またたびあとりえ",
+      "query": "\"またたびあとりえ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BE%E3%81%9F%E3%81%9F%E3%81%B3%E3%81%82%E3%81%A8%E3%82%8A%E3%81%88%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-21",
+      "name": "スイートルーム",
+      "query": "\"スイートルーム\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%88%E3%83%AB%E3%83%BC%E3%83%A0%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-24",
+      "name": "ルユヲコーヒー",
+      "query": "\"ルユヲコーヒー\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%AB%E3%83%A6%E3%83%B2%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-28",
+      "name": "食物繊維豊富",
+      "query": "\"食物繊維豊富\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%A3%9F%E7%89%A9%E7%B9%8A%E7%B6%AD%E8%B1%8A%E5%AF%8C%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:Neko_unkumai 関",
+        "id:Neko_unkumai"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-42",
+      "name": "羊肉定食",
+      "query": "\"羊肉定食\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%BE%8A%E8%82%89%E5%AE%9A%E9%A3%9F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:hituji_akai_ 関",
+        "id:hituji_akai_"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-43",
+      "name": "あまやどり",
+      "query": "\"あまやどり\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%BE%E3%82%84%E3%81%A9%E3%82%8A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:kizaki_aki 関",
+        "id:am_reiya52 関"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-46",
+      "name": "マカロンチーノ",
+      "query": "\"マカロンチーノ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%82%AB%E3%83%AD%E3%83%B3%E3%83%81%E3%83%BC%E3%83%8E%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-52",
+      "name": "Yellow Rose",
+      "query": "\"Yellow Rose\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Yellow+Rose%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-54",
+      "name": "陽気なジャンドゥーヤ",
+      "query": "\"陽気なジャンドゥーヤ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%99%BD%E6%B0%97%E3%81%AA%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%89%E3%82%A5%E3%83%BC%E3%83%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-60",
+      "name": "Cradle",
+      "query": "\"Cradle\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Cradle%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-68",
+      "name": "ちょこじゃむ",
+      "query": "\"ちょこじゃむ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A1%E3%82%87%E3%81%93%E3%81%98%E3%82%83%E3%82%80%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-75",
+      "name": "鯨堂",
+      "query": "\"鯨堂\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AF%A8%E5%A0%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-78",
+      "name": "まがつき",
+      "query": "\"まがつき\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BE%E3%81%8C%E3%81%A4%E3%81%8D%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "D-90",
+      "name": "マジ水1000%ゼラチン",
+      "query": "\"マジ水1000%ゼラチン\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%82%B8%E6%B0%B41000%25%E3%82%BC%E3%83%A9%E3%83%81%E3%83%B3%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-06",
+      "name": "しおみみ",
+      "query": "\"しおみみ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%81%8A%E3%81%BF%E3%81%BF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:shiomimidesu 関"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-11",
+      "name": "陰鬱堂",
+      "query": "\"陰鬱堂\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%99%B0%E9%AC%B1%E5%A0%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-14",
+      "name": "テツジン兵団",
+      "query": "\"テツジン兵団\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%86%E3%83%84%E3%82%B8%E3%83%B3%E5%85%B5%E5%9B%A3%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-18",
+      "name": "da We nci 2",
+      "query": "\"da We nci 2\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22da+We+nci+2%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-21",
+      "name": "ビバリウム",
+      "query": "\"ビバリウム\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%93%E3%83%90%E3%83%AA%E3%82%A6%E3%83%A0%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-31",
+      "name": "そんな日もある。",
+      "query": "\"そんな日もある。\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%9D%E3%82%93%E3%81%AA%E6%97%A5%E3%82%82%E3%81%82%E3%82%8B%E3%80%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-45",
+      "name": "聖夜白愛婚",
+      "query": "\"聖夜白愛婚\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%81%96%E5%A4%9C%E7%99%BD%E6%84%9B%E5%A9%9A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-46",
+      "name": "未来水槽",
+      "query": "\"未来水槽\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9C%AA%E6%9D%A5%E6%B0%B4%E6%A7%BD%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-51",
+      "name": "ぷろm2",
+      "query": "\"ぷろm2\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B7%E3%82%8Dm2%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-54",
+      "name": "ツインテールコレクション",
+      "query": "\"ツインテールコレクション\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%84%E3%82%A4%E3%83%B3%E3%83%86%E3%83%BC%E3%83%AB%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-58",
+      "name": "夜",
+      "query": "\"夜\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%9C%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-59",
+      "name": "夢の余白",
+      "query": "\"夢の余白\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%A2%E3%81%AE%E4%BD%99%E7%99%BD%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-64",
+      "name": "きち",
+      "query": "\"きち\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%A1%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-76",
+      "name": "VIVIT BURGER",
+      "query": "\"VIVIT BURGER\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22VIVIT+BURGER%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-79",
+      "name": "kakukazoku",
+      "query": "\"kakukazoku\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22kakukazoku%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-84",
+      "name": "ぷるるんらんど",
+      "query": "\"ぷるるんらんど\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B7%E3%82%8B%E3%82%8B%E3%82%93%E3%82%89%E3%82%93%E3%81%A9%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "E-93",
+      "name": "藤乃屋",
+      "query": "\"藤乃屋\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%97%A4%E4%B9%83%E5%B1%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-05",
+      "name": "緑硝子温室",
+      "query": "\"緑硝子温室\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%B7%91%E7%A1%9D%E5%AD%90%E6%B8%A9%E5%AE%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-20",
+      "name": "UKIYO",
+      "query": "\"UKIYO\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22UKIYO%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-26",
+      "name": "宇宙の片隅の星",
+      "query": "\"宇宙の片隅の星\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AE%87%E5%AE%99%E3%81%AE%E7%89%87%E9%9A%85%E3%81%AE%E6%98%9F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-30",
+      "name": "ANNY書店",
+      "query": "\"ANNY書店\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22ANNY%E6%9B%B8%E5%BA%97%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-37",
+      "name": "NONON",
+      "query": "\"NONON\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22NONON%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-40",
+      "name": "柚月",
+      "query": "\"柚月\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9F%9A%E6%9C%88%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-43",
+      "name": "YNOF",
+      "query": "\"YNOF\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22YNOF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-44",
+      "name": "ぼんぼんねずみ",
+      "query": "\"ぼんぼんねずみ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BC%E3%82%93%E3%81%BC%E3%82%93%E3%81%AD%E3%81%9A%E3%81%BF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-47",
+      "name": "しゅうさく",
+      "query": "\"しゅうさく\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%85%E3%81%86%E3%81%95%E3%81%8F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-57",
+      "name": "さんぽめぐり",
+      "query": "\"さんぽめぐり\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%95%E3%82%93%E3%81%BD%E3%82%81%E3%81%90%E3%82%8A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-65",
+      "name": "SaSa舟",
+      "query": "\"SaSa舟\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22SaSa%E8%88%9F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-66",
+      "name": "Doro舟",
+      "query": "\"Doro舟\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Doro%E8%88%9F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-69",
+      "name": "Wack Wack CIRCUS",
+      "query": "\"Wack Wack CIRCUS\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Wack+Wack+CIRCUS%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:popping_uni 関",
+        "id:popping_uni"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-70",
+      "name": "Wack Wack CIRCUS +",
+      "query": "\"Wack Wack CIRCUS +\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Wack+Wack+CIRCUS+%2B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:popping_uni 関",
+        "id:popping_uni"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-80",
+      "name": "Glixcel403",
+      "query": "\"Glixcel403\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Glixcel403%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-83",
+      "name": "きまぐれモンスター工房",
+      "query": "\"きまぐれモンスター工房\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%BE%E3%81%90%E3%82%8C%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E5%B7%A5%E6%88%BF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "F-86",
+      "name": "@時空",
+      "query": "\"@時空\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%40%E6%99%82%E7%A9%BA%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-04",
+      "name": "朗らかようび。",
+      "query": "\"朗らかようび。\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9C%97%E3%82%89%E3%81%8B%E3%82%88%E3%81%86%E3%81%B3%E3%80%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-05",
+      "name": "ＫＵＲＵＫＵＲＵ",
+      "query": "\"ＫＵＲＵＫＵＲＵ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%EF%BC%AB%EF%BC%B5%EF%BC%B2%EF%BC%B5%EF%BC%AB%EF%BC%B5%EF%BC%B2%EF%BC%B5%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:krkrkr32 関"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-13",
+      "name": "ミソニコミ",
+      "query": "\"ミソニコミ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9F%E3%82%BD%E3%83%8B%E3%82%B3%E3%83%9F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:nabehuki コミティア"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-17",
+      "name": "Nishinoki商店",
+      "query": "\"Nishinoki商店\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Nishinoki%E5%95%86%E5%BA%97%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-20",
+      "name": "SIREN KID",
+      "query": "\"SIREN KID\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22SIREN+KID%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-23",
+      "name": "砂",
+      "query": "\"砂\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A0%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-25",
+      "name": "茶々and福",
+      "query": "\"茶々and福\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8C%B6%E3%80%85and%E7%A6%8F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-38",
+      "name": "ぽむぽめ2",
+      "query": "\"ぽむぽめ2\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BD%E3%82%80%E3%81%BD%E3%82%812%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-41",
+      "name": "hanatsuki",
+      "query": "\"hanatsuki\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22hanatsuki%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-52",
+      "name": "焼き貝",
+      "query": "\"焼き貝\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%84%BC%E3%81%8D%E8%B2%9D%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-55",
+      "name": "ゆきんこハウス",
+      "query": "\"ゆきんこハウス\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%81%8D%E3%82%93%E3%81%93%E3%83%8F%E3%82%A6%E3%82%B9%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-56",
+      "name": "××シンドローム",
+      "query": "\"××シンドローム\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%C3%97%C3%97%E3%82%B7%E3%83%B3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%A0%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-59",
+      "name": "Fairy Tale",
+      "query": "\"Fairy Tale\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Fairy+Tale%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-64",
+      "name": "torutessimo",
+      "query": "\"torutessimo\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22torutessimo%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [
+        "\"狐とるて\" pixiv"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-65",
+      "name": "こもれ日",
+      "query": "\"こもれ日\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%93%E3%82%82%E3%82%8C%E6%97%A5%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-67",
+      "name": "トウキョ~トリップ",
+      "query": "\"トウキョ~トリップ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%88%E3%82%A6%E3%82%AD%E3%83%A7~%E3%83%88%E3%83%AA%E3%83%83%E3%83%97%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-70",
+      "name": "あの時の患者です!",
+      "query": "\"あの時の患者です!\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%AE%E6%99%82%E3%81%AE%E6%82%A3%E8%80%85%E3%81%A7%E3%81%99%21%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-76",
+      "name": "きになりす",
+      "query": "\"きになりす\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%99%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "G-81",
+      "name": "ゆかいだね。",
+      "query": "\"ゆかいだね。\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%81%8B%E3%81%84%E3%81%A0%E3%81%AD%E3%80%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-11",
+      "name": "ばらえ氏＆どうぶつ工房",
+      "query": "\"ばらえ氏＆どうぶつ工房\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B0%E3%82%89%E3%81%88%E6%B0%8F%EF%BC%86%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E5%B7%A5%E6%88%BF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-14",
+      "name": "うめ吉工房",
+      "query": "\"うめ吉工房\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%86%E3%82%81%E5%90%89%E5%B7%A5%E6%88%BF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-18",
+      "name": "ぽんこつの森",
+      "query": "\"ぽんこつの森\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BD%E3%82%93%E3%81%93%E3%81%A4%E3%81%AE%E6%A3%AE%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-19",
+      "name": "しらす",
+      "query": "\"しらす\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%89%E3%81%99%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-21",
+      "name": "かめかめカフェ",
+      "query": "\"かめかめカフェ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8B%E3%82%81%E3%81%8B%E3%82%81%E3%82%AB%E3%83%95%E3%82%A7%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-24",
+      "name": "とてもねむたい",
+      "query": "\"とてもねむたい\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A8%E3%81%A6%E3%82%82%E3%81%AD%E3%82%80%E3%81%9F%E3%81%84%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-26",
+      "name": "かとさンち",
+      "query": "\"かとさンち\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8B%E3%81%A8%E3%81%95%E3%83%B3%E3%81%A1%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-32",
+      "name": "ゲームハート",
+      "query": "\"ゲームハート\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%8F%E3%83%BC%E3%83%88%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-33",
+      "name": "イソヒヨ商店出張所",
+      "query": "\"イソヒヨ商店出張所\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A4%E3%82%BD%E3%83%92%E3%83%A8%E5%95%86%E5%BA%97%E5%87%BA%E5%BC%B5%E6%89%80%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-34",
+      "name": "イソヒヨ商店　出張所３",
+      "query": "\"イソヒヨ商店　出張所３\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A4%E3%82%BD%E3%83%92%E3%83%A8%E5%95%86%E5%BA%97%E3%80%80%E5%87%BA%E5%BC%B5%E6%89%80%EF%BC%93%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-35",
+      "name": "ORIGINとまめまめ",
+      "query": "\"ORIGINとまめまめ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22ORIGIN%E3%81%A8%E3%81%BE%E3%82%81%E3%81%BE%E3%82%81%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-38",
+      "name": "成瀬川",
+      "query": "\"成瀬川\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%88%90%E7%80%AC%E5%B7%9D%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-41",
+      "name": "Yuu",
+      "query": "\"Yuu\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Yuu%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-44",
+      "name": "ぷくこな（山本こなつ）",
+      "query": "\"ぷくこな（山本こなつ）\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B7%E3%81%8F%E3%81%93%E3%81%AA%EF%BC%88%E5%B1%B1%E6%9C%AC%E3%81%93%E3%81%AA%E3%81%A4%EF%BC%89%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-51",
+      "name": "ココノエ",
+      "query": "\"ココノエ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B3%E3%82%B3%E3%83%8E%E3%82%A8%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-54",
+      "name": "スランプ産業",
+      "query": "\"スランプ産業\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%83%A9%E3%83%B3%E3%83%97%E7%94%A3%E6%A5%AD%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-56",
+      "name": "哀の雪",
+      "query": "\"哀の雪\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%93%80%E3%81%AE%E9%9B%AA%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"月野白蝶\" SNS",
+        "\"哀の雪\" \"月野\""
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-63",
+      "name": "あしゅらぺんてる",
+      "query": "\"あしゅらぺんてる\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%97%E3%82%85%E3%82%89%E3%81%BA%E3%82%93%E3%81%A6%E3%82%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-67",
+      "name": "平田池温泉①",
+      "query": "\"平田池温泉①\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%B9%B3%E7%94%B0%E6%B1%A0%E6%B8%A9%E6%B3%89%E2%91%A0%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-68",
+      "name": "平田池温泉②",
+      "query": "\"平田池温泉②\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%B9%B3%E7%94%B0%E6%B1%A0%E6%B8%A9%E6%B3%89%E2%91%A1%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-71",
+      "name": "チョコミント同盟",
+      "query": "\"チョコミント同盟\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%81%E3%83%A7%E3%82%B3%E3%83%9F%E3%83%B3%E3%83%88%E5%90%8C%E7%9B%9F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-79",
+      "name": "高弥",
+      "query": "\"高弥\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AB%98%E5%BC%A5%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-84",
+      "name": "マロン",
+      "query": "\"マロン\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%83%AD%E3%83%B3%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-88",
+      "name": "380dou",
+      "query": "\"380dou\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22380dou%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "H-89",
+      "name": "えもしゆま＆異界工房",
+      "query": "\"えもしゆま＆異界工房\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%88%E3%82%82%E3%81%97%E3%82%86%E3%81%BE%EF%BC%86%E7%95%B0%E7%95%8C%E5%B7%A5%E6%88%BF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-05",
+      "name": "もちもちのひみつ",
+      "query": "\"もちもちのひみつ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%82%E3%81%A1%E3%82%82%E3%81%A1%E3%81%AE%E3%81%B2%E3%81%BF%E3%81%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-09",
+      "name": "うさギニョール",
+      "query": "\"うさギニョール\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%86%E3%81%95%E3%82%AE%E3%83%8B%E3%83%A7%E3%83%BC%E3%83%AB%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-22",
+      "name": "三",
+      "query": "\"三\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%B8%89%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-26",
+      "name": "鯱とくじら",
+      "query": "\"鯱とくじら\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AF%B1%E3%81%A8%E3%81%8F%E3%81%98%E3%82%89%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-34",
+      "name": "忘れもの保管室",
+      "query": "\"忘れもの保管室\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%BF%98%E3%82%8C%E3%82%82%E3%81%AE%E4%BF%9D%E7%AE%A1%E5%AE%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-36",
+      "name": "スピード特化",
+      "query": "\"スピード特化\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E7%89%B9%E5%8C%96%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-39",
+      "name": "拉麺粥",
+      "query": "\"拉麺粥\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%8B%89%E9%BA%BA%E7%B2%A5%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-42",
+      "name": "ねろりのこんぺいどう",
+      "query": "\"ねろりのこんぺいどう\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AD%E3%82%8D%E3%82%8A%E3%81%AE%E3%81%93%E3%82%93%E3%81%BA%E3%81%84%E3%81%A9%E3%81%86%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-43",
+      "name": "AR",
+      "query": "\"AR\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22AR%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 3,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-45",
+      "name": "止まるな走れ",
+      "query": "\"止まるな走れ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%AD%A2%E3%81%BE%E3%82%8B%E3%81%AA%E8%B5%B0%E3%82%8C%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-48",
+      "name": "mumu",
+      "query": "\"mumu\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22mumu%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-58",
+      "name": "酸性物体",
+      "query": "\"酸性物体\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%85%B8%E6%80%A7%E7%89%A9%E4%BD%93%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-60",
+      "name": "宝石店",
+      "query": "\"宝石店\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AE%9D%E7%9F%B3%E5%BA%97%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-63",
+      "name": "そらの房たつよし",
+      "query": "\"そらの房たつよし\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%9D%E3%82%89%E3%81%AE%E6%88%BF%E3%81%9F%E3%81%A4%E3%82%88%E3%81%97%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-64",
+      "name": "とむきゃっとっき",
+      "query": "\"とむきゃっとっき\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A8%E3%82%80%E3%81%8D%E3%82%83%E3%81%A3%E3%81%A8%E3%81%A3%E3%81%8D%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-67",
+      "name": "福業バンク",
+      "query": "\"福業バンク\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A6%8F%E6%A5%AD%E3%83%90%E3%83%B3%E3%82%AF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-71",
+      "name": "In a tab",
+      "query": "\"In a tab\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22In+a+tab%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-73",
+      "name": "ふかふかかちかち",
+      "query": "\"ふかふかかちかち\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B5%E3%81%8B%E3%81%B5%E3%81%8B%E3%81%8B%E3%81%A1%E3%81%8B%E3%81%A1%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-81",
+      "name": "侑あか堂",
+      "query": "\"侑あか堂\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%BE%91%E3%81%82%E3%81%8B%E5%A0%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-82",
+      "name": "猟奇メンヘラ同好会",
+      "query": "\"猟奇メンヘラ同好会\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8C%9F%E5%A5%87%E3%83%A1%E3%83%B3%E3%83%98%E3%83%A9%E5%90%8C%E5%A5%BD%E4%BC%9A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "I-96",
+      "name": "Daff Ray",
+      "query": "\"Daff Ray\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Daff+Ray%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "J-04",
+      "name": "てこね道場",
+      "query": "\"てこね道場\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A6%E3%81%93%E3%81%AD%E9%81%93%E5%A0%B4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "J-17",
+      "name": "桔梗原製作所",
+      "query": "\"桔梗原製作所\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%A1%94%E6%A2%97%E5%8E%9F%E8%A3%BD%E4%BD%9C%E6%89%80%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"西京真\" 漫画 Twitter",
+        "\"桔梗原製作所\" 西京"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "J-24",
+      "name": "ハンドル日記",
+      "query": "\"ハンドル日記\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AB%E6%97%A5%E8%A8%98%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "J-38",
+      "name": "夏炉冬扇",
+      "query": "\"夏炉冬扇\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%8F%E7%82%89%E5%86%AC%E6%89%87%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "J-48",
+      "name": "天体標本室",
+      "query": "\"天体標本室\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%A9%E4%BD%93%E6%A8%99%E6%9C%AC%E5%AE%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "J-55",
+      "name": "aHs",
+      "query": "\"aHs\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22aHs%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "J-74",
+      "name": "みけねこレクションズ",
+      "query": "\"みけねこレクションズ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BF%E3%81%91%E3%81%AD%E3%81%93%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "J-79",
+      "name": "ちいさいひと",
+      "query": "\"ちいさいひと\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A1%E3%81%84%E3%81%95%E3%81%84%E3%81%B2%E3%81%A8%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "J-87",
+      "name": "忘れない",
+      "query": "\"忘れない\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%BF%98%E3%82%8C%E3%81%AA%E3%81%84%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 12,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-09",
+      "name": "AM2",
+      "query": "\"AM2\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22AM2%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-12",
+      "name": "北白川モータープール",
+      "query": "\"北白川モータープール\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8C%97%E7%99%BD%E5%B7%9D%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%97%E3%83%BC%E3%83%AB%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-13",
+      "name": "豆大福屋",
+      "query": "\"豆大福屋\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%B1%86%E5%A4%A7%E7%A6%8F%E5%B1%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [
+        "\"まめこ\" \"豆大福屋\" pixiv"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-18",
+      "name": "えむお工房",
+      "query": "\"えむお工房\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%88%E3%82%80%E3%81%8A%E5%B7%A5%E6%88%BF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-28",
+      "name": "恋ヶ丘診療所",
+      "query": "\"恋ヶ丘診療所\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%81%8B%E3%83%B6%E4%B8%98%E8%A8%BA%E7%99%82%E6%89%80%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:QfUqvhth7xnhGw6 関"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-30",
+      "name": "はいかいいえでこたえてくだすん",
+      "query": "\"はいかいいえでこたえてくだすん\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%84%E3%81%8B%E3%81%84%E3%81%84%E3%81%88%E3%81%A7%E3%81%93%E3%81%9F%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%99%E3%82%93%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-31",
+      "name": "はづちゅっちゅ",
+      "query": "\"はづちゅっちゅ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%A5%E3%81%A1%E3%82%85%E3%81%A3%E3%81%A1%E3%82%85%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-38",
+      "name": "ご飯、いっぱいお食べ。",
+      "query": "\"ご飯、いっぱいお食べ。\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%94%E9%A3%AF%E3%80%81%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%8A%E9%A3%9F%E3%81%B9%E3%80%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-50",
+      "name": "犬も食わない",
+      "query": "\"犬も食わない\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8A%AC%E3%82%82%E9%A3%9F%E3%82%8F%E3%81%AA%E3%81%84%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-58",
+      "name": "ダックス奮闘",
+      "query": "\"ダックス奮闘\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%80%E3%83%83%E3%82%AF%E3%82%B9%E5%A5%AE%E9%97%98%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-59",
+      "name": "らいせん軒",
+      "query": "\"らいせん軒\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%89%E3%81%84%E3%81%9B%E3%82%93%E8%BB%92%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-66",
+      "name": "碧の部屋",
+      "query": "\"碧の部屋\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A2%A7%E3%81%AE%E9%83%A8%E5%B1%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-69",
+      "name": "みるみるおにぎり",
+      "query": "\"みるみるおにぎり\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BF%E3%82%8B%E3%81%BF%E3%82%8B%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-78",
+      "name": "ゆめうつつ",
+      "query": "\"ゆめうつつ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%82%81%E3%81%86%E3%81%A4%E3%81%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:awada_room 関"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-80",
+      "name": "パン工場",
+      "query": "\"パン工場\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%91%E3%83%B3%E5%B7%A5%E5%A0%B4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-81",
+      "name": "ニューロマンティック",
+      "query": "\"ニューロマンティック\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-82",
+      "name": "トモヱ投げ",
+      "query": "\"トモヱ投げ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%88%E3%83%A2%E3%83%B1%E6%8A%95%E3%81%92%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-83",
+      "name": "上手にできない",
+      "query": "\"上手にできない\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%B8%8A%E6%89%8B%E3%81%AB%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "K-89",
+      "name": "らうらう",
+      "query": "\"らうらう\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%89%E3%81%86%E3%82%89%E3%81%86%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-06",
+      "name": "カタ六",
+      "query": "\"カタ六\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AB%E3%82%BF%E5%85%AD%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [
+        "\"真田降矢\" \"カタ六\""
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-10",
+      "name": "JACKBOX",
+      "query": "\"JACKBOX\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22JACKBOX%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-30",
+      "name": "YULQA",
+      "query": "\"YULQA\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22YULQA%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-33",
+      "name": "牧風香の展示会",
+      "query": "\"牧風香の展示会\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%89%A7%E9%A2%A8%E9%A6%99%E3%81%AE%E5%B1%95%E7%A4%BA%E4%BC%9A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-35",
+      "name": "十三日月",
+      "query": "\"十三日月\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8D%81%E4%B8%89%E6%97%A5%E6%9C%88%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-39",
+      "name": "若草",
+      "query": "\"若草\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8B%A5%E8%8D%89%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-49",
+      "name": "竹立升一",
+      "query": "\"竹立升一\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%AB%B9%E7%AB%8B%E5%8D%87%E4%B8%80%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"竹立升一\" 漫画"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-51",
+      "name": "はがきのひとこと",
+      "query": "\"はがきのひとこと\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%8C%E3%81%8D%E3%81%AE%E3%81%B2%E3%81%A8%E3%81%93%E3%81%A8%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-54",
+      "name": "黄金骸骨",
+      "query": "\"黄金骸骨\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%BB%84%E9%87%91%E9%AA%B8%E9%AA%A8%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-56",
+      "name": "ミクロ・ドア",
+      "query": "\"ミクロ・ドア\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9F%E3%82%AF%E3%83%AD%E3%83%BB%E3%83%89%E3%82%A2%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-61",
+      "name": "キノコフィーバー",
+      "query": "\"キノコフィーバー\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AD%E3%83%8E%E3%82%B3%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-62",
+      "name": "犬ゴヤ",
+      "query": "\"犬ゴヤ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8A%AC%E3%82%B4%E3%83%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-64",
+      "name": "タンスの角",
+      "query": "\"タンスの角\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%AE%E8%A7%92%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-65",
+      "name": "3度のコロッケ定食",
+      "query": "\"3度のコロッケ定食\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%223%E5%BA%A6%E3%81%AE%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B1%E5%AE%9A%E9%A3%9F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-67",
+      "name": "ねこまたや",
+      "query": "\"ねこまたや\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AD%E3%81%93%E3%81%BE%E3%81%9F%E3%82%84%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-73",
+      "name": "可笑し工房",
+      "query": "\"可笑し工房\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8F%AF%E7%AC%91%E3%81%97%E5%B7%A5%E6%88%BF%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-76",
+      "name": "朕は国家なり",
+      "query": "\"朕は国家なり\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9C%95%E3%81%AF%E5%9B%BD%E5%AE%B6%E3%81%AA%E3%82%8A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-77",
+      "name": "水槽水草",
+      "query": "\"水槽水草\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%B0%B4%E6%A7%BD%E6%B0%B4%E8%8D%89%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-82",
+      "name": "甘噛みカルシウム",
+      "query": "\"甘噛みカルシウム\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%94%98%E5%99%9B%E3%81%BF%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-88",
+      "name": "ウォンバットEX",
+      "query": "\"ウォンバットEX\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A6%E3%82%A9%E3%83%B3%E3%83%90%E3%83%83%E3%83%88EX%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "L-92",
+      "name": "四ツ角",
+      "query": "\"四ツ角\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%9B%9B%E3%83%84%E8%A7%92%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "M-12",
+      "name": "規矩庵＆臨時ダイヤ",
+      "query": "\"規矩庵＆臨時ダイヤ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%A6%8F%E7%9F%A9%E5%BA%B5%EF%BC%86%E8%87%A8%E6%99%82%E3%83%80%E3%82%A4%E3%83%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "M-26",
+      "name": "遠征",
+      "query": "\"遠征\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%81%A0%E5%BE%81%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "M-27",
+      "name": "The Silence of Noblesse",
+      "query": "\"The Silence of Noblesse\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22The+Silence+of+Noblesse%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "M-35",
+      "name": "ガパオライス",
+      "query": "\"ガパオライス\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AC%E3%83%91%E3%82%AA%E3%83%A9%E3%82%A4%E3%82%B9%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "M-54",
+      "name": "ダブルニースラスト",
+      "query": "\"ダブルニースラスト\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%80%E3%83%96%E3%83%AB%E3%83%8B%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%B9%E3%83%88%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "M-62",
+      "name": "黒ゴマパン",
+      "query": "\"黒ゴマパン\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%BB%92%E3%82%B4%E3%83%9E%E3%83%91%E3%83%B3%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "M-72",
+      "name": "撒き魚",
+      "query": "\"撒き魚\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%92%92%E3%81%8D%E9%AD%9A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "M-78",
+      "name": "エンドウスコープ",
+      "query": "\"エンドウスコープ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A6%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-03",
+      "name": "Althea",
+      "query": "\"Althea\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Althea%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-10",
+      "name": "NP-hist.",
+      "query": "\"NP-hist.\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22NP-hist.%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-20",
+      "name": "ざるざるざる",
+      "query": "\"ざるざるざる\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%96%E3%82%8B%E3%81%96%E3%82%8B%E3%81%96%E3%82%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-25",
+      "name": "最強本BLほか",
+      "query": "\"最強本BLほか\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9C%80%E5%BC%B7%E6%9C%ACBL%E3%81%BB%E3%81%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-29",
+      "name": "ピリオド",
+      "query": "\"ピリオド\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-31",
+      "name": "らくがき工学研究所",
+      "query": "\"らくがき工学研究所\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%89%E3%81%8F%E3%81%8C%E3%81%8D%E5%B7%A5%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%89%80%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"ねはれむ\" イラスト"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-35",
+      "name": "なんかムカツく",
+      "query": "\"なんかムカツく\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AA%E3%82%93%E3%81%8B%E3%83%A0%E3%82%AB%E3%83%84%E3%81%8F%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-37",
+      "name": "どろっぷあうと",
+      "query": "\"どろっぷあうと\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A9%E3%82%8D%E3%81%A3%E3%81%B7%E3%81%82%E3%81%86%E3%81%A8%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-38",
+      "name": "1953年",
+      "query": "\"1953年\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%221953%E5%B9%B4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-39",
+      "name": "きざみねぎねぎ",
+      "query": "\"きざみねぎねぎ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%96%E3%81%BF%E3%81%AD%E3%81%8E%E3%81%AD%E3%81%8E%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-43",
+      "name": "ゆがむほね",
+      "query": "\"ゆがむほね\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%81%8C%E3%82%80%E3%81%BB%E3%81%AD%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-44",
+      "name": "チャーハンとSen",
+      "query": "\"チャーハンとSen\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%81%E3%83%A3%E3%83%BC%E3%83%8F%E3%83%B3%E3%81%A8Sen%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-45",
+      "name": "季節のフトン",
+      "query": "\"季節のフトン\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AD%A3%E7%AF%80%E3%81%AE%E3%83%95%E3%83%88%E3%83%B3%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-46",
+      "name": "おべに",
+      "query": "\"おべに\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8A%E3%81%B9%E3%81%AB%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-47",
+      "name": "ブロッコリー",
+      "query": "\"ブロッコリー\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%96%E3%83%AD%E3%83%83%E3%82%B3%E3%83%AA%E3%83%BC%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-59",
+      "name": "デニムデーモン",
+      "query": "\"デニムデーモン\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%87%E3%83%8B%E3%83%A0%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-71",
+      "name": "ニョロリ",
+      "query": "\"ニョロリ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%8B%E3%83%A7%E3%83%AD%E3%83%AA%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-78",
+      "name": "子午線",
+      "query": "\"子午線\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AD%90%E5%8D%88%E7%B7%9A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-80",
+      "name": "甲殻クラブ",
+      "query": "\"甲殻クラブ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%94%B2%E6%AE%BB%E3%82%AF%E3%83%A9%E3%83%96%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "N-92",
+      "name": "はなみ屋",
+      "query": "\"はなみ屋\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%AA%E3%81%BF%E5%B1%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "O-05",
+      "name": "シャンバララ",
+      "query": "\"シャンバララ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%90%E3%83%A9%E3%83%A9%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "O-09",
+      "name": "背景美術資料準備室",
+      "query": "\"背景美術資料準備室\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%83%8C%E6%99%AF%E7%BE%8E%E8%A1%93%E8%B3%87%E6%96%99%E6%BA%96%E5%82%99%E5%AE%A4%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"背​景美術資料準備室\" コミティア",
+        "\"背景美術資料準備室\" コミティア"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "O-11",
+      "name": "Atelier MiNe",
+      "query": "\"Atelier MiNe\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Atelier+MiNe%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "O-18",
+      "name": "Texas Burger",
+      "query": "\"Texas Burger\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Texas+Burger%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "O-19",
+      "name": "星渡り",
+      "query": "\"星渡り\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%98%9F%E6%B8%A1%E3%82%8A%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-05",
+      "name": "深海商店",
+      "query": "\"深海商店\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%B7%B1%E6%B5%B7%E5%95%86%E5%BA%97%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-06",
+      "name": "物憂いココロ",
+      "query": "\"物憂いココロ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%89%A9%E6%86%82%E3%81%84%E3%82%B3%E3%82%B3%E3%83%AD%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-07",
+      "name": "Atelier VR.",
+      "query": "\"Atelier VR.\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Atelier+VR.%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-10",
+      "name": "水館",
+      "query": "\"水館\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%B0%B4%E9%A4%A8%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-15",
+      "name": "CHISATO",
+      "query": "\"CHISATO\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22CHISATO%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "id:CHISATO_to_NICO 関"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-19",
+      "name": "だんだん",
+      "query": "\"だんだん\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A0%E3%82%93%E3%81%A0%E3%82%93%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-27",
+      "name": "しかとゆきやなぎ",
+      "query": "\"しかとゆきやなぎ\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%81%8B%E3%81%A8%E3%82%86%E3%81%8D%E3%82%84%E3%81%AA%E3%81%8E%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-29",
+      "name": "からあげもち",
+      "query": "\"からあげもち\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8B%E3%82%89%E3%81%82%E3%81%92%E3%82%82%E3%81%A1%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-34",
+      "name": "しろゆめ堂",
+      "query": "\"しろゆめ堂\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%8D%E3%82%86%E3%82%81%E5%A0%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-38",
+      "name": "ゆらぎの底",
+      "query": "\"ゆらぎの底\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%82%89%E3%81%8E%E3%81%AE%E5%BA%95%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-48",
+      "name": "Kumada Kumao",
+      "query": "\"Kumada Kumao\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Kumada+Kumao%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 2,
+      "additionalQueries": [
+        "\"Kumada Kumao\" instagram"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-49",
+      "name": "もふりんず。",
+      "query": "\"もふりんず。\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%82%E3%81%B5%E3%82%8A%E3%82%93%E3%81%9A%E3%80%82%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-53",
+      "name": "畜生みち",
+      "query": "\"畜生みち\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%95%9C%E7%94%9F%E3%81%BF%E3%81%A1%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-55",
+      "name": "床下犬収納",
+      "query": "\"床下犬収納\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%BA%8A%E4%B8%8B%E7%8A%AC%E5%8F%8E%E7%B4%8D%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"床下犬収納\"",
+        "\"床下犬収納\" サークル"
+      ],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-57",
+      "name": "猫最高！",
+      "query": "\"猫最高！\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8C%AB%E6%9C%80%E9%AB%98%EF%BC%81%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-65",
+      "name": "蒼天白龍",
+      "query": "\"蒼天白龍\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%92%BC%E5%A4%A9%E7%99%BD%E9%BE%8D%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    },
+    {
+      "space": "P-70",
+      "name": "Osenko",
+      "query": "\"Osenko\" コミティア",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Osenko%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名＋コミティアによるYahoo公開リアルタイム検索",
+        "関西コミティア・関コミ・関西ティア・関ティアの公開投稿を配置・名前・引用元で照合",
+        "候補本人プロフィールの当回表示・自己掲載リンク・過去本人告知の確認"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "space": "A-95",
+      "name": "レモンバターソテイ",
+      "links": {
+        "x": "https://x.com/tail9tail"
+      },
+      "extras": [
+        {
+          "kind": "x",
+          "url": "https://x.com/tail3tail",
+          "label": "日常用X（本人が創作用Xを指定）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/tail9tail/status/1309803329942204416",
+          "title": "たてごときう｜本人の過去出展告知",
+          "note": "2020/9/26の本人投稿でレモンバターソテイと関西コミティア59・C-20を明記。今回A-95の配置ではなく過去の同名サークルを照合。"
+        },
+        {
+          "url": "https://x.com/tail9tail",
+          "title": "たてごときう｜本人X",
+          "note": "現在の公開プロフィール・商業漫画の掲載告知を確認。"
+        },
+        {
+          "url": "https://x.com/tail3tail",
+          "title": "てーるんる｜本人の日常用X",
+          "note": "プロフィールで創作用アカウントtail9tailを本人が指定。"
+        }
+      ],
+      "note": "保存済みの作者候補から、本人が同じサークル名を明記した2020/9/26の関西コミティア59出展投稿まで追加確認。現在の創作用Xと、同アカウントを指定する日常用Xを掲載。当回77・A-95の本人参加告知は未確認で、過去の同名サークルの作者を照合した範囲。pixiv・個人Webは未特定。"
+    },
+    {
+      "space": "B-95",
+      "name": "眼鏡観測所",
+      "links": {
+        "x": "https://x.com/sima_ta3",
+        "web": "https://skeb.jp/@sima_ta3"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/sima_ta3/status/2082124433775563253",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の7/28の申込投稿で眼鏡観測所・関西コミティア77・2026/10/18を確認し、現在の表示名のB-95と照合。Webは本人プロフィール指定のSkeb。Skeb本文は取得制限で未確認。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/sima_ta3",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "本人の7/28の申込投稿で眼鏡観測所・関西コミティア77・2026/10/18を確認し、現在の表示名のB-95と照合。Webは本人プロフィール指定のSkeb。Skeb本文は取得制限で未確認。pixivは未特定。"
+    },
+    {
+      "space": "E-45",
+      "name": "聖夜白愛婚",
+      "links": {
+        "x": "https://x.com/8wari_tori"
+      },
+      "extras": [
+        {
+          "kind": "web",
+          "url": "https://shadowed-find-769.notion.site/275b75f6a26880f3be66e3afed90b29f",
+          "label": "本人指定のNotion案内先（本文未確認）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/8wari_tori/status/2104519783727378538",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の9/28の告知で聖夜白愛婚・関西コミティア・E-45を直接照合。自己指定の短縮リンクはNotion案内先へ転送したが、本文を取得できず補助リンクに記録。pixivと本文確認済みの個人Webは未特定。"
+        },
+        {
+          "url": "https://x.com/8wari_tori",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://x.gd/LuwYG",
+          "title": "本人プロフィール指定の案内先",
+          "note": "Notionページへの転送先URLを確認。本文は未確認。"
+        }
+      ],
+      "note": "本人の9/28の告知で聖夜白愛婚・関西コミティア・E-45を直接照合。自己指定の短縮リンクはNotion案内先へ転送したが、本文を取得できず補助リンクに記録。pixivと本文確認済みの個人Webは未特定。"
+    },
+    {
+      "space": "G-64",
+      "name": "torutessimo",
+      "links": {
+        "x": "https://x.com/ko_torute",
+        "pixiv": "https://www.pixiv.net/artworks/139744083",
+        "web": "https://lit.link/kotorute"
+      },
+      "extras": [
+        {
+          "kind": "web",
+          "url": "https://fori.io/kotorute",
+          "label": "foriio（本人ポートフォリオ）"
+        },
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/kaki150471/",
+          "label": "Instagram"
+        },
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@ko_torute",
+          "label": "Skeb（イラスト）"
+        },
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@AKTRUMA",
+          "label": "Skeb（背景なし簡易・本人指定）"
+        },
+        {
+          "kind": "web",
+          "url": "https://tsunagu.cloud/users/kotorute",
+          "label": "つなぐ"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/ko_torute/status/2109891577023959238",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の10/13の新刊サンプル投稿でtorutessimo・10/18関西コミティア・G64を直接照合。本人リンク集の相互X・pixiv PF作品・活動先を確認。主pixivは本人が指定するポートフォリオ作品URLで、プロフィールのユーザーIDは未特定、作品本文は取得403で未確認。"
+        },
+        {
+          "url": "https://x.com/ko_torute",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://lit.link/kotorute",
+          "title": "狐とるて｜本人リンク集",
+          "note": "自己掲載のX・pixiv PF作品・foriio・Instagram・Skeb2名義・つなぐを確認。"
+        },
+        {
+          "url": "https://fori.io/kotorute",
+          "title": "狐とるて｜本人ポートフォリオ",
+          "note": "本人名とイラスト活動を照合。"
+        }
+      ],
+      "note": "本人の10/13の新刊サンプル投稿でtorutessimo・10/18関西コミティア・G64を直接照合。本人リンク集の相互X・pixiv PF作品・活動先を確認。主pixivは本人が指定するポートフォリオ作品URLで、プロフィールのユーザーIDは未特定、作品本文は取得403で未確認。"
+    },
+    {
+      "space": "H-56",
+      "name": "哀の雪",
+      "links": {
+        "x": "https://x.com/play_Nocturne",
+        "pixiv": "https://www.pixiv.net/users/4788916",
+        "web": "https://kakuyomu.jp/users/Saiga_Kouren000"
+      },
+      "extras": [
+        {
+          "kind": "x",
+          "url": "https://x.com/miren_sn",
+          "label": "水澤シンのX（共同配置H-56）"
+        },
+        {
+          "kind": "booth",
+          "url": "https://mizusawashin.booth.pm/items",
+          "label": "水澤シンのBOOTH（個人ショップ）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/play_Nocturne/status/2105644906094162411",
+          "title": "本人の出展・頒布告知",
+          "note": "保存済み作者名の月野白蝶から現行本人Xを追加発見。表示名に関ティア77・H56、10/1の本人新刊告知にH56を明記。水澤シンも表示名で10/18・H-56、10/7の関ティア新刊告知を確認。主Webは月野白蝶のカクヨム、主pixivは水澤シンの本人指定ショップが示す4788916。両作者を分けて補助リンクに掲載。サークル名「哀の雪」の当回本文記載と合同メンバー全員の網羅は未確認。pixiv本文は未確認。"
+        },
+        {
+          "url": "https://x.com/play_Nocturne",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://kakuyomu.jp/users/Saiga_Kouren000",
+          "title": "月野白蝶｜本人カクヨム",
+          "note": "本人X play_Nocturneを指定し、作者名・作品を照合。"
+        },
+        {
+          "url": "https://x.com/miren_sn/status/2107707835564150784",
+          "title": "水澤シン｜本人の新刊告知",
+          "note": "10/18関ティアH-56の表示名と新刊出展を確認。"
+        },
+        {
+          "url": "https://mizusawashin.booth.pm/items",
+          "title": "水澤シン｜本人指定BOOTH",
+          "note": "作者名とpixiv4788916を確認。合同サークル専用ショップとは断定しない。"
+        }
+      ],
+      "note": "保存済み作者名の月野白蝶から現行本人Xを追加発見。表示名に関ティア77・H56、10/1の本人新刊告知にH56を明記。水澤シンも表示名で10/18・H-56、10/7の関ティア新刊告知を確認。主Webは月野白蝶のカクヨム、主pixivは水澤シンの本人指定ショップが示す4788916。両作者を分けて補助リンクに掲載。サークル名「哀の雪」の当回本文記載と合同メンバー全員の網羅は未確認。pixiv本文は未確認。"
+    },
+    {
+      "space": "K-13",
+      "name": "豆大福屋",
+      "links": {
+        "x": "https://x.com/motiko_mameko",
+        "pixiv": "https://www.pixiv.net/users/937800",
+        "web": "https://bsky.app/profile/mameko-motiko.bsky.social"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@motiko_mameko",
+          "label": "Skeb"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/motiko_mameko/status/2102949424054030394",
+          "title": "本人の出展・頒布告知",
+          "note": "Yahooの公開検索掲載の本人告知で豆大福屋・10/18関西コミティア・K-13を照合。X本体の当該投稿は閲覧制限のため本文未確認だが、プロフィールは公開で本人指定のBlueskyを確認。公開Blueskyプロフィールでも作者名と同じSkebを確認。主pixiv937800は書店のサークル自己紹介欄で豆大福屋・まめこ・同じ本人Xと併記される指定先を照合。pixiv本文と書店ページの現在の本文取得は未確認。"
+        },
+        {
+          "url": "https://x.com/motiko_mameko",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%B1%86%E5%A4%A7%E7%A6%8F%E5%B1%8B%22+%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+          "title": "Yahoo公開検索｜豆大福屋の本人告知",
+          "note": "サークル名・10/18・K-13を本人投稿の公開検索掲載本文で確認。"
+        },
+        {
+          "url": "https://www.melonbooks.co.jp/circle/index.php?circle_id=21230",
+          "title": "豆大福屋｜サークル自己紹介欄",
+          "note": "検索に掲載された自己紹介欄の作者名・本人X・pixiv937800を照合。現在のページ本文取得は未確認。"
+        }
+      ],
+      "note": "Yahooの公開検索掲載の本人告知で豆大福屋・10/18関西コミティア・K-13を照合。X本体の当該投稿は閲覧制限のため本文未確認だが、プロフィールは公開で本人指定のBlueskyを確認。公開Blueskyプロフィールでも作者名と同じSkebを確認。主pixiv937800は書店のサークル自己紹介欄で豆大福屋・まめこ・同じ本人Xと併記される指定先を照合。pixiv本文と書店ページの現在の本文取得は未確認。"
+    },
+    {
+      "space": "L-06",
+      "name": "カタ六",
+      "links": {
+        "x": "https://x.com/SanadaOriya",
+        "pixiv": "https://www.pixiv.net/users/95008818"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/SanadaOriya/status/2103708372499648594",
+          "title": "本人の出展・頒布告知",
+          "note": "別名義ながナインの公開検索掲載の本人告知から、カタ六・作者真田降矢・10/18・L-06を照合。本人が指定する全年齢用Xは関西コミティア77・L-06を表示し、9/26に本人がL-06への配置を直接告知。主Xは当回作品名義の全年齢用アカウント。pixiv95008818は同アカウントの自己指定先、本文未確認。別名義の元投稿はX本体で閲覧制限。個人Webは未特定。"
+        },
+        {
+          "url": "https://x.com/SanadaOriya",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://x.com/NagaNine9",
+          "title": "ながナイン｜本人の別名義プロフィール",
+          "note": "全年齢用アカウントSanadaOriyaを本人が指定。"
+        },
+        {
+          "url": "https://x.com/NagaNine9/status/2109634007109636569",
+          "title": "別名義からの当回出展告知",
+          "note": "サークル名・作品名義・10/18・L-06を公開検索掲載の本文で照合。X本体は閲覧制限。"
+        }
+      ],
+      "note": "別名義ながナインの公開検索掲載の本人告知から、カタ六・作者真田降矢・10/18・L-06を照合。本人が指定する全年齢用Xは関西コミティア77・L-06を表示し、9/26に本人がL-06への配置を直接告知。主Xは当回作品名義の全年齢用アカウント。pixiv95008818は同アカウントの自己指定先、本文未確認。別名義の元投稿はX本体で閲覧制限。個人Webは未特定。"
+    },
+    {
+      "space": "N-47",
+      "name": "ブロッコリー",
+      "links": {
+        "x": "https://x.com/BroccoliSpace",
+        "pixiv": "https://www.pixiv.net/users/49543594",
+        "web": "https://skeb.jp/@BroccoliSpace"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/BroccoliSpace/status/2105515530497270068",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の10/1の投稿でサークル名ブロッコリー・10/18関西コミティアへの参加を確認。pixiv49543594とSkebは本人プロフィールの指定先。配置N-47の本文記載は未確認だが、同名サークルと当回開催日の本人告知を照合。pixiv本文は未確認。"
+        },
+        {
+          "url": "https://x.com/BroccoliSpace",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "本人の10/1の投稿でサークル名ブロッコリー・10/18関西コミティアへの参加を確認。pixiv49543594とSkebは本人プロフィールの指定先。配置N-47の本文記載は未確認だが、同名サークルと当回開催日の本人告知を照合。pixiv本文は未確認。"
+    },
+    {
+      "space": "C-68",
+      "name": "しお屋",
+      "links": {
+        "x": "https://x.com/osakana_siosai",
+        "pixiv": "https://www.pixiv.net/users/92290654",
+        "web": "https://potofu.me/osakana-siosai"
+      },
+      "extras": [
+        {
+          "kind": "bluesky",
+          "url": "https://bsky.app/profile/osakanasiosai.bsky.social",
+          "label": "Bluesky"
+        },
+        {
+          "kind": "xfolio",
+          "url": "https://xfolio.jp/portfolio/osakana_siosai",
+          "label": "Xfolio"
+        },
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@siosai3140_skeb",
+          "label": "Skeb"
+        },
+        {
+          "kind": "booth",
+          "url": "https://sioyasan.booth.pm/",
+          "label": "BOOTH（在庫調整で非公開・本人は当回後再開予定）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/osakana_siosai/status/2110301527181238518",
+          "title": "本人の出展・頒布告知",
+          "note": "表示名の10/18関コミ77・C-68と本人の当回頒布告知を照合。本人POTOFUが指定するショップ名「しお屋」とpixiv92290654を確認。本人は在庫調整でBOOTHを非公開にし当回後再開と告知し、実取得も非公開画面だったため主Webは公開POTOFU。過去候補「しおパン」は今回の採用根拠には使っていない。pixiv本文は未確認。"
+        },
+        {
+          "url": "https://x.com/osakana_siosai",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://potofu.me/osakana-siosai",
+          "title": "潮彩｜本人POTOFU",
+          "note": "本人X・pixiv・しお屋BOOTH・他活動先を指定。"
+        },
+        {
+          "url": "https://sioyasan.booth.pm/items",
+          "title": "しお屋｜本人指定ショップ",
+          "note": "ショップ名を確認。取得時は非公開画面。"
+        }
+      ],
+      "note": "表示名の10/18関コミ77・C-68と本人の当回頒布告知を照合。本人POTOFUが指定するショップ名「しお屋」とpixiv92290654を確認。本人は在庫調整でBOOTHを非公開にし当回後再開と告知し、実取得も非公開画面だったため主Webは公開POTOFU。過去候補「しおパン」は今回の採用根拠には使っていない。pixiv本文は未確認。"
+    },
+    {
+      "space": "C-21",
+      "name": "南南西の風",
+      "links": {
+        "x": "https://x.com/Waka_ogura"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/Waka_ogura/status/2109215140302495940",
+          "title": "本人の出展・頒布告知",
+          "note": "10/15時点の本人表示名の関コミC-21と、10/11の関西コミティアタグ付き表紙告知・10/13の頒布準備投稿を公式配置に照合。今回の出展準備と配置を根拠に掲載。サークル名「南南西の風」・回数77・開催日10/18の本文記載は未確認。pixiv・個人Webは未特定。"
+        },
+        {
+          "url": "https://x.com/Waka_ogura",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://x.com/Waka_ogura/status/2109993698935349497",
+          "title": "Waka｜本人の直近頒布準備",
+          "note": "関コミへ持ち込む作品を10/13に告知。表示名C-21と照合。"
+        }
+      ],
+      "note": "10/15時点の本人表示名の関コミC-21と、10/11の関西コミティアタグ付き表紙告知・10/13の頒布準備投稿を公式配置に照合。今回の出展準備と配置を根拠に掲載。サークル名「南南西の風」・回数77・開催日10/18の本文記載は未確認。pixiv・個人Webは未特定。"
+    },
+    {
+      "space": "D-28",
+      "name": "食物繊維豊富",
+      "links": {
+        "x": "https://x.com/Neko_unkumai",
+        "web": "https://profcard.info/u/2bNmP6nMuDbNNLfDIzeSWsAid6E2"
+      },
+      "extras": [
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/neko_unksuki/",
+          "label": "Instagram"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.nekozuki15.tumblr.com",
+          "label": "Tumblr"
+        },
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@Neko_unkumai",
+          "label": "Skeb"
+        },
+        {
+          "kind": "x",
+          "url": "https://x.com/NEKOunkmori",
+          "label": "本人指定の雑多本垢X"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/Neko_unkumai/status/2108866159428972992",
+          "title": "本人の出展・頒布告知",
+          "note": "現在の本人表示名の関コミD-28と、10/10の今回頒布予定・9/24の関西コミティア参加チケット到着の本人投稿を公式配置に照合。個人プロフカードを本人が指定。サークル名「食物繊維豊富」・回数77・開催日10/18の本文記載は未確認。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/Neko_unkumai",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://x.com/Neko_unkumai/status/2103113450314690833",
+          "title": "猫月｜本人のチケット到着告知",
+          "note": "関西コミティアのサークルチケット到着を9/24に告知。"
+        },
+        {
+          "url": "https://profcard.info/u/2bNmP6nMuDbNNLfDIzeSWsAid6E2",
+          "title": "猫月｜本人プロフカード",
+          "note": "本人が活動先・雑多用X・Instagram・Tumblr・Skebを指定。"
+        }
+      ],
+      "note": "現在の本人表示名の関コミD-28と、10/10の今回頒布予定・9/24の関西コミティア参加チケット到着の本人投稿を公式配置に照合。個人プロフカードを本人が指定。サークル名「食物繊維豊富」・回数77・開催日10/18の本文記載は未確認。pixivは未特定。"
+    },
+    {
+      "space": "F-69",
+      "name": "Wack Wack CIRCUS",
+      "links": {
+        "x": "https://x.com/popping_uni",
+        "web": "https://lit.link/popping_uni"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@popping_uni",
+          "label": "Skeb"
+        },
+        {
+          "kind": "web",
+          "url": "https://tsunagu.cloud/users/popping_uni",
+          "label": "つなぐ"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/popping_uni/status/2104117396789399717",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の9/27の参加告知に関西コミティア10/18、現在の表示名に関コミ77・F69-70を明記。公式の連続2配置Wack Wack CIRCUS／Wack Wack CIRCUS +へ同じ本人告知先を対応付けた。本人リンク集と依頼先を自己掲載リンクで照合。各サークル名を分けた当回本文記載と共同メンバー全員は未確認。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/popping_uni",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://lit.link/popping_uni",
+          "title": "本人指定のリンク集・依頼案内",
+          "note": "本人Xが指定するURLを確認し、公開本文の依頼案内を確認。"
+        }
+      ],
+      "note": "本人の9/27の参加告知に関西コミティア10/18、現在の表示名に関コミ77・F69-70を明記。公式の連続2配置Wack Wack CIRCUS／Wack Wack CIRCUS +へ同じ本人告知先を対応付けた。本人リンク集と依頼先を自己掲載リンクで照合。各サークル名を分けた当回本文記載と共同メンバー全員は未確認。pixivは未特定。"
+    },
+    {
+      "space": "F-70",
+      "name": "Wack Wack CIRCUS +",
+      "links": {
+        "x": "https://x.com/popping_uni",
+        "web": "https://lit.link/popping_uni"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@popping_uni",
+          "label": "Skeb"
+        },
+        {
+          "kind": "web",
+          "url": "https://tsunagu.cloud/users/popping_uni",
+          "label": "つなぐ"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/popping_uni/status/2104117396789399717",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の9/27の参加告知に関西コミティア10/18、現在の表示名に関コミ77・F69-70を明記。公式の連続2配置Wack Wack CIRCUS／Wack Wack CIRCUS +へ同じ本人告知先を対応付けた。本人リンク集と依頼先を自己掲載リンクで照合。各サークル名を分けた当回本文記載と共同メンバー全員は未確認。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/popping_uni",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://lit.link/popping_uni",
+          "title": "本人指定のリンク集・依頼案内",
+          "note": "本人Xが指定するURLを確認し、公開本文の依頼案内を確認。"
+        }
+      ],
+      "note": "本人の9/27の参加告知に関西コミティア10/18、現在の表示名に関コミ77・F69-70を明記。公式の連続2配置Wack Wack CIRCUS／Wack Wack CIRCUS +へ同じ本人告知先を対応付けた。本人リンク集と依頼先を自己掲載リンクで照合。各サークル名を分けた当回本文記載と共同メンバー全員は未確認。pixivは未特定。"
+    },
+    {
+      "space": "D-42",
+      "name": "羊肉定食",
+      "links": {
+        "x": "https://x.com/hituji_akai_",
+        "web": "https://skeb.jp/@hituji_akai_"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/hituji_akai_/status/2107103121138917841",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の10/5の関コミD-42配置告知と現行プロフィールを公式配置へ照合。Webは本人指定Skeb。サークル名「羊肉定食」・回数77・開催日10/18の本人本文記載は未確認で、直近の関コミ配置告知を根拠とした掲載。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/hituji_akai_",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "本人の10/5の関コミD-42配置告知と現行プロフィールを公式配置へ照合。Webは本人指定Skeb。サークル名「羊肉定食」・回数77・開催日10/18の本人本文記載は未確認で、直近の関コミ配置告知を根拠とした掲載。pixivは未特定。"
+    },
+    {
+      "space": "I-64",
+      "name": "とむきゃっとっき",
+      "links": {
+        "x": "https://x.com/ryukano_sousa2",
+        "pixiv": "https://www.pixiv.net/users/5977246",
+        "web": "https://rarirureshop.booth.pm/items"
+      },
+      "extras": [
+        {
+          "kind": "x",
+          "url": "https://x.com/ryukano_sousaku",
+          "label": "本人の本体X（当回告知を引用）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/ryukano_sousa2/status/2110386755048554679",
+          "title": "本人の出展・頒布告知",
+          "note": "本人お品書き投稿で関西コミティア77・2026/10/18・I-64を直接照合。主Xは当回BL作品を告知する本人アカウント。本体と指定されたryukano_sousakuが当該告知を本人引用し、通販BOOTHと作品を照合。主pixiv5977246は同じ本人ショップの指定先、本文未確認。サークル名「とむきゃっとっき」の当回本文記載は未確認。"
+        },
+        {
+          "url": "https://x.com/ryukano_sousa2",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://x.com/ryukano_sousaku",
+          "title": "りゅか｜本人の本体X",
+          "note": "当回I-64告知の引用と、自作漫画・本人BOOTHを指定。"
+        },
+        {
+          "url": "https://rarirureshop.booth.pm/items",
+          "title": "らりる屋｜本人指定BOOTH",
+          "note": "自作漫画を照合し、ショップ指定のpixiv5977246を確認。"
+        }
+      ],
+      "note": "本人お品書き投稿で関西コミティア77・2026/10/18・I-64を直接照合。主Xは当回BL作品を告知する本人アカウント。本体と指定されたryukano_sousakuが当該告知を本人引用し、通販BOOTHと作品を照合。主pixiv5977246は同じ本人ショップの指定先、本文未確認。サークル名「とむきゃっとっき」の当回本文記載は未確認。"
+    },
+    {
+      "space": "N-25",
+      "name": "最強本BLほか",
+      "links": {
+        "x": "https://x.com/saikyoleft"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/saikyoleft/status/2110370968841716115",
+          "title": "本人の出展・頒布告知",
+          "note": "合同企画の告知用本人アカウントが10/18・N-25・最強本BLほかを明記し、新刊と既刊の頒布を告知。企画専用Xを掲載。個別メンバー全員のSNS・pixiv・個人Webは未特定。"
+        },
+        {
+          "url": "https://x.com/saikyoleft",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "合同企画の告知用本人アカウントが10/18・N-25・最強本BLほかを明記し、新刊と既刊の頒布を告知。企画専用Xを掲載。個別メンバー全員のSNS・pixiv・個人Webは未特定。"
+    },
+    {
+      "space": "N-38",
+      "name": "1953年",
+      "links": {
+        "x": "https://x.com/Zyochikawakun"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/Zyochikawakun/status/2110358228852994269",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の直近告知で10/18関西コミティア・N38、表示名で関西コミティア77_N38を照合。サークル名「1953年」の当回本文記載は未確認。pixiv・個人Webは未特定。"
+        },
+        {
+          "url": "https://x.com/Zyochikawakun",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "本人の直近告知で10/18関西コミティア・N38、表示名で関西コミティア77_N38を照合。サークル名「1953年」の当回本文記載は未確認。pixiv・個人Webは未特定。"
+    },
+    {
+      "space": "M-12",
+      "name": "規矩庵＆臨時ダイヤ",
+      "links": {
+        "x": "https://x.com/kikuaki21"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/kikuaki21/status/2110357727713345640",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の直近お品書きで10/18関西コミティア・M-12・規矩庵＆臨時ダイヤを直接照合。確認できた告知作者のXを掲載。合同サークル全員のSNS、pixiv・個人Webは未特定。"
+        },
+        {
+          "url": "https://x.com/kikuaki21",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "本人の直近お品書きで10/18関西コミティア・M-12・規矩庵＆臨時ダイヤを直接照合。確認できた告知作者のXを掲載。合同サークル全員のSNS、pixiv・個人Webは未特定。"
+    },
+    {
+      "space": "C-56",
+      "name": "ゆゆしき山",
+      "links": {
+        "x": "https://x.com/yuyu_saaan",
+        "web": "https://skeb.jp/@yuyu_saaan"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/yuyu_saaan/status/2110321399273570732",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の直近告知と表示名で10/18関コミ77・C-56、本人の新刊・グッズの頒布を照合。本人は由々から由々エビスへ名前を変更したと告知。公式サークル名「ゆゆしき山」は維持し、当回本文のサークル名記載は未確認。Webは本人指定Skeb。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/yuyu_saaan",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "本人の直近告知と表示名で10/18関コミ77・C-56、本人の新刊・グッズの頒布を照合。本人は由々から由々エビスへ名前を変更したと告知。公式サークル名「ゆゆしき山」は維持し、当回本文のサークル名記載は未確認。Webは本人指定Skeb。pixivは未特定。"
+    },
+    {
+      "space": "I-48",
+      "name": "mumu",
+      "links": {
+        "x": "https://x.com/nanasaku56",
+        "pixiv": "https://www.pixiv.net/users/95551192",
+        "web": "https://lit.link/nanasaku56"
+      },
+      "extras": [
+        {
+          "kind": "bluesky",
+          "url": "https://bsky.app/profile/nanasaku56.bsky.social",
+          "label": "Bluesky"
+        },
+        {
+          "kind": "booth",
+          "url": "https://mumushop.booth.pm/",
+          "label": "BOOTH"
+        },
+        {
+          "kind": "xfolio",
+          "url": "https://xfolio.jp/portfolio/skrinnk",
+          "label": "Xfolio"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/nanasaku56/status/2110311292804493653",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の直近投稿で10/18関西コミティア77・I-48・mumuを直接照合。本人リンク集で相互X・pixiv95551192・BOOTH・Bluesky・Xfolioを自己掲載先として確認。pixiv本文は未確認。"
+        },
+        {
+          "url": "https://x.com/nanasaku56",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://lit.link/nanasaku56",
+          "title": "櫻井ナナコ｜本人リンク集",
+          "note": "作者名と自己掲載活動先を照合。"
+        }
+      ],
+      "note": "本人の直近投稿で10/18関西コミティア77・I-48・mumuを直接照合。本人リンク集で相互X・pixiv95551192・BOOTH・Bluesky・Xfolioを自己掲載先として確認。pixiv本文は未確認。"
+    },
+    {
+      "space": "A-91",
+      "name": "ネコころ堂",
+      "links": {
+        "x": "https://x.com/korokoro_555tw",
+        "web": "https://suzuri.jp/korokororin"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/korokoro_555tw/status/2110012504034455731",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の10/13の出展告知で10/18関西コミティア・A-91・猫ころ堂を照合。本人表記は漢字の猫ころ堂、公式のネコころ堂は変更しない。公開プロフィールでも猫ころ堂を名乗りSUZURIを自己指定。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/korokoro_555tw",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "本人の10/13の出展告知で10/18関西コミティア・A-91・猫ころ堂を照合。本人表記は漢字の猫ころ堂、公式のネコころ堂は変更しない。公開プロフィールでも猫ころ堂を名乗りSUZURIを自己指定。pixivは未特定。"
+    },
+    {
+      "space": "H-32",
+      "name": "ゲームハート",
+      "links": {
+        "x": "https://x.com/yukisirosionn7",
+        "pixiv": "https://www.pixiv.net/users/21167604"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/yukisirosionn7/status/2109990277893313018",
+          "title": "本人の出展・頒布告知",
+          "note": "保存済みの旧候補yukisirosionnは取得404だったが、直近の本人出展・発送投稿から現行yukisirosionn7を発見。本人が関西コミティアのH-32を明記し、今週末の出展準備を告知。pixiv21167604は現行本人プロフィールの自己指定先、本文未確認。旧アカウントからの移行そのものとサークル名「ゲームハート」の当回本文記載は未確認。個人Webは未特定。"
+        },
+        {
+          "url": "https://x.com/yukisirosionn7",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "保存済みの旧候補yukisirosionnは取得404だったが、直近の本人出展・発送投稿から現行yukisirosionn7を発見。本人が関西コミティアのH-32を明記し、今週末の出展準備を告知。pixiv21167604は現行本人プロフィールの自己指定先、本文未確認。旧アカウントからの移行そのものとサークル名「ゲームハート」の当回本文記載は未確認。個人Webは未特定。"
+    },
+    {
+      "space": "O-18",
+      "name": "Texas Burger",
+      "links": {
+        "x": "https://x.com/the_ba97",
+        "web": "https://tomagarage.com"
+      },
+      "extras": [
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/to.ma13/",
+          "label": "Instagram"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/the_ba97/status/2109619772988281196",
+          "title": "本人の出展・頒布告知",
+          "note": "本人表示名に関西コミティア77・O-18、10/12のお品書きに10/18関西コミティア77を明記。本人サイトABOUTの作者トーマと活動先を照合。サークル名Texas Burgerの当回本文記載は未確認。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/the_ba97",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://tomagarage.com/about/",
+          "title": "トーマ｜本人サイトABOUT",
+          "note": "自己指定サイトの作者名・作品集活動・Instagramを確認。"
+        }
+      ],
+      "note": "本人表示名に関西コミティア77・O-18、10/12のお品書きに10/18関西コミティア77を明記。本人サイトABOUTの作者トーマと活動先を照合。サークル名Texas Burgerの当回本文記載は未確認。pixivは未特定。"
+    },
+    {
+      "space": "K-18",
+      "name": "えむお工房",
+      "links": {
+        "x": "https://x.com/ynsk0615",
+        "pixiv": "https://www.pixiv.net/users/27618522",
+        "web": "https://yonesuke.fanbox.cc/"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/ynsk0615/status/2109605806790603079",
+          "title": "本人の出展・頒布告知",
+          "note": "保存済み作者名よねすけから、現行本人表示名の関西コミティアK-18と今回参加告知を照合。本人の作品告知にえむお工房を明記し、同じ作者のショップ名義を照合。pixiv27618522は本人Xの自己指定先、本文未確認。主Webは本人の短縮自己リンクが指すFANBOX。"
+        },
+        {
+          "url": "https://x.com/ynsk0615",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://bit.ly/39exN39",
+          "title": "本人指定FANBOXの短縮リンク",
+          "note": "yonesuke.fanbox.ccへ転送し作者よねすけぇを確認。"
+        }
+      ],
+      "note": "保存済み作者名よねすけから、現行本人表示名の関西コミティアK-18と今回参加告知を照合。本人の作品告知にえむお工房を明記し、同じ作者のショップ名義を照合。pixiv27618522は本人Xの自己指定先、本文未確認。主Webは本人の短縮自己リンクが指すFANBOX。"
+    },
+    {
+      "space": "N-80",
+      "name": "甲殻クラブ",
+      "links": {
+        "x": "https://x.com/7Ibenbnoo0y9m6y",
+        "web": "https://youtube.com/@kk-is7zt"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/7Ibenbnoo0y9m6y/status/2109584472714977423",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の9/30の固定告知で関西コミティア・N-80、直近投稿でも当回頒布を確認。Webは本人プロフィール指定YouTube。サークル名「甲殻クラブ」・回数77・開催日10/18の当回本文記載は未確認。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/7Ibenbnoo0y9m6y",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "本人の9/30の固定告知で関西コミティア・N-80、直近投稿でも当回頒布を確認。Webは本人プロフィール指定YouTube。サークル名「甲殻クラブ」・回数77・開催日10/18の当回本文記載は未確認。pixivは未特定。"
+    },
+    {
+      "space": "I-96",
+      "name": "Daff Ray",
+      "links": {
+        "x": "https://x.com/9taro_illust",
+        "web": "https://lit.link/9taroillust"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@9taro_illust",
+          "label": "Skeb"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/9taro_illust/status/2104055983773474973",
+          "title": "本人の出展・頒布告知",
+          "note": "本人表示名で関西コミティア77・I-96、9/27の参加チケット到着と原稿準備の本人投稿を照合。本人指定リンク集が相互X・Skeb・YouTubeを指定。サークル名Daff Rayと開催日10/18の当回本文記載は未確認。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/9taro_illust",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://lit.link/9taroillust",
+          "title": "九太郎｜本人リンク集",
+          "note": "本人Xの自己指定先から相互X・Skebを確認。"
+        }
+      ],
+      "note": "本人表示名で関西コミティア77・I-96、9/27の参加チケット到着と原稿準備の本人投稿を照合。本人指定リンク集が相互X・Skeb・YouTubeを指定。サークル名Daff Rayと開催日10/18の当回本文記載は未確認。pixivは未特定。"
+    },
+    {
+      "space": "K-59",
+      "name": "らいせん軒",
+      "links": {
+        "x": "https://x.com/takesforeve",
+        "pixiv": "https://www.pixiv.net/users/75898468"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/takesforeve/status/2108524031330922936",
+          "title": "本人の出展・頒布告知",
+          "note": "本人お品書きの公開検索掲載本文にサークル名らいせん軒と関西コミティアタグを明記。本人プロフィール上の自己投稿・作品カードにも10月18日京都・関西コミティア77への参加が記されるため同じ当回サークルを照合。pixiv75898468は本人指定先、本文未確認。お品書きのX本体は閲覧制限。配置K-59の本人本文記載と個人Webは未確認。"
+        },
+        {
+          "url": "https://x.com/takesforeve",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        }
+      ],
+      "note": "本人お品書きの公開検索掲載本文にサークル名らいせん軒と関西コミティアタグを明記。本人プロフィール上の自己投稿・作品カードにも10月18日京都・関西コミティア77への参加が記されるため同じ当回サークルを照合。pixiv75898468は本人指定先、本文未確認。お品書きのX本体は閲覧制限。配置K-59の本人本文記載と個人Webは未確認。"
+    },
+    {
+      "space": "A-76",
+      "name": "細切れ屋",
+      "links": {
+        "x": "https://x.com/komagire__",
+        "web": "https://komagireya.booth.pm/items",
+        "pixiv": "https://www.pixiv.net/users/81397363"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/komagire__/status/2107279199916679544",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の10/6の参加告知で10/18関西コミティア・A76を直接照合。本人プロフィール指定の細切れ屋BOOTHを掲載。本人告知には欠席・早期撤収の可能性と既刊のみの予定もあり、確定欠席の扱いにはしていない。pixivとサークル名の当回投稿内の文章記載は未確認。"
+        },
+        {
+          "url": "https://x.com/komagire__",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://komagireya.booth.pm/items",
+          "title": "細切れ屋｜本人指定BOOTH",
+          "note": "ショップ名・作者こまき・pixiv81397363と、本人Xの創作キャラクターに対応する自作本を照合。"
+        }
+      ],
+      "note": "本人の10/6の参加告知で10/18関西コミティア・A76を直接照合。本人プロフィール指定の細切れ屋BOOTHを掲載。本人告知には欠席・早期撤収の可能性と既刊のみの予定もあり、確定欠席の扱いにはしていない。pixiv81397363は本人指定ショップの作者リンク、プロフィール本文未確認。ショップ名も細切れ屋と一致するが、サークル名の当回投稿内の文章記載は未確認。"
+    },
+    {
+      "space": "H-89",
+      "name": "えもしゆま＆異界工房",
+      "links": {
+        "x": "https://x.com/Yuma_emosi"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/Yuma_emosi/status/2107078352368730340",
+          "title": "本人の出展・頒布告知",
+          "note": "本人の関西コミティア77参加告知と、現行表示名のえもしゆま・77・H-89を照合。合同サークルの確認できた作者Xを掲載。「異界工房」側の作者アカウント、pixiv・個人Webは未特定。"
+        },
+        {
+          "url": "https://x.com/Yuma_emosi",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://www.k-comitia.com/list77/",
+          "title": "当回公式サークル一覧",
+          "note": "えもしゆま＆異界工房・H-89を現行本人表示名と照合。"
+        }
+      ],
+      "note": "本人の関西コミティア77参加告知と、現行表示名のえもしゆま・77・H-89を照合。合同サークルの確認できた作者Xを掲載。「異界工房」側の作者アカウント、pixiv・個人Webは未特定。"
+    },
+    {
+      "space": "H-51",
+      "name": "ココノエ",
+      "links": {
+        "x": "https://x.com/coconoe_sound",
+        "web": "https://ci-en.dlsite.com/creator/32402"
+      },
+      "extras": [],
+      "sources": [
+        {
+          "url": "https://x.com/coconoe_sound/status/2109116818044641289",
+          "title": "本人の出展・頒布告知",
+          "note": "本人プロフィールで同人サークルココノエを名乗り、10/11の自己投稿で10月18日関西コミティアへの出店を告知。同名サークルと当回開催日の本人告知を照合。Webは同じプロフィールの自己指定Ci-en。配置H-51の本人本文記載、およびCi-enの本文は取得できず未確認。pixivは未特定。"
+        },
+        {
+          "url": "https://x.com/coconoe_sound",
+          "title": "本人X｜公開プロフィール",
+          "note": "本人名・表示名・自己掲載リンクと出展／頒布告知を確認"
+        },
+        {
+          "url": "https://ci-en.dlsite.com/creator/32402/article/1985464",
+          "title": "本人指定の当回出展記事",
+          "note": "公開X上で本人が記事タイトルとURLを告知。Ci-en本文は取得できず未確認。"
+        }
+      ],
+      "note": "本人プロフィールで同人サークルココノエを名乗り、10/11の自己投稿で10月18日関西コミティアへの出店を告知。同名サークルと当回開催日の本人告知を照合。Webは同じプロフィールの自己指定Ci-en。配置H-51の本人本文記載、およびCi-enの本文は取得できず未確認。pixivは未特定。"
+    }
+  ],
+  "unresolved": [
+    {
+      "space": "G-13",
+      "name": "ミソニコミ",
+      "note": "公開投稿から関西コミティア参加者の鍋拭きが候補に出たが、表示名G-13はトリもち祭2の配置。本人リンク集が指定する一次創作別名義・菜々辺ふきのは現行プロフィールで関コミP-20を表示する。当回G-13との独立した対応は確認できず、混同を避け保留。",
+      "sources": [
+        "https://x.com/nabehuki",
+        "https://lit.link/nabehuki",
+        "https://x.com/nanahuki_"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "x",
+          "url": "https://x.com/nabehuki",
+          "reason": "G-13の表示は別イベント。本人の一次創作別名義は当回P-20を表示し、G-13との接続は未確認。"
+        }
+      ]
+    },
+    {
+      "space": "P-48",
+      "name": "Kumada Kumao",
+      "note": "読者・万博の当回推薦投稿と添付写真を確認したが、写真は参加サークル名簿のP-48部分だった。推薦者のSNSは作者本人のものではなく、作者の個人SNS・個人サイトは引き続き未特定。",
+      "sources": [
+        "https://x.com/bampaku/status/2108931751087395132",
+        "https://x.com/bampaku/status/2108912927835324757"
+      ],
+      "candidateLinks": []
+    }
+  ]
+}
