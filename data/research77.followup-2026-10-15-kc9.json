@@ -1,0 +1,4429 @@
+{
+  "id": "2026-10-15-kc9",
+  "checkedDate": "2026-10-15",
+  "initialUnidentified": 237,
+  "methods": [
+    "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+    "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+    "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+    "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+    "当回公式サークル一覧の掲載リンクを再確認"
+  ],
+  "scopeNote": "237掲載件の個別公開検索を全件取得し、サークル名の一致・関連する投稿を確認。一般語・記号のみの名前では検索側が語を分割した無関係の投稿が含まれる。前回保存分の区切り記号を含む再照合と、前回より古い公開投稿の取得分を追加照合。全投稿・全画像の網羅ではない。現在の当回告知と、過去の同名合同サークルの本人・公式作品の照合は各メモで区別し、未確定候補は保留した。",
+  "statistics": {
+    "individualQueries": 237,
+    "individualPagesFetched": 237,
+    "individualQueriesWithPosts": 114,
+    "individualTimelineEntries": 3004,
+    "individualCandidatePostsReviewed": 114,
+    "previousEventEntriesRechecked": 2610,
+    "previousEventUniquePostsRechecked": 2589,
+    "additionalEventPagesFetched": 153,
+    "additionalEventTimelineEntries": 1513,
+    "additionalEventUniquePosts": 1513,
+    "eventCandidatePostsReviewed": 88,
+    "authorAliasQueries": 13,
+    "candidateAccountQueries": 8,
+    "officialUnidentifiedNamesRechecked": 237,
+    "officialLinkAdditions": 0,
+    "unresolvedDecisions": 4
+  },
+  "eventQueries": [
+    {
+      "query": "関西コミティア",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%E9%96%A2%E8%A5%BF%E3%82%B3%E3%83%9F%E3%83%86%E3%82%A3%E3%82%A2&ei=UTF-8",
+      "continuedFromPreviousPage": 160,
+      "firstAdditionalPage": 161,
+      "lastAdditionalPage": 313,
+      "endReason": "公開検索の追加タイムラインが空になったため終了。サービスが返す取得分であり、全履歴の網羅ではない。",
+      "timelineEntries": 1513
+    }
+  ],
+  "checks": [
+    {
+      "space": "A-09",
+      "name": "桃李園",
+      "query": "\"桃李園\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%A1%83%E6%9D%8E%E5%9C%92%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 2,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-10",
+      "name": "mgoose",
+      "query": "\"mgoose\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22mgoose%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-34",
+      "name": "legends上田",
+      "query": "\"legends上田\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22legends%E4%B8%8A%E7%94%B0%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-36",
+      "name": "＆書房",
+      "query": "\"＆書房\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%EF%BC%86%E6%9B%B8%E6%88%BF%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-37",
+      "name": "南蛮唐茄子",
+      "query": "\"南蛮唐茄子\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8D%97%E8%9B%AE%E5%94%90%E8%8C%84%E5%AD%90%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-45",
+      "name": "スピリダム",
+      "query": "\"スピリダム\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%83%94%E3%83%AA%E3%83%80%E3%83%A0%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-47",
+      "name": "茸書",
+      "query": "\"茸書\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8C%B8%E6%9B%B8%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-55",
+      "name": "ともえ造",
+      "query": "\"ともえ造\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A8%E3%82%82%E3%81%88%E9%80%A0%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-61",
+      "name": "ユッピーさん",
+      "query": "\"ユッピーさん\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%A6%E3%83%83%E3%83%94%E3%83%BC%E3%81%95%E3%82%93%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-63",
+      "name": "おうじさまの星",
+      "query": "\"おうじさまの星\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8A%E3%81%86%E3%81%98%E3%81%95%E3%81%BE%E3%81%AE%E6%98%9F%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"yabulemon\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-67",
+      "name": "ギロチン団地打首断棟404号室",
+      "query": "\"ギロチン団地打首断棟404号室\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AE%E3%83%AD%E3%83%81%E3%83%B3%E5%9B%A3%E5%9C%B0%E6%89%93%E9%A6%96%E6%96%AD%E6%A3%9F404%E5%8F%B7%E5%AE%A4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-93",
+      "name": "RANBU",
+      "query": "\"RANBU\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22RANBU%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "A-94",
+      "name": "しまこ",
+      "query": "\"しまこ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%81%BE%E3%81%93%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-06",
+      "name": "プテノグ",
+      "query": "\"プテノグ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%97%E3%83%86%E3%83%8E%E3%82%B0%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-07",
+      "name": "無辺世界",
+      "query": "\"無辺世界\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%84%A1%E8%BE%BA%E4%B8%96%E7%95%8C%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-21",
+      "name": "にゃこにゃこ神社",
+      "query": "\"にゃこにゃこ神社\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AB%E3%82%83%E3%81%93%E3%81%AB%E3%82%83%E3%81%93%E7%A5%9E%E7%A4%BE%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-35",
+      "name": "HANA∞",
+      "query": "\"HANA∞\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22HANA%E2%88%9E%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-43",
+      "name": "星詠屋",
+      "query": "\"星詠屋\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%98%9F%E8%A9%A0%E5%B1%8B%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-47",
+      "name": "タイとエビ＋揺れる蛙",
+      "query": "\"タイとエビ＋揺れる蛙\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%BF%E3%82%A4%E3%81%A8%E3%82%A8%E3%83%93%EF%BC%8B%E6%8F%BA%E3%82%8C%E3%82%8B%E8%9B%99%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-61",
+      "name": "ほっけ家",
+      "query": "\"ほっけ家\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BB%E3%81%A3%E3%81%91%E5%AE%B6%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 5,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-67",
+      "name": "アンクキャッチ",
+      "query": "\"アンクキャッチ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A2%E3%83%B3%E3%82%AF%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-76",
+      "name": "pronron",
+      "query": "\"pronron\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22pronron%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-79",
+      "name": "白黒幻想譚",
+      "query": "\"白黒幻想譚\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%99%BD%E9%BB%92%E5%B9%BB%E6%83%B3%E8%AD%9A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-81",
+      "name": "Fomalhaut",
+      "query": "\"Fomalhaut\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Fomalhaut%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-87",
+      "name": "YELLOW MOON",
+      "query": "\"YELLOW MOON\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22YELLOW+MOON%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 24,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "B-93",
+      "name": "よろずや",
+      "query": "\"よろずや\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%88%E3%82%8D%E3%81%9A%E3%82%84%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-01",
+      "name": "あのにま",
+      "query": "\"あのにま\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%AE%E3%81%AB%E3%81%BE%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 3,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-02",
+      "name": "ぽんぽんすきぺこ",
+      "query": "\"ぽんぽんすきぺこ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BD%E3%82%93%E3%81%BD%E3%82%93%E3%81%99%E3%81%8D%E3%81%BA%E3%81%93%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-03",
+      "name": "甘味処",
+      "query": "\"甘味処\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%94%98%E5%91%B3%E5%87%A6%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-07",
+      "name": "高空腹",
+      "query": "\"高空腹\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AB%98%E7%A9%BA%E8%85%B9%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-08",
+      "name": "ひだりて",
+      "query": "\"ひだりて\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B2%E3%81%A0%E3%82%8A%E3%81%A6%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-10",
+      "name": "Ray",
+      "query": "\"Ray\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Ray%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-20",
+      "name": "二度見の雑貨やさん",
+      "query": "\"二度見の雑貨やさん\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%BA%8C%E5%BA%A6%E8%A6%8B%E3%81%AE%E9%9B%91%E8%B2%A8%E3%82%84%E3%81%95%E3%82%93%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-23",
+      "name": "「よ」。",
+      "query": "\"「よ」。\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%80%8C%E3%82%88%E3%80%8D%E3%80%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-32",
+      "name": "非売品",
+      "query": "\"非売品\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%9D%9E%E5%A3%B2%E5%93%81%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-40",
+      "name": "空を眺めるくらぶ",
+      "query": "\"空を眺めるくらぶ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A9%BA%E3%82%92%E7%9C%BA%E3%82%81%E3%82%8B%E3%81%8F%E3%82%89%E3%81%B6%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-41",
+      "name": "いちごしろっぷ",
+      "query": "\"いちごしろっぷ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%84%E3%81%A1%E3%81%94%E3%81%97%E3%82%8D%E3%81%A3%E3%81%B7%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-43",
+      "name": "BACK LABRET",
+      "query": "\"BACK LABRET\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22BACK+LABRET%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"泥i\" コミティア"
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-47",
+      "name": "Y-BURN",
+      "query": "\"Y-BURN\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Y-BURN%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 2,
+      "additionalQueries": [
+        "id:Y_burn666_Main 関"
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-52",
+      "name": "マガポポ",
+      "query": "\"マガポポ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%82%AC%E3%83%9D%E3%83%9D%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-53",
+      "name": "アトリエ夜半",
+      "query": "\"アトリエ夜半\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8%E5%A4%9C%E5%8D%8A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-54",
+      "name": "惨憺たる有様。",
+      "query": "\"惨憺たる有様。\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%83%A8%E6%86%BA%E3%81%9F%E3%82%8B%E6%9C%89%E6%A7%98%E3%80%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-55",
+      "name": "ギザギザシッポ",
+      "query": "\"ギザギザシッポ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AE%E3%82%B6%E3%82%AE%E3%82%B6%E3%82%B7%E3%83%83%E3%83%9D%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [
+        "id:seohioyu 関"
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-61",
+      "name": "芋屋",
+      "query": "\"芋屋\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8A%8B%E5%B1%8B%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-65",
+      "name": "寝て壱畳",
+      "query": "\"寝て壱畳\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AF%9D%E3%81%A6%E5%A3%B1%E7%95%B3%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-77",
+      "name": "食々酒場",
+      "query": "\"食々酒場\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%A3%9F%E3%80%85%E9%85%92%E5%A0%B4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-78",
+      "name": "藤篭",
+      "query": "\"藤篭\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%97%A4%E7%AF%AD%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "C-80",
+      "name": "しめたろ家",
+      "query": "\"しめたろ家\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%81%E3%81%9F%E3%82%8D%E5%AE%B6%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-18",
+      "name": "またたびあとりえ",
+      "query": "\"またたびあとりえ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BE%E3%81%9F%E3%81%9F%E3%81%B3%E3%81%82%E3%81%A8%E3%82%8A%E3%81%88%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-21",
+      "name": "スイートルーム",
+      "query": "\"スイートルーム\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%88%E3%83%AB%E3%83%BC%E3%83%A0%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-24",
+      "name": "ルユヲコーヒー",
+      "query": "\"ルユヲコーヒー\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%AB%E3%83%A6%E3%83%B2%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-43",
+      "name": "あまやどり",
+      "query": "\"あまやどり\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%BE%E3%82%84%E3%81%A9%E3%82%8A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-46",
+      "name": "マカロンチーノ",
+      "query": "\"マカロンチーノ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%82%AB%E3%83%AD%E3%83%B3%E3%83%81%E3%83%BC%E3%83%8E%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-52",
+      "name": "Yellow Rose",
+      "query": "\"Yellow Rose\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Yellow+Rose%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-54",
+      "name": "陽気なジャンドゥーヤ",
+      "query": "\"陽気なジャンドゥーヤ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%99%BD%E6%B0%97%E3%81%AA%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%89%E3%82%A5%E3%83%BC%E3%83%A4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-60",
+      "name": "Cradle",
+      "query": "\"Cradle\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Cradle%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-68",
+      "name": "ちょこじゃむ",
+      "query": "\"ちょこじゃむ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A1%E3%82%87%E3%81%93%E3%81%98%E3%82%83%E3%82%80%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-75",
+      "name": "鯨堂",
+      "query": "\"鯨堂\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AF%A8%E5%A0%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 6,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-78",
+      "name": "まがつき",
+      "query": "\"まがつき\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BE%E3%81%8C%E3%81%A4%E3%81%8D%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 38,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "D-90",
+      "name": "マジ水1000%ゼラチン",
+      "query": "\"マジ水1000%ゼラチン\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%82%B8%E6%B0%B41000%25%E3%82%BC%E3%83%A9%E3%83%81%E3%83%B3%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-06",
+      "name": "しおみみ",
+      "query": "\"しおみみ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%81%8A%E3%81%BF%E3%81%BF%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 12,
+      "additionalQueries": [
+        "id:shiomimidesu 関コミ"
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-11",
+      "name": "陰鬱堂",
+      "query": "\"陰鬱堂\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%99%B0%E9%AC%B1%E5%A0%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-14",
+      "name": "テツジン兵団",
+      "query": "\"テツジン兵団\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%86%E3%83%84%E3%82%B8%E3%83%B3%E5%85%B5%E5%9B%A3%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-18",
+      "name": "da We nci 2",
+      "query": "\"da We nci 2\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22da+We+nci+2%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-21",
+      "name": "ビバリウム",
+      "query": "\"ビバリウム\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%93%E3%83%90%E3%83%AA%E3%82%A6%E3%83%A0%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-31",
+      "name": "そんな日もある。",
+      "query": "\"そんな日もある。\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%9D%E3%82%93%E3%81%AA%E6%97%A5%E3%82%82%E3%81%82%E3%82%8B%E3%80%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-46",
+      "name": "未来水槽",
+      "query": "\"未来水槽\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9C%AA%E6%9D%A5%E6%B0%B4%E6%A7%BD%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-51",
+      "name": "ぷろm2",
+      "query": "\"ぷろm2\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B7%E3%82%8Dm2%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-54",
+      "name": "ツインテールコレクション",
+      "query": "\"ツインテールコレクション\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%84%E3%82%A4%E3%83%B3%E3%83%86%E3%83%BC%E3%83%AB%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-58",
+      "name": "夜",
+      "query": "\"夜\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%9C%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-59",
+      "name": "夢の余白",
+      "query": "\"夢の余白\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%A2%E3%81%AE%E4%BD%99%E7%99%BD%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 5,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-64",
+      "name": "きち",
+      "query": "\"きち\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%A1%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-76",
+      "name": "VIVIT BURGER",
+      "query": "\"VIVIT BURGER\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22VIVIT+BURGER%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-79",
+      "name": "kakukazoku",
+      "query": "\"kakukazoku\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22kakukazoku%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-84",
+      "name": "ぷるるんらんど",
+      "query": "\"ぷるるんらんど\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B7%E3%82%8B%E3%82%8B%E3%82%93%E3%82%89%E3%82%93%E3%81%A9%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [
+        "id:maple4869_xxxx 関",
+        "id:maple4869_xxxx",
+        "\"ぷるるんらんど\" 関コミ",
+        "ちし共6 サークルリスト ぷるるんらんど",
+        "site:sengendo.a.la9.jp/chishicirclelist6.html \"ぷるるん\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "E-93",
+      "name": "藤乃屋",
+      "query": "\"藤乃屋\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%97%A4%E4%B9%83%E5%B1%8B%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-05",
+      "name": "緑硝子温室",
+      "query": "\"緑硝子温室\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%B7%91%E7%A1%9D%E5%AD%90%E6%B8%A9%E5%AE%A4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-20",
+      "name": "UKIYO",
+      "query": "\"UKIYO\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22UKIYO%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-26",
+      "name": "宇宙の片隅の星",
+      "query": "\"宇宙の片隅の星\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AE%87%E5%AE%99%E3%81%AE%E7%89%87%E9%9A%85%E3%81%AE%E6%98%9F%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-30",
+      "name": "ANNY書店",
+      "query": "\"ANNY書店\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22ANNY%E6%9B%B8%E5%BA%97%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-37",
+      "name": "NONON",
+      "query": "\"NONON\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22NONON%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-40",
+      "name": "柚月",
+      "query": "\"柚月\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9F%9A%E6%9C%88%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [
+        "\"Yozuki\" コミティア"
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-43",
+      "name": "YNOF",
+      "query": "\"YNOF\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22YNOF%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-44",
+      "name": "ぼんぼんねずみ",
+      "query": "\"ぼんぼんねずみ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BC%E3%82%93%E3%81%BC%E3%82%93%E3%81%AD%E3%81%9A%E3%81%BF%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-47",
+      "name": "しゅうさく",
+      "query": "\"しゅうさく\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%85%E3%81%86%E3%81%95%E3%81%8F%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-57",
+      "name": "さんぽめぐり",
+      "query": "\"さんぽめぐり\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%95%E3%82%93%E3%81%BD%E3%82%81%E3%81%90%E3%82%8A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 6,
+      "additionalQueries": [
+        "id:johgasaki 関",
+        "\"さんぽめぐり\" \"コミティア\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-65",
+      "name": "SaSa舟",
+      "query": "\"SaSa舟\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22SaSa%E8%88%9F%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-66",
+      "name": "Doro舟",
+      "query": "\"Doro舟\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Doro%E8%88%9F%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-80",
+      "name": "Glixcel403",
+      "query": "\"Glixcel403\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Glixcel403%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-83",
+      "name": "きまぐれモンスター工房",
+      "query": "\"きまぐれモンスター工房\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%BE%E3%81%90%E3%82%8C%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E5%B7%A5%E6%88%BF%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "F-86",
+      "name": "@時空",
+      "query": "\"@時空\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%40%E6%99%82%E7%A9%BA%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-04",
+      "name": "朗らかようび。",
+      "query": "\"朗らかようび。\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9C%97%E3%82%89%E3%81%8B%E3%82%88%E3%81%86%E3%81%B3%E3%80%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-05",
+      "name": "ＫＵＲＵＫＵＲＵ",
+      "query": "\"ＫＵＲＵＫＵＲＵ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%EF%BC%AB%EF%BC%B5%EF%BC%B2%EF%BC%B5%EF%BC%AB%EF%BC%B5%EF%BC%B2%EF%BC%B5%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-13",
+      "name": "ミソニコミ",
+      "query": "\"ミソニコミ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9F%E3%82%BD%E3%83%8B%E3%82%B3%E3%83%9F%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 10,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-17",
+      "name": "Nishinoki商店",
+      "query": "\"Nishinoki商店\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Nishinoki%E5%95%86%E5%BA%97%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-20",
+      "name": "SIREN KID",
+      "query": "\"SIREN KID\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22SIREN+KID%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-23",
+      "name": "砂",
+      "query": "\"砂\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A0%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-25",
+      "name": "茶々and福",
+      "query": "\"茶々and福\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8C%B6%E3%80%85and%E7%A6%8F%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-38",
+      "name": "ぽむぽめ2",
+      "query": "\"ぽむぽめ2\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BD%E3%82%80%E3%81%BD%E3%82%812%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-41",
+      "name": "hanatsuki",
+      "query": "\"hanatsuki\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22hanatsuki%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 4,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-52",
+      "name": "焼き貝",
+      "query": "\"焼き貝\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%84%BC%E3%81%8D%E8%B2%9D%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-55",
+      "name": "ゆきんこハウス",
+      "query": "\"ゆきんこハウス\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%81%8D%E3%82%93%E3%81%93%E3%83%8F%E3%82%A6%E3%82%B9%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-56",
+      "name": "××シンドローム",
+      "query": "\"××シンドローム\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%C3%97%C3%97%E3%82%B7%E3%83%B3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%A0%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-59",
+      "name": "Fairy Tale",
+      "query": "\"Fairy Tale\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Fairy+Tale%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-65",
+      "name": "こもれ日",
+      "query": "\"こもれ日\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%93%E3%82%82%E3%82%8C%E6%97%A5%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 34,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-67",
+      "name": "トウキョ~トリップ",
+      "query": "\"トウキョ~トリップ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%88%E3%82%A6%E3%82%AD%E3%83%A7~%E3%83%88%E3%83%AA%E3%83%83%E3%83%97%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-70",
+      "name": "あの時の患者です!",
+      "query": "\"あの時の患者です!\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%AE%E6%99%82%E3%81%AE%E6%82%A3%E8%80%85%E3%81%A7%E3%81%99%21%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-76",
+      "name": "きになりす",
+      "query": "\"きになりす\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%99%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 9,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "G-81",
+      "name": "ゆかいだね。",
+      "query": "\"ゆかいだね。\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%81%8B%E3%81%84%E3%81%A0%E3%81%AD%E3%80%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 18,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-11",
+      "name": "ばらえ氏＆どうぶつ工房",
+      "query": "\"ばらえ氏＆どうぶつ工房\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B0%E3%82%89%E3%81%88%E6%B0%8F%EF%BC%86%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E5%B7%A5%E6%88%BF%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-14",
+      "name": "うめ吉工房",
+      "query": "\"うめ吉工房\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%86%E3%82%81%E5%90%89%E5%B7%A5%E6%88%BF%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-18",
+      "name": "ぽんこつの森",
+      "query": "\"ぽんこつの森\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BD%E3%82%93%E3%81%93%E3%81%A4%E3%81%AE%E6%A3%AE%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 5,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-19",
+      "name": "しらす",
+      "query": "\"しらす\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%89%E3%81%99%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-21",
+      "name": "かめかめカフェ",
+      "query": "\"かめかめカフェ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8B%E3%82%81%E3%81%8B%E3%82%81%E3%82%AB%E3%83%95%E3%82%A7%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-24",
+      "name": "とてもねむたい",
+      "query": "\"とてもねむたい\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A8%E3%81%A6%E3%82%82%E3%81%AD%E3%82%80%E3%81%9F%E3%81%84%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-26",
+      "name": "かとさンち",
+      "query": "\"かとさンち\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8B%E3%81%A8%E3%81%95%E3%83%B3%E3%81%A1%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-33",
+      "name": "イソヒヨ商店出張所",
+      "query": "\"イソヒヨ商店出張所\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A4%E3%82%BD%E3%83%92%E3%83%A8%E5%95%86%E5%BA%97%E5%87%BA%E5%BC%B5%E6%89%80%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-34",
+      "name": "イソヒヨ商店　出張所３",
+      "query": "\"イソヒヨ商店　出張所３\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A4%E3%82%BD%E3%83%92%E3%83%A8%E5%95%86%E5%BA%97%E3%80%80%E5%87%BA%E5%BC%B5%E6%89%80%EF%BC%93%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-35",
+      "name": "ORIGINとまめまめ",
+      "query": "\"ORIGINとまめまめ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22ORIGIN%E3%81%A8%E3%81%BE%E3%82%81%E3%81%BE%E3%82%81%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-38",
+      "name": "成瀬川",
+      "query": "\"成瀬川\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%88%90%E7%80%AC%E5%B7%9D%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-41",
+      "name": "Yuu",
+      "query": "\"Yuu\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Yuu%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-44",
+      "name": "ぷくこな（山本こなつ）",
+      "query": "\"ぷくこな（山本こなつ）\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B7%E3%81%8F%E3%81%93%E3%81%AA%EF%BC%88%E5%B1%B1%E6%9C%AC%E3%81%93%E3%81%AA%E3%81%A4%EF%BC%89%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-54",
+      "name": "スランプ産業",
+      "query": "\"スランプ産業\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%83%A9%E3%83%B3%E3%83%97%E7%94%A3%E6%A5%AD%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-63",
+      "name": "あしゅらぺんてる",
+      "query": "\"あしゅらぺんてる\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%82%E3%81%97%E3%82%85%E3%82%89%E3%81%BA%E3%82%93%E3%81%A6%E3%82%8B%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"いまだに\" コミティア"
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-67",
+      "name": "平田池温泉①",
+      "query": "\"平田池温泉①\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%B9%B3%E7%94%B0%E6%B1%A0%E6%B8%A9%E6%B3%89%E2%91%A0%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-68",
+      "name": "平田池温泉②",
+      "query": "\"平田池温泉②\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%B9%B3%E7%94%B0%E6%B1%A0%E6%B8%A9%E6%B3%89%E2%91%A1%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-71",
+      "name": "チョコミント同盟",
+      "query": "\"チョコミント同盟\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%81%E3%83%A7%E3%82%B3%E3%83%9F%E3%83%B3%E3%83%88%E5%90%8C%E7%9B%9F%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 6,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-79",
+      "name": "高弥",
+      "query": "\"高弥\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AB%98%E5%BC%A5%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 3,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-84",
+      "name": "マロン",
+      "query": "\"マロン\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9E%E3%83%AD%E3%83%B3%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "H-88",
+      "name": "380dou",
+      "query": "\"380dou\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22380dou%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-05",
+      "name": "もちもちのひみつ",
+      "query": "\"もちもちのひみつ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%82%E3%81%A1%E3%82%82%E3%81%A1%E3%81%AE%E3%81%B2%E3%81%BF%E3%81%A4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-09",
+      "name": "うさギニョール",
+      "query": "\"うさギニョール\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%86%E3%81%95%E3%82%AE%E3%83%8B%E3%83%A7%E3%83%BC%E3%83%AB%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-22",
+      "name": "三",
+      "query": "\"三\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%B8%89%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-26",
+      "name": "鯱とくじら",
+      "query": "\"鯱とくじら\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%AF%B1%E3%81%A8%E3%81%8F%E3%81%98%E3%82%89%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-34",
+      "name": "忘れもの保管室",
+      "query": "\"忘れもの保管室\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%BF%98%E3%82%8C%E3%82%82%E3%81%AE%E4%BF%9D%E7%AE%A1%E5%AE%A4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-36",
+      "name": "スピード特化",
+      "query": "\"スピード特化\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E7%89%B9%E5%8C%96%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-39",
+      "name": "拉麺粥",
+      "query": "\"拉麺粥\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%8B%89%E9%BA%BA%E7%B2%A5%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-42",
+      "name": "ねろりのこんぺいどう",
+      "query": "\"ねろりのこんぺいどう\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AD%E3%82%8D%E3%82%8A%E3%81%AE%E3%81%93%E3%82%93%E3%81%BA%E3%81%84%E3%81%A9%E3%81%86%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-43",
+      "name": "AR",
+      "query": "\"AR\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22AR%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-45",
+      "name": "止まるな走れ",
+      "query": "\"止まるな走れ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%AD%A2%E3%81%BE%E3%82%8B%E3%81%AA%E8%B5%B0%E3%82%8C%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 7,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-58",
+      "name": "酸性物体",
+      "query": "\"酸性物体\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%85%B8%E6%80%A7%E7%89%A9%E4%BD%93%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-60",
+      "name": "宝石店",
+      "query": "\"宝石店\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AE%9D%E7%9F%B3%E5%BA%97%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-63",
+      "name": "そらの房たつよし",
+      "query": "\"そらの房たつよし\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%9D%E3%82%89%E3%81%AE%E6%88%BF%E3%81%9F%E3%81%A4%E3%82%88%E3%81%97%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-67",
+      "name": "福業バンク",
+      "query": "\"福業バンク\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A6%8F%E6%A5%AD%E3%83%90%E3%83%B3%E3%82%AF%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-71",
+      "name": "In a tab",
+      "query": "\"In a tab\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22In+a+tab%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-73",
+      "name": "ふかふかかちかち",
+      "query": "\"ふかふかかちかち\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%B5%E3%81%8B%E3%81%B5%E3%81%8B%E3%81%8B%E3%81%A1%E3%81%8B%E3%81%A1%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-81",
+      "name": "侑あか堂",
+      "query": "\"侑あか堂\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%BE%91%E3%81%82%E3%81%8B%E5%A0%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "I-82",
+      "name": "猟奇メンヘラ同好会",
+      "query": "\"猟奇メンヘラ同好会\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8C%9F%E5%A5%87%E3%83%A1%E3%83%B3%E3%83%98%E3%83%A9%E5%90%8C%E5%A5%BD%E4%BC%9A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "J-04",
+      "name": "てこね道場",
+      "query": "\"てこね道場\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A6%E3%81%93%E3%81%AD%E9%81%93%E5%A0%B4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"nyuuuuun\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "J-17",
+      "name": "桔梗原製作所",
+      "query": "\"桔梗原製作所\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%A1%94%E6%A2%97%E5%8E%9F%E8%A3%BD%E4%BD%9C%E6%89%80%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"西京真\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "J-24",
+      "name": "ハンドル日記",
+      "query": "\"ハンドル日記\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AB%E6%97%A5%E8%A8%98%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "J-38",
+      "name": "夏炉冬扇",
+      "query": "\"夏炉冬扇\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%8F%E7%82%89%E5%86%AC%E6%89%87%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 37,
+      "additionalQueries": [
+        "\"桂之介\" コミティア"
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "J-48",
+      "name": "天体標本室",
+      "query": "\"天体標本室\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%A4%A9%E4%BD%93%E6%A8%99%E6%9C%AC%E5%AE%A4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "J-55",
+      "name": "aHs",
+      "query": "\"aHs\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22aHs%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "J-74",
+      "name": "みけねこレクションズ",
+      "query": "\"みけねこレクションズ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BF%E3%81%91%E3%81%AD%E3%81%93%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "J-79",
+      "name": "ちいさいひと",
+      "query": "\"ちいさいひと\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A1%E3%81%84%E3%81%95%E3%81%84%E3%81%B2%E3%81%A8%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "J-87",
+      "name": "忘れない",
+      "query": "\"忘れない\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%BF%98%E3%82%8C%E3%81%AA%E3%81%84%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-09",
+      "name": "AM2",
+      "query": "\"AM2\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22AM2%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-12",
+      "name": "北白川モータープール",
+      "query": "\"北白川モータープール\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8C%97%E7%99%BD%E5%B7%9D%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%97%E3%83%BC%E3%83%AB%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-28",
+      "name": "恋ヶ丘診療所",
+      "query": "\"恋ヶ丘診療所\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%81%8B%E3%83%B6%E4%B8%98%E8%A8%BA%E7%99%82%E6%89%80%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-30",
+      "name": "はいかいいえでこたえてくだすん",
+      "query": "\"はいかいいえでこたえてくだすん\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%84%E3%81%8B%E3%81%84%E3%81%84%E3%81%88%E3%81%A7%E3%81%93%E3%81%9F%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%99%E3%82%93%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-31",
+      "name": "はづちゅっちゅ",
+      "query": "\"はづちゅっちゅ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%A5%E3%81%A1%E3%82%85%E3%81%A3%E3%81%A1%E3%82%85%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 2,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-38",
+      "name": "ご飯、いっぱいお食べ。",
+      "query": "\"ご飯、いっぱいお食べ。\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%94%E9%A3%AF%E3%80%81%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%8A%E9%A3%9F%E3%81%B9%E3%80%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 23,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-50",
+      "name": "犬も食わない",
+      "query": "\"犬も食わない\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8A%AC%E3%82%82%E9%A3%9F%E3%82%8F%E3%81%AA%E3%81%84%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-58",
+      "name": "ダックス奮闘",
+      "query": "\"ダックス奮闘\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%80%E3%83%83%E3%82%AF%E3%82%B9%E5%A5%AE%E9%97%98%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 2,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-66",
+      "name": "碧の部屋",
+      "query": "\"碧の部屋\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%A2%A7%E3%81%AE%E9%83%A8%E5%B1%8B%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 5,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-69",
+      "name": "みるみるおにぎり",
+      "query": "\"みるみるおにぎり\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%BF%E3%82%8B%E3%81%BF%E3%82%8B%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-78",
+      "name": "ゆめうつつ",
+      "query": "\"ゆめうつつ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%82%81%E3%81%86%E3%81%A4%E3%81%A4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-80",
+      "name": "パン工場",
+      "query": "\"パン工場\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%91%E3%83%B3%E5%B7%A5%E5%A0%B4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-81",
+      "name": "ニューロマンティック",
+      "query": "\"ニューロマンティック\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-82",
+      "name": "トモヱ投げ",
+      "query": "\"トモヱ投げ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%88%E3%83%A2%E3%83%B1%E6%8A%95%E3%81%92%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-83",
+      "name": "上手にできない",
+      "query": "\"上手にできない\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E4%B8%8A%E6%89%8B%E3%81%AB%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "K-89",
+      "name": "らうらう",
+      "query": "\"らうらう\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%89%E3%81%86%E3%82%89%E3%81%86%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-10",
+      "name": "JACKBOX",
+      "query": "\"JACKBOX\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22JACKBOX%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 10,
+      "additionalQueries": [
+        "\"shu_mai014\" JACKBOX",
+        "\"shu_mai014\" pixiv BOOTH",
+        "\"shu_mai014\" \"jack-box.booth.pm\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-30",
+      "name": "YULQA",
+      "query": "\"YULQA\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22YULQA%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-33",
+      "name": "牧風香の展示会",
+      "query": "\"牧風香の展示会\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%89%A7%E9%A2%A8%E9%A6%99%E3%81%AE%E5%B1%95%E7%A4%BA%E4%BC%9A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-35",
+      "name": "十三日月",
+      "query": "\"十三日月\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8D%81%E4%B8%89%E6%97%A5%E6%9C%88%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 10,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-39",
+      "name": "若草",
+      "query": "\"若草\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%8B%A5%E8%8D%89%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-49",
+      "name": "竹立升一",
+      "query": "\"竹立升一\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%AB%B9%E7%AB%8B%E5%8D%87%E4%B8%80%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-51",
+      "name": "はがきのひとこと",
+      "query": "\"はがきのひとこと\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%8C%E3%81%8D%E3%81%AE%E3%81%B2%E3%81%A8%E3%81%93%E3%81%A8%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-54",
+      "name": "黄金骸骨",
+      "query": "\"黄金骸骨\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%BB%84%E9%87%91%E9%AA%B8%E9%AA%A8%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 3,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-56",
+      "name": "ミクロ・ドア",
+      "query": "\"ミクロ・ドア\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%9F%E3%82%AF%E3%83%AD%E3%83%BB%E3%83%89%E3%82%A2%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-61",
+      "name": "キノコフィーバー",
+      "query": "\"キノコフィーバー\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AD%E3%83%8E%E3%82%B3%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 6,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-62",
+      "name": "犬ゴヤ",
+      "query": "\"犬ゴヤ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8A%AC%E3%82%B4%E3%83%A4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-64",
+      "name": "タンスの角",
+      "query": "\"タンスの角\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%AE%E8%A7%92%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [
+        "\"のひ\" \"タンス\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-65",
+      "name": "3度のコロッケ定食",
+      "query": "\"3度のコロッケ定食\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%223%E5%BA%A6%E3%81%AE%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B1%E5%AE%9A%E9%A3%9F%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-67",
+      "name": "ねこまたや",
+      "query": "\"ねこまたや\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AD%E3%81%93%E3%81%BE%E3%81%9F%E3%82%84%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 9,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-73",
+      "name": "可笑し工房",
+      "query": "\"可笑し工房\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%8F%AF%E7%AC%91%E3%81%97%E5%B7%A5%E6%88%BF%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-76",
+      "name": "朕は国家なり",
+      "query": "\"朕は国家なり\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%9C%95%E3%81%AF%E5%9B%BD%E5%AE%B6%E3%81%AA%E3%82%8A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-77",
+      "name": "水槽水草",
+      "query": "\"水槽水草\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%B0%B4%E6%A7%BD%E6%B0%B4%E8%8D%89%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 16,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-82",
+      "name": "甘噛みカルシウム",
+      "query": "\"甘噛みカルシウム\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%94%98%E5%99%9B%E3%81%BF%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-88",
+      "name": "ウォンバットEX",
+      "query": "\"ウォンバットEX\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A6%E3%82%A9%E3%83%B3%E3%83%90%E3%83%83%E3%83%88EX%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "L-92",
+      "name": "四ツ角",
+      "query": "\"四ツ角\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%9B%9B%E3%83%84%E8%A7%92%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [
+        "\"しもとはつせ\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "M-26",
+      "name": "遠征",
+      "query": "\"遠征\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%81%A0%E5%BE%81%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "M-27",
+      "name": "The Silence of Noblesse",
+      "query": "\"The Silence of Noblesse\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22The+Silence+of+Noblesse%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "M-35",
+      "name": "ガパオライス",
+      "query": "\"ガパオライス\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%AC%E3%83%91%E3%82%AA%E3%83%A9%E3%82%A4%E3%82%B9%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "M-54",
+      "name": "ダブルニースラスト",
+      "query": "\"ダブルニースラスト\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%80%E3%83%96%E3%83%AB%E3%83%8B%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%B9%E3%83%88%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "M-62",
+      "name": "黒ゴマパン",
+      "query": "\"黒ゴマパン\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E9%BB%92%E3%82%B4%E3%83%9E%E3%83%91%E3%83%B3%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 11,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "M-72",
+      "name": "撒き魚",
+      "query": "\"撒き魚\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%92%92%E3%81%8D%E9%AD%9A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "M-78",
+      "name": "エンドウスコープ",
+      "query": "\"エンドウスコープ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A6%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"えんどういぬ\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-03",
+      "name": "Althea",
+      "query": "\"Althea\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Althea%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-10",
+      "name": "NP-hist.",
+      "query": "\"NP-hist.\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22NP-hist.%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-20",
+      "name": "ざるざるざる",
+      "query": "\"ざるざるざる\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%96%E3%82%8B%E3%81%96%E3%82%8B%E3%81%96%E3%82%8B%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-29",
+      "name": "ピリオド",
+      "query": "\"ピリオド\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-31",
+      "name": "らくがき工学研究所",
+      "query": "\"らくがき工学研究所\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%89%E3%81%8F%E3%81%8C%E3%81%8D%E5%B7%A5%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%89%80%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"ねはれむ\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-35",
+      "name": "なんかムカツく",
+      "query": "\"なんかムカツく\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AA%E3%82%93%E3%81%8B%E3%83%A0%E3%82%AB%E3%83%84%E3%81%8F%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-37",
+      "name": "どろっぷあうと",
+      "query": "\"どろっぷあうと\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A9%E3%82%8D%E3%81%A3%E3%81%B7%E3%81%82%E3%81%86%E3%81%A8%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 14,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-39",
+      "name": "きざみねぎねぎ",
+      "query": "\"きざみねぎねぎ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8D%E3%81%96%E3%81%BF%E3%81%AD%E3%81%8E%E3%81%AD%E3%81%8E%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-43",
+      "name": "ゆがむほね",
+      "query": "\"ゆがむほね\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%81%8C%E3%82%80%E3%81%BB%E3%81%AD%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-44",
+      "name": "チャーハンとSen",
+      "query": "\"チャーハンとSen\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%81%E3%83%A3%E3%83%BC%E3%83%8F%E3%83%B3%E3%81%A8Sen%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-45",
+      "name": "季節のフトン",
+      "query": "\"季節のフトン\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AD%A3%E7%AF%80%E3%81%AE%E3%83%95%E3%83%88%E3%83%B3%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-46",
+      "name": "おべに",
+      "query": "\"おべに\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8A%E3%81%B9%E3%81%AB%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-59",
+      "name": "デニムデーモン",
+      "query": "\"デニムデーモン\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%87%E3%83%8B%E3%83%A0%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"トンパイ\" \"デニム\"",
+        "id:miyama_bot 関",
+        "\"デニムデーモン\" トンパイ"
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-71",
+      "name": "ニョロリ",
+      "query": "\"ニョロリ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%83%8B%E3%83%A7%E3%83%AD%E3%83%AA%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-78",
+      "name": "子午線",
+      "query": "\"子午線\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%AD%90%E5%8D%88%E7%B7%9A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "N-92",
+      "name": "はなみ屋",
+      "query": "\"はなみ屋\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%AF%E3%81%AA%E3%81%BF%E5%B1%8B%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [
+        "\"miha\" \"はなみ屋\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "O-05",
+      "name": "シャンバララ",
+      "query": "\"シャンバララ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%90%E3%83%A9%E3%83%A9%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "O-09",
+      "name": "背景美術資料準備室",
+      "query": "\"背景美術資料準備室\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%83%8C%E6%99%AF%E7%BE%8E%E8%A1%93%E8%B3%87%E6%96%99%E6%BA%96%E5%82%99%E5%AE%A4%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "O-11",
+      "name": "Atelier MiNe",
+      "query": "\"Atelier MiNe\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Atelier+MiNe%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 2,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "O-19",
+      "name": "星渡り",
+      "query": "\"星渡り\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%98%9F%E6%B8%A1%E3%82%8A%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-05",
+      "name": "深海商店",
+      "query": "\"深海商店\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%B7%B1%E6%B5%B7%E5%95%86%E5%BA%97%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-06",
+      "name": "物憂いココロ",
+      "query": "\"物憂いココロ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%89%A9%E6%86%82%E3%81%84%E3%82%B3%E3%82%B3%E3%83%AD%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-07",
+      "name": "Atelier VR.",
+      "query": "\"Atelier VR.\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Atelier+VR.%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-10",
+      "name": "水館",
+      "query": "\"水館\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E6%B0%B4%E9%A4%A8%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-15",
+      "name": "CHISATO",
+      "query": "\"CHISATO\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22CHISATO%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-19",
+      "name": "だんだん",
+      "query": "\"だんだん\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A0%E3%82%93%E3%81%A0%E3%82%93%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 40,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-27",
+      "name": "しかとゆきやなぎ",
+      "query": "\"しかとゆきやなぎ\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%81%8B%E3%81%A8%E3%82%86%E3%81%8D%E3%82%84%E3%81%AA%E3%81%8E%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-29",
+      "name": "からあげもち",
+      "query": "\"からあげもち\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%8B%E3%82%89%E3%81%82%E3%81%92%E3%82%82%E3%81%A1%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 5,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-34",
+      "name": "しろゆめ堂",
+      "query": "\"しろゆめ堂\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%97%E3%82%8D%E3%82%86%E3%82%81%E5%A0%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-38",
+      "name": "ゆらぎの底",
+      "query": "\"ゆらぎの底\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%86%E3%82%89%E3%81%8E%E3%81%AE%E5%BA%95%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-48",
+      "name": "Kumada Kumao",
+      "query": "\"Kumada Kumao\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Kumada+Kumao%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 3,
+      "additionalQueries": [
+        "\"Kumada Kumao\" \"くまねこのお茶会\"",
+        "\"はくまい\" \"くまねこのお茶会\""
+      ],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-49",
+      "name": "もふりんず。",
+      "query": "\"もふりんず。\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%82%82%E3%81%B5%E3%82%8A%E3%82%93%E3%81%9A%E3%80%82%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 1,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-53",
+      "name": "畜生みち",
+      "query": "\"畜生みち\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%95%9C%E7%94%9F%E3%81%BF%E3%81%A1%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-55",
+      "name": "床下犬収納",
+      "query": "\"床下犬収納\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E5%BA%8A%E4%B8%8B%E7%8A%AC%E5%8F%8E%E7%B4%8D%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-57",
+      "name": "猫最高！",
+      "query": "\"猫最高！\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E7%8C%AB%E6%9C%80%E9%AB%98%EF%BC%81%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 39,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-65",
+      "name": "蒼天白龍",
+      "query": "\"蒼天白龍\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22%E8%92%BC%E5%A4%A9%E7%99%BD%E9%BE%8D%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    },
+    {
+      "space": "P-70",
+      "name": "Osenko",
+      "query": "\"Osenko\"",
+      "queryService": "Yahoo!リアルタイム検索",
+      "queryUrl": "https://search.yahoo.co.jp/realtime/search?p=%22Osenko%22&ei=UTF-8",
+      "checkedDate": "2026-10-15",
+      "returnedPosts": 0,
+      "additionalQueries": [],
+      "methods": [
+        "サークル名単独のYahoo公開リアルタイム検索（イベント名の必須条件を外して検索）",
+        "前回取得した公開イベント投稿を配置の区切り記号も含めて再照合",
+        "前回の取得範囲より古い関西コミティア公開投稿から配置通知・参加告知を追加照合",
+        "本人公開プロフィール・自己指定リンクと主催の作者表記を照合",
+        "当回公式サークル一覧の掲載リンクを再確認"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "space": "K-31",
+      "name": "はづちゅっちゅ",
+      "links": {
+        "x": "https://x.com/chuko_haduki"
+      },
+      "extras": [],
+      "note": "葉月ちゅこの公開プロフィールが同人サークル「はづちゅっちゅ」と関西コミティア/K-31を明記。公開検索に掲載された本人の10月14日投稿も関西コミティア77のお品書き・サークル参加を告知しており、当回の本人と照合。お品書き投稿のX本体はログイン制限のため画像・本文を取得していない。pixivと個人Webは未特定。",
+      "sources": [
+        {
+          "url": "https://x.com/chuko_haduki",
+          "title": "葉月ちゅこ｜本人X",
+          "note": "公開の自己紹介にサークル名と当回配置を確認。"
+        },
+        {
+          "url": "https://x.com/chuko_haduki/status/2110286136044331194",
+          "title": "当回のお品書き告知",
+          "note": "公開検索の本人投稿本文と表示名を照合。X本体は閲覧制限。"
+        },
+        {
+          "url": "https://x.com/chuko_haduki/status/2110285588150767986",
+          "title": "関西コミティア77参加告知",
+          "note": "公開検索の本人投稿が当回参加を明記。"
+        },
+        {
+          "url": "https://x.com/chuko_haduki/status/2108878995567894998",
+          "title": "本人名義とサークル名の対応",
+          "note": "公開検索・公開プロフィール内の自己告知でサークル名の対応を補足。"
+        }
+      ]
+    },
+    {
+      "space": "A-45",
+      "name": "スピリダム",
+      "links": {
+        "x": "https://x.com/09thickLeaves05",
+        "pixiv": "https://www.pixiv.net/users/29839594",
+        "web": "https://botan-eedle.hatenablog.com/"
+      },
+      "extras": [
+        {
+          "kind": "web",
+          "label": "BOOTH（本人告知では10月末まで閉店）",
+          "url": "https://spiridom-fr.booth.pm/items"
+        }
+      ],
+      "note": "針の葉の公開プロフィールが関西コミティア77/A-45を明記。9月25日の配置通知到着投稿と10月12日の本人告知から、10/18は既刊とフリーペーパーを持参予定と照合。新刊が間に合わない告知であり、欠席の告知ではない。本人指定BOOTHの公開自己紹介も針の葉のサークル「スピリダム（SPIRIDOM）」と明記する。pixiv29839594はそのショップの作者リンクで、pixivプロフィール本文は未確認。Webは本人プロフィールが指定し、本人Xの投稿や過去の関西コミティア出展準備も掲載するブログ。BOOTHは10月末まで閉店と本人が表示し、現在ショップは非公開中だが、公開されている自己紹介・作者リンクは確認できたため補助リンクに保存。",
+      "sources": [
+        {
+          "url": "https://x.com/09thickLeaves05",
+          "title": "針の葉｜本人X・自己リンク",
+          "note": "当回77/A-45と自己指定ブログ・BOOTHを確認。"
+        },
+        {
+          "url": "https://x.com/09thickLeaves05/status/2109452018024919414",
+          "title": "10/18の頒布予定告知",
+          "note": "当回77と10/18、既刊＋フリーペーパーの本人告知を確認。"
+        },
+        {
+          "url": "https://x.com/09thickLeaves05/status/2103468116017832385",
+          "title": "配置通知到着の本人告知",
+          "note": "関コミの書類到着と配置追記を本人が説明。"
+        },
+        {
+          "url": "https://botan-eedle.hatenablog.com/",
+          "title": "本人指定ブログ",
+          "note": "公開Xの自己指定先。過去の出展準備や本人X投稿への参照も確認。"
+        },
+        {
+          "url": "https://spiridom-fr.booth.pm/items",
+          "title": "SPIRIDOM｜本人指定ショップ",
+          "note": "公開自己紹介に作者針の葉とサークル名スピリダムを明記。作者リンクはpixiv29839594。ショップ自体は非公開中。"
+        }
+      ]
+    },
+    {
+      "space": "N-59",
+      "name": "デニムデーモン",
+      "links": {
+        "x": "https://x.com/miyama_bot",
+        "web": "https://www.comitia.co.jp/attention/113.html"
+      },
+      "extras": [],
+      "note": "東京コミティア153の主催名簿でデニムデーモンの作者トンパイ・ミヤマを確認。ミヤマ本人の2025年9月7日投稿も同サークルとトンパイ作品の頒布・自分の売り子参加を明記し、過去の合同出展者本人としてXを照合。Webは主催がトンパイ（デニムデーモン）の作者名・サークル名を明記して公開する漫画掲載先で、個人サイトではない。当回77・N-59の本人参加告知と当回担当者は未確認。主Xはミヤマ、主Web掲載作品の作者はトンパイであり、全メンバーのSNSを網羅したものではない。トンパイ本人のSNS・pixivは引き続き未特定。",
+      "sources": [
+        {
+          "url": "https://www.comitia.co.jp/history/153list.html",
+          "title": "東京コミティア153｜主催名簿",
+          "note": "デニムデーモン（トンパイ、ミヤマ）とI49bを確認。"
+        },
+        {
+          "url": "https://x.com/miyama_bot/status/1964506515056054628",
+          "title": "ミヤマ本人の過去サークル告知",
+          "note": "2025年9月7日に同サークルと自分の売り子参加を明記。"
+        },
+        {
+          "url": "https://x.com/miyama_bot",
+          "title": "過去合同出展者ミヤマ｜本人X",
+          "note": "本人の公開プロフィールを確認。当回参加表示は未確認。"
+        },
+        {
+          "url": "https://www.comitia.co.jp/attention/113.html",
+          "title": "トンパイの公式公開漫画",
+          "note": "ティアズマガジン113掲載作品。作者名とサークル名を主催が明記。"
+        }
+      ]
+    },
+    {
+      "space": "E-79",
+      "name": "kakukazoku",
+      "links": {
+        "x": "https://x.com/kakukazoku_e",
+        "pixiv": "https://www.pixiv.net/users/126062037"
+      },
+      "extras": [],
+      "note": "同じkakukazoku名義の本人が2026年10月2日に「10月の関西コミティア」に自作イラスト集を持参する旨を告知し、10月5日には自作グッズの完成も報告。サークル名と当回開催月の本人告知を根拠に照合。E-79・回数77・開催日10/18の本人本文記載は未確認で、隣接出展者の返信を配置の確証としては用いていない。pixiv126062037は本人Xプロフィールの自己指定先で、pixivプロフィール本文は未確認。個人Webは未特定。",
+      "sources": [
+        {
+          "url": "https://x.com/kakukazoku_e/status/2105989518793044101",
+          "title": "10月の関西コミティア｜本人出展告知",
+          "note": "同名義の本人が当回開催月とイラスト集の持参を明記。"
+        },
+        {
+          "url": "https://x.com/kakukazoku_e",
+          "title": "kakukazoku｜本人X・自己掲載pixiv",
+          "note": "自己紹介からpixiv126062037を確認。直近の自作グッズ制作報告も照合。"
+        }
+      ]
+    },
+    {
+      "space": "E-46",
+      "name": "未来水槽",
+      "links": {
+        "x": "https://x.com/mikuru__krkr",
+        "web": "https://lit.link/mikuru_krkr"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "label": "Skeb（本人リンク集の指定先）",
+          "url": "https://skeb.jp/@aBqiYCM9dB33873"
+        }
+      ],
+      "note": "みくる本人の2026年9月28日公開投稿が関西コミティアのスペースE-46で参加すると明記。直近の本人プロフィールでも原稿・入稿の進行を確認し、当回のイベントと配置の本人告知を根拠に対応付けた。サークル名「未来水槽」・回数77・開催日10/18の本人本文記載は未確認。Webは本人Xが指定するlit.linkで、絵・同人活動と本人名義を確認。補助Skebはその自己掲載先で、取得429のためプロフィール本文は未確認。pixivは未特定。",
+      "sources": [
+        {
+          "url": "https://x.com/mikuru__krkr/status/2104483450619298258",
+          "title": "関西コミティアE-46｜本人参加告知",
+          "note": "2026年9月28日にイベント名・配置と自分の参加を明記。"
+        },
+        {
+          "url": "https://x.com/mikuru__krkr",
+          "title": "みくる｜本人X・自己リンク",
+          "note": "本人プロフィール、直近の原稿作業・入稿予定、自己指定lit.linkを確認。"
+        },
+        {
+          "url": "https://lit.link/mikuru_krkr",
+          "title": "本人指定リンク集",
+          "note": "本人名義と自ら絵を描く活動を確認。Skebの自己指定先も確認。"
+        }
+      ]
+    },
+    {
+      "space": "M-35",
+      "name": "ガパオライス",
+      "links": {
+        "x": "https://x.com/momonikubiglove"
+      },
+      "extras": [],
+      "note": "モモ肉7kgの公開表示名が関西コミティア77【M-35】を明記。9月25日の本人参加告知に加え、10月4日の固定投稿も当回77のおしながき・作家一覧と自分の参加を告知し、当日はモモ肉のみ在席すると説明。告知に参加する本人として照合。本人の一次創作タグはガパオナイトで、公式サークル名「ガパオライス」はそのまま保持。公式サークル名の本人本文記載とpixiv・個人Web、共同制作の他メンバー全員のアカウントは未確認。",
+      "sources": [
+        {
+          "url": "https://x.com/momonikubiglove",
+          "title": "モモ肉7kg｜本人X",
+          "note": "公開表示名に当回77とM-35、自己紹介に一次創作タグを確認。"
+        },
+        {
+          "url": "https://x.com/momonikubiglove/status/2103319769688797349",
+          "title": "本人の参加告知",
+          "note": "2026年9月25日に自分の関西コミティア参加を告知。"
+        },
+        {
+          "url": "https://x.com/momonikubiglove/status/2106565974308815272",
+          "title": "当回のおしながき・作家一覧告知",
+          "note": "当回77と自分の当日在席を明記。共同制作全メンバーの特定は未了。"
+        }
+      ]
+    },
+    {
+      "space": "N-31",
+      "name": "らくがき工学研究所",
+      "links": {
+        "x": "https://x.com/nehalem2025"
+      },
+      "extras": [],
+      "note": "ねはれむ本人の2026年9月24日公開投稿が10月18日の関西コミティアN-31への出展と既刊の頒布予定を明記。本人プロフィールも漫画制作の活動を明記し、当回の日付・配置と本人名義を照合。公式保存済み東京コミティア156の主催名簿にも、同名サークルの作者はねはれむと明記されている。サークル名「らくがき工学研究所」の当回投稿本文記載は未確認。pixivと個人Webは未特定。",
+      "sources": [
+        {
+          "url": "https://x.com/nehalem2025/status/2103212924810739885",
+          "title": "10/18・N-31｜本人参加告知",
+          "note": "2026年9月24日に当回の日付、イベント名、配置を明記。"
+        },
+        {
+          "url": "https://x.com/nehalem2025",
+          "title": "ねはれむ｜本人X",
+          "note": "本人の漫画制作活動と公開参加告知を確認。"
+        },
+        {
+          "url": "https://www.comitia.co.jp/history/156list.html",
+          "title": "東京コミティア156｜主催の作者表記",
+          "note": "保存済み主催名簿にらくがき工学研究所（ねはれむ）を確認。"
+        }
+      ]
+    },
+    {
+      "space": "L-10",
+      "name": "JACKBOX",
+      "links": {
+        "x": "https://x.com/shu_mai014"
+      },
+      "extras": [
+        {
+          "kind": "skeb",
+          "label": "Skeb（本人表示では停止中）",
+          "url": "https://skeb.jp/@shu_mai014"
+        }
+      ],
+      "note": "shuの公開表示名が関コミ77【L-10】を明記。本人の8月4日投稿が10月18日の関西コミティア77への申込を明記し、その公開返信で9月27日に参加案内の到着とL-10確定を報告しているため、当回の本人Xとして照合。本人はケモノ創作・直近の本制作とお品書き準備を告知。補助Skebは本人プロフィールの自己指定先で、本人が停止中と表示する。前回候補の同名BOOTH・pixiv作者shuとのSNSからの直接連結は未確認のため、この2候補の主リンク登録は保留を維持。",
+      "sources": [
+        {
+          "url": "https://x.com/shu_mai014",
+          "title": "shu｜当回L-10の本人X",
+          "note": "公開表示名の当回77・L-10と、本制作・お品書き準備、自己指定Skebを確認。"
+        },
+        {
+          "url": "https://x.com/shu_mai014/status/2084626761900560490",
+          "title": "10/18の申込とL-10確定の本人告知",
+          "note": "8月4日の申込告知と、表示された9月27日の本人返信の配置確定を確認。"
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "space": "E-84",
+      "name": "ぷるるんらんど",
+      "note": "読者の公開投稿から、めいぷる（現行表示あられ、）のX候補を発見。本人の2026年9月22日ちし共6参加・お品書き告知、主催の同名サークルD-12の掲載までは確認できたが、主催一覧本文の直接取得と本人の画像取得に失敗し、本人とサークル名を一次資料で直接対応付ける確認が残る。当回77・E-84の本人告知も未確認のため保留。読者・主催のアカウントは本人リンクとして登録しない。",
+      "sources": [
+        "https://x.com/eldorared/status/2102283551366685046",
+        "https://x.com/maple4869_xxxx",
+        "https://x.com/maple4869_xxxx/status/2101624885558821316",
+        "https://x.com/maple4869_xxxx/status/2102210700223578520",
+        "https://sengendo.a.la9.jp/chishicirclelist6.html"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "x",
+          "url": "https://x.com/maple4869_xxxx",
+          "reason": "読者による同名サークル作者の紹介があるが、本人・主催の一次資料による直接の対応と当回E-84は未確定。"
+        }
+      ]
+    },
+    {
+      "space": "F-57",
+      "name": "さんぽめぐり",
+      "note": "今田ずんばあらずの同名作品シリーズと本人X・自己指定BOOTHを確認。ただし一致するのは作品タイトルであり、関西コミティアのサークル名・当回F-57と同一とする一次資料は確認できなかったため未採用。",
+      "sources": [
+        "https://x.com/johgasaki",
+        "https://x.com/johgasaki/status/2104104036903354531"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "x",
+          "url": "https://x.com/johgasaki",
+          "reason": "同名作品の作者だが、対象サークル・当回F-57との直接対応は未確認。"
+        }
+      ]
+    },
+    {
+      "space": "P-48",
+      "name": "Kumada Kumao",
+      "note": "前回の読者推薦に加え、メルメリィマーケット主催の出展者紹介と公開一覧に「くまねこのお茶会／Kumada Kumao」を確認。主催掲載のイラストも確認したが、作者本人のSNS・個人サイトを示す表記やリンクは確認できなかったため未特定を維持。同名の別分野のアカウントや、共同出展者は作者本人と混同しない。",
+      "sources": [
+        "https://x.com/melmerry_market/status/2099062780489765186",
+        "https://www.melmerrymarket.com/sp"
+      ],
+      "candidateLinks": []
+    },
+    {
+      "space": "C-47",
+      "name": "Y-BURN",
+      "note": "Y_burn666を名乗る創作イラスト作者の公開Xと自己指定pixivは見つかったが、今回C-47のサークル名・出展告知との直接の対応は未確認。名前の類似だけで登録せず保留。公開イベント投稿に現れた別作者のC47aは東京コミティアの配置で、当回C-47の根拠にはしない。",
+      "sources": [
+        "https://x.com/Y_burn666_Main",
+        "https://x.com/hakushitatonoko"
+      ],
+      "candidateLinks": [
+        {
+          "kind": "x",
+          "url": "https://x.com/Y_burn666_Main",
+          "reason": "同系統の名前を名乗る創作作者だが、サークル名・今回C-47との直接対応は未確認。"
+        }
+      ]
+    }
+  ]
+}
