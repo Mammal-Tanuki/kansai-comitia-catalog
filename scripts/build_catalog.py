@@ -43,6 +43,17 @@ def kind_of(url):
     if host.endswith('.fanbox.cc'):return 'fanbox'
     return {'bsky.app':'bluesky','skeb.jp':'skeb','instagram.com':'instagram','misskey.io':'misskey'}.get(host,'web')
 
+def extra_url(raw,kind):
+    """Keep reviewed event post links while normalizing creator profiles."""
+    u=valid_url(raw)
+    if not u or kind!='event':return u
+    p=urlparse(raw.strip())
+    host=(p.hostname or '').lower().removeprefix('www.')
+    if host in ('x.com','twitter.com'):
+        m=re.fullmatch(r'/([A-Za-z0-9_]{1,15})/status/(\d+)/?',p.path)
+        if m:return 'https://x.com/'+m[1]+'/status/'+m[2]
+    return u
+
 def combine_sources(base,more):
     out=[];seen=set()
     for s in base+more:
@@ -105,7 +116,7 @@ def normalize(record,official):
             r.setdefault('rejectedLinks',[]).append({'kind':key,'url':original,'reason':'安全な公開プロフィールURLとして確認できず、またはサービス運営者アカウント'})
     for item in r.get('extras',[]):
         if not isinstance(item,dict):continue
-        u=valid_url(item.get('url',''))
+        u=extra_url(item.get('url',''),item.get('kind'))
         if not u or u in seen or u in [r[k] for k in CHANNELS]:continue
         kind=item.get('kind') or kind_of(u)
         # Data from joint circles may contain multiple legitimate owner accounts.

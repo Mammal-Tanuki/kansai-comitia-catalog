@@ -1,7 +1,7 @@
 {
   "summary": {
-    "x": 1034,
-    "pixiv": 361,
+    "x": 1037,
+    "pixiv": 363,
     "web": 831,
     "anyLink": 1221,
     "unidentified": 221,
@@ -14,9 +14,13 @@
     "deepSearchIdentified": 335,
     "followupSearchTarget": 229,
     "followupSearchChecked": 229,
-    "followupSearchIdentified": 8
+    "followupSearchIdentified": 8,
+    "enrichmentTarget": 18,
+    "enrichmentChecked": 18,
+    "enrichmentRecordsWithNewLinks": 14,
+    "enrichmentNewUrls": 44
   },
-  "generatedAt": "2026-10-15T10:04:56+00:00",
+  "generatedAt": "2026-10-17T23:46:48+00:00",
   "complete": true,
   "circles": [
     {
@@ -4008,13 +4012,30 @@
           "url": "https://docs.google.com/spreadsheets/d/1SJPMdto9WeCPhfiCXuQzPRPutEch8an9jhAcJwDHfN4/edit",
           "title": "鏡音ととせ！頒布作品リスト",
           "note": "絶版少年・ゼッパンの行に@zeppann。公式掲載サイトも作者名と少年創作活動が一致。"
+        },
+        {
+          "url": "http://zeppann.sakura.ne.jp/introduction/intro.html",
+          "title": "絶版少年の公式案内",
+          "note": "掲載されている2014年の日程を当回情報とは扱わない。"
+        },
+        {
+          "url": "http://zeppann.sakura.ne.jp/maindata/60authors.html",
+          "title": "同サイトの作者紹介",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/zeppann",
+          "title": "登録済み作者Xの公開確認",
+          "note": ""
         }
       ],
       "queries": [
         "\"絶版少年\" Twitter pixiv",
-        "\"ゼッパン\" pixiv"
+        "\"ゼッパン\" pixiv",
+        "\"絶版少年\"",
+        "id:zeppann 関西コミティア"
       ],
-      "notes": "公式掲載・本人掲載リンクを維持。未特定の追加チャンネルは検索済み未発見であり、不存在の確認ではない。",
+      "notes": "2026-10-18 追加確認：公式掲載サイトと作者紹介、および登録済みXを再確認。サイトのイベント情報は2014年のものなので当回参加情報には転用しない。公開取得分では当回77・A-53のお品書きと新たな本人SNSの直接指定は確認できず、既存リンクを維持。",
       "status": {
         "x": "found",
         "pixiv": "not_found",
@@ -4031,11 +4052,30 @@
           "error": ""
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-18",
       "officialLinks": [
         "http://zeppann.sakura.ne.jp/"
       ],
-      "additionalSearchPending": false
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "公式掲載・本人掲載リンクを維持。未特定の追加チャンネルは検索済み未発見であり、不存在の確認ではない。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "\"絶版少年\"",
+            "id:zeppann 関西コミティア"
+          ]
+        }
+      ]
     },
     {
       "space": "A-54",
@@ -4104,6 +4144,16 @@
           "url": "https://www.k-comitia.com/list77/",
           "title": "関西コミティア77 公式一覧",
           "note": "サークル名・配置を照合"
+        },
+        {
+          "url": "https://www.k-comitia.com/list77/",
+          "title": "主催の当回公式一覧",
+          "note": ""
+        },
+        {
+          "url": "https://search.yahoo.co.jp/realtime/search?p=%22%E3%81%A8%E3%82%82%E3%81%88%E9%80%A0%22&ei=UTF-8",
+          "title": "サークル名による公開投稿の再検索",
+          "note": "今回取得した検索では本人の該当投稿は得られなかった。"
         }
       ],
       "queries": [
@@ -4114,10 +4164,15 @@
         "\"ともえ造\" 関西コミティア -site:k-comitia.com",
         "ともえ造",
         "\"ともえ造\"",
-        "\"ともえ造\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/"
+        "\"ともえ造\" (コミティア OR 同人 OR イラスト) -site:k-comitia.com/list77/",
+        "\"ともえ造\" twitter",
+        "\"ともえぞう\" \"コミティア\"",
+        "\"A-55\" \"関西コミティア\"",
+        "\"A55\" \"関コミ\"",
+        "\"ともえ\" \"関西コミティア77\""
       ],
-      "notes": "個別名検索実施。本人に結び付く確認可能なSNS・Webリンクは未特定。 追加探索：サークル名と当回配置番号からX内を検索。当回の本人と結び付く根拠は未確認。アカウント不存在を意味しない。",
-      "checkedAt": "2026-10-12T20:32:30.909Z",
+      "notes": "2026-10-18 追加確認：サークル名単独、当回名、A-55/A55、ひらがな表記ともえぞう等で公開検索を再実施。公式の当回A-55掲載は確認したが、本人と直接照合できるSNS・サイト・お品書きは未特定。似た人名・別業種・別配置を本人として追加していない。アカウント不存在の確認ではない。",
+      "checkedAt": "2026-10-18",
       "searched": true,
       "officialLinks": [],
       "additionalSearchPending": false,
@@ -4185,6 +4240,29 @@
           "methods": [
             "公開Webのサークル名別検索",
             "候補がある場合に保存済み候補・本人公開ページ・主催指定先を照合"
+          ]
+        }
+      ],
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "個別名検索実施。本人に結び付く確認可能なSNS・Webリンクは未特定。 追加探索：サークル名と当回配置番号からX内を検索。当回の本人と結び付く根拠は未確認。アカウント不存在を意味しない。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "\"ともえ造\"",
+            "\"ともえ造\" twitter",
+            "\"ともえぞう\" \"コミティア\"",
+            "\"A-55\" \"関西コミティア\"",
+            "\"A55\" \"関コミ\"",
+            "\"ともえ\" \"関西コミティア77\""
           ]
         }
       ]
@@ -5446,10 +5524,26 @@
     {
       "space": "A-73",
       "name": "GANMODELIC",
-      "x": "",
+      "x": "https://x.com/mmng",
       "pixiv": "",
       "web": "https://moyoyomomonga.web.fc2.com/index.html",
-      "extras": [],
+      "extras": [
+        {
+          "kind": "web",
+          "url": "https://moyoyomomonga.web.fc2.com/offline.html",
+          "label": "当回のお品書き・参加案内"
+        },
+        {
+          "kind": "web",
+          "url": "https://alice-books.com/item/list/all?circle_id=3933",
+          "label": "本人指定の通販（アリスブックス）"
+        },
+        {
+          "kind": "booth",
+          "url": "https://moyoyomomonga.booth.pm/",
+          "label": "本人指定BOOTH（二次創作）"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.k-comitia.com/list77/",
@@ -5470,14 +5564,36 @@
           "url": "https://moyoyomomonga.web.fc2.com/about.html",
           "title": "へきれき 管理人ももんが",
           "note": "公式サイトの管理人プロフィールを確認。本人SNSへの直接リンクは見つからず。"
+        },
+        {
+          "url": "https://x.com/mmng/status/2111222959671255305",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/mmng",
+          "title": "本人公開プロフィール",
+          "note": "自己指定URLが登録済み公式サイトと一致。"
+        },
+        {
+          "url": "https://moyoyomomonga.web.fc2.com/offline.html",
+          "title": "GANMODELIC公式の当回案内",
+          "note": "10/18・A-73・本人指定の通販を確認。"
+        },
+        {
+          "url": "https://tamacomi.info/13/circlelist/",
+          "title": "TAMAコミ13主催一覧",
+          "note": "GANMODELIC・ももんが・指定Xを同じ紹介枠で照合。"
         }
       ],
       "queries": [
-        "\"GANMODELIC\" pixiv Twitter"
+        "\"GANMODELIC\" pixiv Twitter",
+        "\"GANMODELIC\" twitter ももんが",
+        "\"GANMODELIC\""
       ],
-      "notes": "管理人ももんがの公式プロフィールを追加確認。X・pixivは検索済み・未特定。",
+      "notes": "2026-10-18 追加確認：ももんが本人Xの当回77告知が10/18・GANMODELIC・A-73を明記し、本人のURL欄も登録済み公式サイトと一致。公式サイトのオフライン案内も同配置を明記し、本人指定通販を確認。夕頸子の作品は委託と明記されているため、その作者をGANMODELIC本人と同一視しない。",
       "status": {
-        "x": "not_found",
+        "x": "found",
         "pixiv": "not_found",
         "web": "found"
       },
@@ -5492,11 +5608,30 @@
           "error": ""
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-18",
       "officialLinks": [
         "https://moyoyomomonga.web.fc2.com/index.html"
       ],
-      "additionalSearchPending": false
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "管理人ももんがの公式プロフィールを追加確認。X・pixivは検索済み・未特定。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "\"GANMODELIC\" twitter ももんが",
+            "\"GANMODELIC\""
+          ]
+        }
+      ]
     },
     {
       "space": "A-74",
@@ -5802,6 +5937,11 @@
           "url": "https://x.com/tatami_tonori",
           "title": "本人Xの公開プロフィール",
           "note": "主催が同名サークルに指定するX・pixivを確認。本人XのURL欄も同じpixivを自己指定。今回の本人出展告知は未確認。"
+        },
+        {
+          "url": "https://x.com/tatami_tonori",
+          "title": "本人公開プロフィール",
+          "note": "自己指定pixivのユーザーIDとデフォルメ創作活動を照合。"
         }
       ],
       "queries": [
@@ -5810,11 +5950,13 @@
         "Yahooリアルタイム検索：\"廃園★はいまーと\"",
         "Yahooリアルタイム検索：関西コミティア77 A-79",
         "\"廃園\" \"はいまーと\"",
-        "\"廃園★はいまーと\" -site:k-comitia.com"
+        "\"廃園★はいまーと\" -site:k-comitia.com",
+        "id:tatami_tonori",
+        "id:tatami_tonori 関西コミティア"
       ],
-      "notes": "2026-10-14 追加照合：主催が同名サークルに指定するX・pixivを確認。本人XのURL欄も同じpixivを自己指定。今回の本人出展告知は未確認。",
+      "notes": "2026-10-18 追加確認：畳とのり本人の公開プロフィールと自己指定pixivを再確認し、登録済みpixiv71386375と一致。今回の公開取得分では関西コミティア77・A-79の直接告知と追加サイトは未確認。既存の主催指定先との照合根拠を保持する。",
       "searched": true,
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-18",
       "additionalSearchPending": false,
       "deepSearched": true,
       "wasUnidentifiedAtDeepStart": true,
@@ -5843,6 +5985,23 @@
         {
           "roundId": "2026-10-14-kc6",
           "notes": "2種類の検索エンジンでサークル名を個別検索。本人のX・pixiv・Webは未特定。アカウントの不存在を意味しない。 追加探索：サークル名と当回配置番号からX内を検索。当回の本人と結び付く根拠は未確認。アカウント不存在を意味しない。"
+        },
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "2026-10-14 追加照合：主催が同名サークルに指定するX・pixivを確認。本人XのURL欄も同じpixivを自己指定。今回の本人出展告知は未確認。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:tatami_tonori",
+            "id:tatami_tonori 関西コミティア"
+          ]
         }
       ]
     },
@@ -5993,7 +6152,18 @@
       "x": "https://x.com/kanzarkobo",
       "pixiv": "",
       "web": "https://kanzarkobo.com/",
-      "extras": [],
+      "extras": [
+        {
+          "kind": "web",
+          "url": "http://kanzarshop.com/",
+          "label": "本人指定の公式ショップ"
+        },
+        {
+          "kind": "event",
+          "url": "https://x.com/kanzarkobo/status/2109478680154231124",
+          "label": "関西コミティア77 お品書き"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.k-comitia.com/list77/",
@@ -6014,12 +6184,28 @@
           "url": "https://x.com/kanzarkobo",
           "title": "カンツァー｜X",
           "note": "本人Xの検索索引でカンツァーこうぼうの刺繍ワッペン作品を確認。公式サイトのタイニー・刺繍作品と照合。"
+        },
+        {
+          "url": "https://x.com/kanzarkobo",
+          "title": "本人公開プロフィール",
+          "note": "工房名・自己指定通販・当回A-83表示を確認。"
+        },
+        {
+          "url": "https://x.com/kanzarkobo/status/2109478680154231124",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/kanzarkobo/status/2110709797968605614",
+          "title": "当回に持ち込むタイニーの本人告知",
+          "note": ""
         }
       ],
       "queries": [
-        "\"カンツァーこうぼう\" Twitter pixiv"
+        "\"カンツァーこうぼう\" Twitter pixiv",
+        "id:kanzarkobo 関西コミティア"
       ],
-      "notes": "公式サイト・作品と一致するXを追加。pixivは未特定。",
+      "notes": "2026-10-18 追加確認：カンツァー本人のお品書きが10/18・A-83を明記し、自己紹介に工房名と公式通販kanzarshop.comを直接指定。タイニーのぬいぐるみ・ワッペンと合同誌の告知を確認。合同誌参加者の個人アカウントはこのサークルの本人SNSへ転用しない。",
       "status": {
         "x": "found",
         "pixiv": "not_found",
@@ -6042,11 +6228,29 @@
           "error": ""
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-18",
       "officialLinks": [
         "https://kanzarkobo.com"
       ],
-      "additionalSearchPending": false
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "公式サイト・作品と一致するXを追加。pixivは未特定。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:kanzarkobo 関西コミティア"
+          ]
+        }
+      ]
     },
     {
       "space": "A-84",
@@ -6064,6 +6268,21 @@
           "kind": "fantia",
           "url": "https://fantia.jp/bact",
           "label": "Fantia"
+        },
+        {
+          "kind": "web",
+          "url": "https://bact.raindrop.jp/",
+          "label": "本人ホームページ"
+        },
+        {
+          "kind": "web",
+          "url": "https://alice-books.com/item/list/all?circle_id=444&on_sale=1",
+          "label": "本人指定の通販（アリスブックス）"
+        },
+        {
+          "kind": "event",
+          "url": "https://x.com/NekotaBact/status/2108888561995182441",
+          "label": "関西コミティア77 お品書き"
         }
       ],
       "sources": [
@@ -6086,12 +6305,28 @@
           "url": "https://potofu.me/nekotabact",
           "title": "猫田博人/Bact. BARE FEET POTOFU",
           "note": "本人プロフィールのX告知とpixiv・Bluesky・Fantiaを照合。別のX Hiroto_shinryuは本人のOC用で主プロフィールには不採用。"
+        },
+        {
+          "url": "https://x.com/NekotaBact/status/2108888561995182441",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/NekotaBact/status/2111056279938769302",
+          "title": "お品書き・合同誌の取り扱い追記",
+          "note": ""
+        },
+        {
+          "url": "https://potofu.me/nekotabact",
+          "title": "本人指定POTOFU",
+          "note": "本人ホームページ・作家別通販への直接指定を確認。"
         }
       ],
       "queries": [
-        "\"猫田博人\" \"NekotaBact\""
+        "\"猫田博人\" \"NekotaBact\"",
+        "id:NekotaBact 関西コミティア"
       ],
-      "notes": "掲載先に複数の候補・関連作家リンクがあり、本人との同一性を継続確認。",
+      "notes": "2026-10-18 追加確認：猫田博人本人のお品書きが当回77・A-84・BARE FEETを明記。ファンタジーから日常系の漫画本とグッズの告知、合同誌「ぬいこうぼうへようこそ！」の取り扱いを確認。本人POTOFUが直接指定するホームページ・作家別通販を追加。OCヒロト用アカウントは主Xへ置換しない。",
       "status": {
         "x": "found",
         "pixiv": "found",
@@ -6142,11 +6377,29 @@
           "error": ""
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-18",
       "officialLinks": [
         "https://potofu.me/nekotabact"
       ],
-      "additionalSearchPending": false
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "掲載先に複数の候補・関連作家リンクがあり、本人との同一性を継続確認。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:NekotaBact 関西コミティア"
+          ]
+        }
+      ]
     },
     {
       "space": "A-85",
@@ -6169,6 +6422,21 @@
           "kind": "booth",
           "url": "https://aoinu1031.booth.pm/",
           "label": "BOOTH"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.youtube.com/@siraai.nui1129",
+          "label": "本人YouTube"
+        },
+        {
+          "kind": "web",
+          "url": "https://poipiku.com/14041742/",
+          "label": "本人ポイピク"
+        },
+        {
+          "kind": "event",
+          "url": "https://x.com/siraai_nui/status/2103328268124631304",
+          "label": "関西コミティア77 参加告知"
         }
       ],
       "sources": [
@@ -6201,12 +6469,33 @@
           "url": "https://lit.link/siraainui",
           "title": "海獣のお店 本人掲載先",
           "note": "本人リンク集先頭のグッズ販売リンク。下部にあるキャラデザ協力者Xは除外"
+        },
+        {
+          "url": "https://x.com/siraai_nui/status/2103328268124631304",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/siraai_nui/status/2110152488196432101",
+          "title": "本人制作の海獣作品・当回頒布告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/siraai_nui/status/2109966559984919036",
+          "title": "パッケージ風アクリルキーホルダーの本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://lit.link/siraainui",
+          "title": "本人指定リンク集",
+          "note": "本人用リンクと制作協力者の紹介を分けて確認。"
         }
       ],
       "queries": [
-        "\"siraai_nui\" pixiv"
+        "\"siraai_nui\" pixiv",
+        "id:siraai_nui 関西コミティア"
       ],
-      "notes": "",
+      "notes": "2026-10-18 追加確認：白藍ぬい本人の当回77・10/18の合同参加告知と、粘土の海獣・パッケージ風アクリルキーホルダー等の自己制作告知を確認。本人リンク集の先頭に自己指定するYouTube・ポイピクを追加。リンク集下部の制作協力者は本人SNSに追加しない。pixivの自己指定URLは今回も未確認。",
       "status": {
         "x": "found",
         "pixiv": "not_found",
@@ -6256,11 +6545,29 @@
           "error": ""
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-18",
       "officialLinks": [
         "https://lit.link/siraainui"
       ],
-      "additionalSearchPending": false
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": ""
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:siraai_nui 関西コミティア"
+          ]
+        }
+      ]
     },
     {
       "space": "A-86",
@@ -21565,12 +21872,48 @@
       "space": "D-03",
       "name": "CHIFFON",
       "x": "https://x.com/popoemo",
-      "pixiv": "",
+      "pixiv": "https://www.pixiv.net/users/42031204",
       "web": "https://michigure.wixsite.com/website",
-      "extras": [],
+      "extras": [
+        {
+          "kind": "web",
+          "url": "https://potofu.me/popoemo",
+          "label": "本人リンク集"
+        },
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@popoemo",
+          "label": "本人Skeb"
+        },
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/hoshinuu/",
+          "label": "本人Instagram"
+        },
+        {
+          "kind": "booth",
+          "url": "https://popoemo.booth.pm/",
+          "label": "本人BOOTH"
+        },
+        {
+          "kind": "fanbox",
+          "url": "https://popoemo.fanbox.cc/",
+          "label": "本人FANBOX"
+        },
+        {
+          "kind": "bluesky",
+          "url": "https://bsky.app/profile/popoemo.bsky.social",
+          "label": "本人Bluesky"
+        },
+        {
+          "kind": "event",
+          "url": "https://x.com/popoemo/status/2109219203748127203",
+          "label": "関西コミティア77 お品書き"
+        }
+      ],
       "status": {
         "x": "found",
-        "pixiv": "not_found",
+        "pixiv": "found",
         "web": "found"
       },
       "sources": [
@@ -21588,17 +21931,38 @@
           "url": "https://x.com/popoemo",
           "title": "本人X公開プロフィール",
           "note": "ハンドルとprofile_bioを照合。本人が指定したURL欄を確認。"
+        },
+        {
+          "url": "https://x.com/popoemo/status/2109219203748127203",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/popoemo",
+          "title": "本人公開プロフィール",
+          "note": "登録済みサイト・POTOFU・Skebを自己指定。"
+        },
+        {
+          "url": "https://michigure.wixsite.com/website",
+          "title": "本人ポートフォリオサイト",
+          "note": "pixiv等の本人指定先を確認。"
+        },
+        {
+          "url": "https://potofu.me/popoemo",
+          "title": "本人指定リンク集",
+          "note": "pixiv・Instagram・BOOTH・FANBOX・Blueskyを直接確認。リンク先の全投稿までは未確認。"
         }
       ],
       "queries": [
         "\"CHIFFON\" コミティア",
         "Yahooリアルタイム検索：関西コミティア77 D-03",
         "Yahooリアルタイム検索：\"CHIFFON\" 関西コミティア",
-        "\"萌乃もか\""
+        "\"萌乃もか\"",
+        "id:popoemo 関西コミティア"
       ],
-      "notes": "本人の関西コミティア77告知と主催のサークル名・配置を照合して現行Xを登録。",
+      "notes": "2026-10-18 追加確認：Po!（ぽむちー）本人のお品書きが当回77・10/18・CHIFFON・D-03を明記し、原画・色紙の頒布予定を確認。本人サイトと本人指定POTOFUが直接指定するpixiv42031204・通販・SNSを追加。POTOFU内の別アカウントは、今回本人との位置付けを追加確定していないため主Xにはしない。",
       "searched": true,
-      "checkedAt": "2026-10-12T20:30:54.110Z",
+      "checkedAt": "2026-10-18",
       "officialLinks": [],
       "additionalSearchPending": false,
       "deepSearched": true,
@@ -21608,6 +21972,24 @@
         "X内検索（サークル名）",
         "X内検索（当回配置番号）",
         "他イベント主催名簿の作者名による検索"
+      ],
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "本人の関西コミティア77告知と主催のサークル名・配置を照合して現行Xを登録。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:popoemo 関西コミティア"
+          ]
+        }
       ]
     },
     {
@@ -21636,6 +22018,16 @@
           "kind": "pixiv",
           "url": "https://www.pixiv.net/users/121779492",
           "label": "pixiv（イラスト・漫画）"
+        },
+        {
+          "kind": "x",
+          "url": "https://x.com/harururumoti",
+          "label": "本人X（創作）"
+        },
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/harururumoti/",
+          "label": "本人Instagram（創作）"
         }
       ],
       "sources": [
@@ -21658,12 +22050,28 @@
           "url": "https://lit.link/harururumoti",
           "title": "はるのおばけ［はる］ lit.link",
           "note": "公式掲載本人リンク集のラベルと複数創作アカウントの位置づけを照合"
+        },
+        {
+          "url": "https://lit.link/harururumoti",
+          "title": "本人指定リンク集",
+          "note": "イラスト・漫画用と創作用の自己指定先を区別。"
+        },
+        {
+          "url": "https://x.com/harurukinako",
+          "title": "本人のイラスト・漫画用X",
+          "note": "自己紹介で創作Xを直接指定。"
+        },
+        {
+          "url": "https://x.com/harururumoti",
+          "title": "本人の創作用X",
+          "note": "公開表題に関コミ77 D-04を確認。"
         }
       ],
       "queries": [
-        "\"harurukinako\" \"pixiv\""
+        "\"harurukinako\" \"pixiv\"",
+        "id:harurukinako 関西コミティア"
       ],
-      "notes": "本人リンク集の『創作アカウント／ぐるぐるイラスト』として掲載されたpixivを主リンクに採用。別の本人pixivも補助リンクに保持。",
+      "notes": "2026-10-18 追加確認：本人リンク集と既存Xが、創作用X harururumotiを直接指定。創作用Xの表題も当回77・D-04を明記しており、主催の配置と一致。創作用Instagramも同リンク集から追加。従来の主Xと2つのpixivは用途別の本人リンクとして維持。",
       "status": {
         "x": "found",
         "pixiv": "found",
@@ -21730,11 +22138,29 @@
           "error": ""
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-18",
       "officialLinks": [
         "http://lit.link/harururumoti"
       ],
-      "additionalSearchPending": false
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "本人リンク集の『創作アカウント／ぐるぐるイラスト』として掲載されたpixivを主リンクに採用。別の本人pixivも補助リンクに保持。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:harurukinako 関西コミティア"
+          ]
+        }
+      ]
     },
     {
       "space": "D-05",
@@ -23466,7 +23892,18 @@
       "x": "https://x.com/s_s_dReaM_WorlD",
       "pixiv": "",
       "web": "https://skeb.jp/@s_s_dReaM_WorlD",
-      "extras": [],
+      "extras": [
+        {
+          "kind": "event",
+          "url": "https://x.com/s_s_dReaM_WorlD/status/2110687126081647038",
+          "label": "関西コミティア77 お品書き"
+        },
+        {
+          "kind": "event",
+          "url": "https://x.com/s_s_dReaM_WorlD/status/2110896225511989563",
+          "label": "お品書き追記（アクリルキーホルダー）"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.k-comitia.com/list77/",
@@ -23492,12 +23929,23 @@
           "url": "https://x.com/s_s_dReaM_WorlD",
           "title": "本人XプロフィールのURL欄",
           "note": "保存済み公開ページのprofile_bio内URL欄から取得。screen_nameが登録済み本人Xと一致することを照合。本文の他者へのリンクは採用しない。"
+        },
+        {
+          "url": "https://x.com/s_s_dReaM_WorlD/status/2110687126081647038",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/s_s_dReaM_WorlD/status/2110896225511989563",
+          "title": "お品書きの本人追記",
+          "note": ""
         }
       ],
       "queries": [
-        "\"s_s_dReaM_WorlD\" pixiv"
+        "\"s_s_dReaM_WorlD\" pixiv",
+        "id:s_s_dReaM_WorlD"
       ],
-      "notes": "",
+      "notes": "2026-10-18 追加確認：ドリームワールド本人のお品書きが当回77・10/18・ゆめましまし・D-25を明記。新作画集・ドローイングを予定し、ましろとの合同出展を自己告知。後続のアクリルキーホルダー記載漏れの追記も併記。",
       "status": {
         "x": "found",
         "pixiv": "not_found",
@@ -23514,11 +23962,29 @@
           "error": ""
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-18",
       "officialLinks": [
         "https://x.com/s_s_dReaM_WorlD"
       ],
-      "additionalSearchPending": false
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": ""
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:s_s_dReaM_WorlD"
+          ]
+        }
+      ]
     },
     {
       "space": "D-26",
@@ -23532,6 +23998,11 @@
           "kind": "skeb",
           "url": "https://skeb.jp/@Mashiro826826",
           "label": "ましろ Skeb"
+        },
+        {
+          "kind": "event",
+          "url": "https://x.com/Mashiro826826/status/2104580243445174440",
+          "label": "関西コミティア77 参加告知"
         }
       ],
       "status": {
@@ -23554,16 +24025,27 @@
           "url": "https://x.com/Mashiro826826",
           "title": "ましろ 本人Xの固定出展告知",
           "note": "固定投稿の2026年9月28日告知に関西コミティア77・10月18日・D-26を明記。現在の表題もD-26。"
+        },
+        {
+          "url": "https://x.com/Mashiro826826/status/2104580243445174440",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/Mashiro826826",
+          "title": "本人公開プロフィール",
+          "note": "10/18関コミD-26表示と自己指定Skebを再確認。"
         }
       ],
       "queries": [
         "\"ゆめましまし２\"",
         "Yahooリアルタイム検索：\"ゆめましまし２\"",
         "Yahooリアルタイム検索：関西コミティア77 D-26",
-        "\"ゆめましまし２\" -site:k-comitia.com"
+        "\"ゆめましまし２\" -site:k-comitia.com",
+        "id:Mashiro826826"
       ],
-      "notes": "2026-10-14 追加照合：過去主催指定先のましろ本人Xを確認。本人の当回固定告知の10月18日・D-26と公式配置を照合。プロフィールが自己指定するSkebも追加。",
-      "checkedAt": "2026-10-14",
+      "notes": "2026-10-18 追加確認：ましろ本人の当回77参加告知が10/18・D-26・ドリームワールドとの合同出展を明記。プロフィールのSkebは既存登録と一致。本文の別アカウントへの言及だけから独立したサークルや通販を推定せず、当回参加告知を追加。",
+      "checkedAt": "2026-10-18",
       "searched": true,
       "additionalSearchPending": false,
       "deepSearched": true,
@@ -23593,6 +24075,22 @@
         {
           "roundId": "2026-10-14-kc6",
           "notes": "サークル名の独立検索を実施。本人と照合できる公開リンクは未確認。存在しないという意味ではない。 追加探索：サークル名と当回配置番号からX内を検索。当回の本人と結び付く根拠は未確認。アカウント不存在を意味しない。"
+        },
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "2026-10-14 追加照合：過去主催指定先のましろ本人Xを確認。本人の当回固定告知の10月18日・D-26と公式配置を照合。プロフィールが自己指定するSkebも追加。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:Mashiro826826"
+          ]
         }
       ]
     },
@@ -42790,6 +43288,11 @@
           "kind": "booth",
           "url": "https://yukimmilk.booth.pm/",
           "label": "BOOTH"
+        },
+        {
+          "kind": "event",
+          "url": "https://x.com/ebichiranai__/status/2111384360477917380",
+          "label": "関西コミティア77 お品書き"
         }
       ],
       "sources": [
@@ -42822,12 +43325,28 @@
           "url": "https://x.com/ebichiranai__",
           "title": "えび散らない 本人掲載先",
           "note": "本人Xプロフィールから直接確認"
+        },
+        {
+          "url": "https://x.com/ebichiranai__/status/2111384360477917380",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/ebichiranai__",
+          "title": "本人公開プロフィール",
+          "note": ""
+        },
+        {
+          "url": "https://potofu.me/ebichili",
+          "title": "本人指定POTOFU",
+          "note": ""
         }
       ],
       "queries": [
-        "\"ebichiranai__\" pixiv"
+        "\"ebichiranai__\" pixiv",
+        "id:ebichiranai__"
       ],
-      "notes": "",
+      "notes": "2026-10-18 追加確認：えびちり本人のお品書きが当回77・10/18・えび散らない・F-95を明記。新刊セット・新作グッズ・ステッカー・色紙を予定し、アクリルスタンドは告知時点で在庫僅少との記載あり。既存POTOFU・BOOTH・Skebとの接続も再確認。会場の現時点の在庫を保証する情報ではない。",
       "status": {
         "x": "found",
         "pixiv": "not_found",
@@ -42861,11 +43380,29 @@
           "error": ""
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-18",
       "officialLinks": [
         "https://x.com/ebichiranai__"
       ],
-      "additionalSearchPending": false
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": ""
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:ebichiranai__"
+          ]
+        }
+      ]
     },
     {
       "space": "F-96",
@@ -48663,7 +49200,7 @@
     {
       "space": "G-73",
       "name": "べリリスグリドン",
-      "x": "",
+      "x": "https://x.com/maruimono08",
       "pixiv": "https://www.pixiv.net/users/9522935",
       "web": "https://akarisu.com/",
       "extras": [
@@ -48681,6 +49218,31 @@
           "kind": "booth",
           "url": "https://mascot.booth.pm/",
           "label": "BOOTH"
+        },
+        {
+          "kind": "web",
+          "url": "https://potofu.me/akarisu",
+          "label": "本人リンク集"
+        },
+        {
+          "kind": "misskey",
+          "url": "https://misskey.io/@akarisu",
+          "label": "本人Misskey"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.youtube.com/@ariskkun",
+          "label": "本人YouTube"
+        },
+        {
+          "kind": "web",
+          "url": "https://suzuri.jp/aka_risu",
+          "label": "本人SUZURI"
+        },
+        {
+          "kind": "web",
+          "url": "https://akarisu.com/2026/10/16/news044/",
+          "label": "関西コミティア77 お品書き・新刊サンプル"
         }
       ],
       "sources": [
@@ -48708,14 +49270,35 @@
           "url": "https://akarisu.com/",
           "title": "べリリスグリドン 本人掲載先",
           "note": "公式掲載本人サイトの本人通販アイコンを確認"
+        },
+        {
+          "url": "https://x.com/maruimono08",
+          "title": "赤リス本人の公開プロフィール",
+          "note": "当回G-73と自己指定サイトを確認。arisk_kunは分身と明記。"
+        },
+        {
+          "url": "https://x.com/maruimono08/status/2110671533094109680",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://akarisu.com/2026/10/16/news044/",
+          "title": "公式サイトの当回お品書き",
+          "note": "名義・配置・新刊のページ数と価格を確認。"
+        },
+        {
+          "url": "https://potofu.me/akarisu",
+          "title": "本人指定POTOFU",
+          "note": "Misskey・YouTube・SUZURI等の自己指定先。リンク先の全本文は未確認。"
         }
       ],
       "queries": [
-        "\"べリリスグリドン\" twitter"
+        "\"べリリスグリドン\" twitter",
+        "\"べリリスグリドン\""
       ],
-      "notes": "サイトから見つかったmaruimono08/arisk_kunは本文の作品・キャラクター関連リンクの可能性があり本人Xとして未確定。",
+      "notes": "2026-10-18 追加確認：赤リス本人のXが当回G-73と公式サイトakarisu.comを直接指定し、お品書き本文も当回77・10/18・ベリリスグリドン・G-73を明記。以前の候補maruimono08を本人主Xとして確定。公式サイトの当回案内は新刊「ソーマとチェリシャ」A5・42ページ・500円と新グッズを案内。本人が分身と呼ぶarisk_kunは主Xへ転用しない。本人指定のリンク集・Misskey等も追加。",
       "status": {
-        "x": "ambiguous",
+        "x": "found",
         "pixiv": "found",
         "web": "found"
       },
@@ -48786,11 +49369,29 @@
           "error": ""
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-18",
       "officialLinks": [
         "https://akarisu.com"
       ],
-      "additionalSearchPending": false
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "サイトから見つかったmaruimono08/arisk_kunは本文の作品・キャラクター関連リンクの可能性があり本人Xとして未確定。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "\"べリリスグリドン\""
+          ]
+        }
+      ]
     },
     {
       "space": "G-74",
@@ -48813,6 +49414,26 @@
           "kind": "skeb",
           "url": "https://skeb.jp/@Niipiniipipi",
           "label": "Skeb"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.youtube.com/@Hiyoko-pipi",
+          "label": "本人YouTube"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.tumblr.com/niipipi",
+          "label": "本人Tumblr"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.tiktok.com/@nibipipi",
+          "label": "本人TikTok"
+        },
+        {
+          "kind": "event",
+          "url": "https://x.com/Niipiniipipi/status/2110016829649457170",
+          "label": "関西コミティア77 お品書き"
         }
       ],
       "sources": [
@@ -48830,10 +49451,27 @@
           "url": "https://potofu.me/4iq5fi69",
           "title": "niipipi | POTOFU | POTOFU",
           "note": "公開プロフィール・本人掲載リンクを確認"
+        },
+        {
+          "url": "https://x.com/Niipiniipipi/status/2110016829649457170",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/Niipiniipipi/status/2108176272304312335",
+          "title": "本人の新刊案内",
+          "note": ""
+        },
+        {
+          "url": "https://potofu.me/4iq5fi69",
+          "title": "本人指定リンク集",
+          "note": "YouTube・Tumblr・TikTokの自己指定先を確認。"
         }
       ],
-      "queries": [],
-      "notes": "",
+      "queries": [
+        "id:niipiniipipi 関西コミティア"
+      ],
+      "notes": "2026-10-18 追加確認：Niipipi本人のお品書きが当回77・10/18・G-74を明記。告知内のdefwopikoという表記は公式Defopicoと同じ本人配置を指すものとして照合。カラフルなグッズと新刊を案内し、別の本人告知で「daily observation」A5フルカラー64ページを確認。本人POTOFUからYouTube・Tumblr・TikTokも追加。",
       "status": {
         "x": "found",
         "pixiv": "found",
@@ -48894,7 +49532,26 @@
       "officialLinks": [
         "https://potofu.me/4iq5fi69"
       ],
-      "additionalSearchPending": false
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": ""
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:niipiniipipi 関西コミティア"
+          ]
+        }
+      ],
+      "checkedAt": "2026-10-18"
     },
     {
       "space": "G-75",
@@ -49318,19 +49975,34 @@
       "space": "G-80",
       "name": "クレイジー村",
       "officialLinks": [],
-      "x": "",
-      "pixiv": "",
+      "x": "https://x.com/cre_rabbi",
+      "pixiv": "https://www.pixiv.net/users/17317080",
       "web": "",
       "extras": [
         {
           "kind": "booth",
           "url": "https://gongonbru.booth.pm/",
           "label": "BOOTH"
+        },
+        {
+          "kind": "x",
+          "url": "https://x.com/gonsannana",
+          "label": "作者ゴンブルのX"
+        },
+        {
+          "kind": "bluesky",
+          "url": "https://bsky.app/profile/gonburu.bsky.social",
+          "label": "作者ゴンブルのBluesky"
+        },
+        {
+          "kind": "event",
+          "url": "https://x.com/cre_rabbi/status/2110990186129891511",
+          "label": "関西コミティア77 お品書き"
         }
       ],
       "status": {
-        "x": "not_found",
-        "pixiv": "not_found",
+        "x": "found",
+        "pixiv": "found",
         "web": "not_found"
       },
       "sources": [
@@ -49343,16 +50015,56 @@
           "url": "https://booth.pm/ja/items/5736982",
           "title": "STRAT!! - クレイジー村",
           "note": "サークル名/作者ゴンブル/関コミ70を本人出品に明記。"
+        },
+        {
+          "url": "https://x.com/cre_rabbi/status/2110990186129891511",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/cre_rabbi",
+          "title": "本人の創作活動用X",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/gonsannana",
+          "title": "作者ゴンブル本人X",
+          "note": "創作X・既存と同じBOOTH・Bluesky・pixivを本人が直接指定。"
+        },
+        {
+          "url": "https://x.com/cre_rabbi/status/2111595701167944065",
+          "title": "10/18朝の本人投稿",
+          "note": "到着・設営が遅れる可能性への言及。将来の欠席を確定する資料ではない。"
         }
       ],
       "queries": [
         "\"クレイジー村\" コミティア",
-        "\"クレイジー村\""
+        "\"クレイジー村\"",
+        "\"ゴンブル\" pixiv"
       ],
-      "notes": "本人BOOTHは同定。X・pixivは未特定。",
+      "notes": "2026-10-18 追加確認：クレイジーラビット公式（クレラビ）本人が当回77・10/18・クレイジー村・G-80を本文で明記し、創作活動用Xとして確定。作者ゴンブルの別X gonsannanaの自己紹介が創作アカウントcre_rabbi・同じBOOTH・Blueskyを直接指定し、URL欄はpixiv17317080を指定。これにより作者pixivと補助SNSも追加。新刊・グッズ・ステッカー等の頒布予定を確認。10/18朝の公開投稿では到着・設営が遅れる可能性に言及しているため、来場時は本人の最新投稿を参照。",
       "searched": true,
-      "checkedAt": "2026-10-12T20:30:02.044Z",
-      "additionalSearchPending": false
+      "checkedAt": "2026-10-18",
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "本人BOOTHは同定。X・pixivは未特定。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "\"クレイジー村\"",
+            "\"ゴンブル\" pixiv"
+          ]
+        }
+      ]
     },
     {
       "space": "G-81",
@@ -67998,6 +68710,11 @@
           "kind": "x",
           "url": "https://x.com/IshinAsai",
           "label": "X（出版社公式）"
+        },
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/ishinsha_2go/",
+          "label": "出版社公式Instagram"
         }
       ],
       "status": {
@@ -68025,16 +68742,45 @@
           "url": "https://ishinsha.com/",
           "title": "亥辰舎公式サイト",
           "note": "出版社公式X IshinAsaiへ直接リンク。"
+        },
+        {
+          "url": "https://ishinsha.com/",
+          "title": "亥辰舎公式サイト",
+          "note": "公式XとInstagramへの直接指定を確認。"
+        },
+        {
+          "url": "https://x.com/ishin2GO",
+          "title": "本人の出展用Xプロフィール",
+          "note": ""
         }
       ],
       "queries": [
         "\"クリエイターの為の本屋さん１\" コミティア",
-        "\"クリエイターの為の本屋さん１\""
+        "\"クリエイターの為の本屋さん１\"",
+        "id:ishin2GO"
       ],
-      "notes": "クリエイターの為の本屋さん1/2は同ブースの複数スペース。本人出店プロフィールと公式サイトを確認。",
+      "notes": "2026-10-18 追加確認：亥辰舎公式サイトと出展用Xを再確認。公式サイトが直接指定する出版社Instagramを追加。別の出版社公式X IshinAsaiと出展用ishin2GOは以前の区別を保持。公開取得分では今回J-61だけの最新お品書きは確認できず、別イベントの紹介を当回の頒布品には転用しない。",
       "searched": true,
-      "checkedAt": "2026-10-12T20:30:02.044Z",
-      "additionalSearchPending": false
+      "checkedAt": "2026-10-18",
+      "additionalSearchPending": false,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "クリエイターの為の本屋さん1/2は同ブースの複数スペース。本人出店プロフィールと公式サイトを確認。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:ishin2GO"
+          ]
+        }
+      ]
     },
     {
       "space": "J-62",
@@ -71399,6 +72145,26 @@
           "url": "https://monoclops.fanbox.cc/",
           "title": "追加の本人／主催一次資料",
           "note": "現在の公開FANBOXプロフィールAPIが作者こつき・pixiv6038563・X anakitsune・Misskeyへの本人指定リンクを提供。"
+        },
+        {
+          "url": "https://monoclops.fanbox.cc/",
+          "title": "本人FANBOX公開プロフィール",
+          "note": "本人名・pixiv・X・Misskeyの直接指定を再確認。"
+        },
+        {
+          "url": "https://api.fanbox.cc/creator.get?creatorId=monoclops",
+          "title": "FANBOXの公開クリエイタープロフィール",
+          "note": "公開プロフィールの自己指定URLのみ。支援者向け投稿は対象外。"
+        },
+        {
+          "url": "https://x.com/anakitsune",
+          "title": "登録済み作者Xの公開取得",
+          "note": ""
+        },
+        {
+          "url": "https://misskey.io/@anakitsune",
+          "title": "本人指定Misskey",
+          "note": ""
         }
       ],
       "queries": [
@@ -71406,16 +72172,37 @@
         "\"Monoclops\" \"こつき\" コミティア",
         "\"Monoclops\" \"K-14\"",
         "\"anakitsune\" コミティア",
-        "\"Monoclops\" \"関西コミティア77\" こつき"
+        "\"Monoclops\" \"関西コミティア77\" こつき",
+        "id:anakitsune",
+        "\"Monoclops\" \"関西コミティア77\""
       ],
-      "notes": "候補 https://monoclops.fanbox.cc/ はこつきの創作FANBOX。サークルMonoclopsとの接続未確認。\n追加確認：サークルMonoclopsと作者こつきを複数主催の同一行から確定し、FANBOXの現在の本人自己リンクを照合。X詳細はログインなしで読めないがURLの本人同一性は確定。",
-      "checkedAt": "2026-10-13",
+      "notes": "2026-10-18 追加確認：本人FANBOXの公開プロフィールで作者こつき・pixiv6038563・X anakitsune・Misskeyの自己指定を再確認し、登録済みの本人リンクと一致。Xは今回も汎用表示で詳細投稿を取得できず、公開取得分では当回77・K-14の直接告知と新たなお品書きは未確認。ログインや有料投稿の取得は行っていない。",
+      "checkedAt": "2026-10-18",
       "searched": true,
       "additionalSearchPending": false,
       "deepSearched": true,
       "deepCheckedAt": "2026-10-13T21:48:37.881034+00:00",
       "deepNotes": "サークルMonoclopsと作者こつきを複数主催の同一行から確定し、FANBOXの現在の本人自己リンクを照合。X詳細はログインなしで読めないがURLの本人同一性は確定。",
-      "wasUnidentifiedAtDeepStart": true
+      "wasUnidentifiedAtDeepStart": true,
+      "previousNotes": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "候補 https://monoclops.fanbox.cc/ はこつきの創作FANBOX。サークルMonoclopsとの接続未確認。\n追加確認：サークルMonoclopsと作者こつきを複数主催の同一行から確定し、FANBOXの現在の本人自己リンクを照合。X詳細はログインなしで読めないがURLの本人同一性は確定。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:anakitsune",
+            "\"Monoclops\" \"関西コミティア77\""
+          ]
+        }
+      ]
     },
     {
       "space": "K-15",
@@ -88715,7 +89502,18 @@
       "x": "https://x.com/Doover_80s",
       "pixiv": "https://www.pixiv.net/users/61772588",
       "web": "https://doover-60s70s80s.booth.pm/",
-      "extras": [],
+      "extras": [
+        {
+          "kind": "skeb",
+          "url": "https://skeb.jp/@Doover_80s",
+          "label": "本人Skeb（本人記載では停止中）"
+        },
+        {
+          "kind": "event",
+          "url": "https://x.com/Doover_80s/status/2110350626882548116",
+          "label": "関西コミティア77 お品書き"
+        }
+      ],
       "status": {
         "x": "found",
         "pixiv": "found",
@@ -88736,16 +89534,27 @@
           "url": "https://x.com/i/status/2050547260409454710",
           "title": "2026-10-14 追加照合の確認元",
           "note": "本人表示名の10/18関西コミティアM-67と公式配置を照合。本人投稿のBOOTHカードにヴィタミンCを確認し、プロフィールの自己リンクを登録。"
+        },
+        {
+          "url": "https://x.com/Doover_80s/status/2110350626882548116",
+          "title": "関西コミティア77の本人告知",
+          "note": ""
+        },
+        {
+          "url": "https://x.com/Doover_80s",
+          "title": "本人公開プロフィール",
+          "note": "自己指定pixiv・BOOTH・停止中のSkebを確認。"
         }
       ],
       "queries": [
         "\"ヴィタミンC\" コミティア",
         "Yahooリアルタイム検索：\"ヴィタミンC\"",
         "Yahooリアルタイム検索：関西コミティア77 M-67",
-        "\"ヴィタミンC\" \"関西コミティア\""
+        "\"ヴィタミンC\" \"関西コミティア\"",
+        "id:Doover_80s"
       ],
-      "notes": "2026-10-14 追加照合：本人表示名の10/18関西コミティアM-67と公式配置を照合。本人投稿のBOOTHカードにヴィタミンCを確認し、プロフィールの自己リンクを登録。",
-      "checkedAt": "2026-10-14",
+      "notes": "2026-10-18 追加確認：Doover本人のお品書きが当回77・10/18・M-67を本文で明記。自己プロフィールのpixiv・BOOTHは既存登録と一致し、Skebも直接指定されているため追加。本人はSkebを停止中と記載しており、受付中とは扱わない。",
+      "checkedAt": "2026-10-18",
       "searched": true,
       "additionalSearchPending": false,
       "deepSearched": true,
@@ -88766,6 +89575,22 @@
         {
           "roundId": "2026-10-14-kc5",
           "notes": "サークル名の独立検索を実施。本人と照合できる公開リンクは未確認。存在しないという意味ではない。 追加探索：サークル名と当回配置番号からX内を検索。当回の本人と結び付く根拠は未確認。アカウント不存在を意味しない。"
+        },
+        {
+          "roundId": "2026-10-18-kc11",
+          "notes": "2026-10-14 追加照合：本人表示名の10/18関西コミティアM-67と公式配置を照合。本人投稿のBOOTHカードにヴィタミンCを確認し、プロフィールの自己リンクを登録。"
+        }
+      ],
+      "enrichmentSearches": [
+        {
+          "roundId": "2026-10-18-kc11",
+          "checkedDate": "2026-10-18",
+          "methods": [
+            "本人公開プロフィール・本人指定サイト・当回の自己告知を照合"
+          ],
+          "queries": [
+            "id:Doover_80s"
+          ]
         }
       ]
     },
@@ -105336,6 +106161,19 @@
       "checked": 229,
       "identified": 8,
       "unidentifiedAfter": 221
+    }
+  ],
+  "enrichmentRounds": [
+    {
+      "id": "2026-10-18-kc11",
+      "checkedDate": "2026-10-18",
+      "checked": 18,
+      "recordsWithNewLinks": 14,
+      "newUrls": 44,
+      "newPrimaryX": 3,
+      "newPrimaryPixiv": 2,
+      "newPrimaryWeb": 0,
+      "newlyIdentified": 0
     }
   ]
 }
