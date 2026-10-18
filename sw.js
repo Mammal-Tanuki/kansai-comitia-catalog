@@ -1,6 +1,6 @@
-const CACHE = 'kansai-comitia-catalog-v12';
+const CACHE = 'kansai-comitia-catalog-v13';
 const PREFIX = 'kansai-comitia-catalog-';
-const CORE = ['./','./index.html','./app.js','./style.css','./data/circles77.js','./data/circles77.json','./data/research77.csv','./RESEARCH.md','./manifest.webmanifest','./icon.svg'];
+const CORE = ['./','./index.html','./app.js?v=kc13','./style.css?v=kc13','./venue-map.js','./map/venue77.js','./map/venue77.json','./map/venue77.png','./data/circles77.js','./data/circles77.json','./data/research77.csv','./RESEARCH.md','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith(PREFIX)&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{

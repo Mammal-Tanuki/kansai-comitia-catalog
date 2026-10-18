@@ -6,14 +6,18 @@
   <meta name="theme-color" content="#0f1115">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css?v=kc13">
   <title>関西コミティア77 個人Webカタログ</title>
   <script defer src="./data/circles77.js"></script>
-  <script defer src="./app.js"></script>
+  <script defer src="./map/venue77.js"></script>
+  <script defer src="./app.js?v=kc13"></script>
+  <script defer src="./venue-map.js"></script>
 </head>
 <body>
 <header><div class="header-inner"><h1>関西コミティア77</h1><p>2026年10月18日（日）11:00〜15:00 · 京都パルスプラザ</p></div></header>
 <main>
+  <nav class="page-tabs" aria-label="表示切替"><button id="catalogTab" class="primary" aria-pressed="true">サークル一覧</button><button id="mapTab" aria-pressed="false">会場マップ</button></nav>
+  <section id="catalogPage" aria-label="サークル一覧">
   <div class="filters">
     <input id="q" class="wide" type="search" placeholder="サークル名・配置・購入予定・メモを検索" aria-label="サークルを検索">
     <select id="view" aria-label="表示するサークル"><option value="all">全サークル</option><option value="check">チェックリスト</option></select>
@@ -34,8 +38,27 @@
   <section id="list" aria-label="参加サークル"></section>
   <button id="moreBtn" class="more" hidden>続きを表示</button>
   <p class="small">色分け・確認済み・購入予定・予算・メモ・訪問済みはこの端末に保存されます。カタログを更新しても引き継ぎます。</p>
+  </section>
+  <section id="mapPage" aria-label="会場マップ" hidden>
+    <div class="map-heading"><h2>会場マップ</h2><a href="https://www.k-comitia.com/pdf/77csanka.pdf#page=10" target="_blank" rel="noopener noreferrer">公式の配置図 ↗</a></div>
+    <p id="mapStatus" class="small" role="status" aria-live="polite"></p>
+    <div id="mapReady">
+      <div id="mapViews" class="map-views" aria-label="会場の区画"></div>
+      <div class="map-color-panel"><span class="small">マップに表示する色</span><div id="mapColors" class="map-colors"></div><p id="mapMarkerCount" class="small"></p></div>
+      <div class="map-zoom-controls"><button id="mapZoomOut" aria-label="配置図を縮小">−</button><span id="mapZoomLabel"></span><button id="mapZoomIn" aria-label="配置図を拡大">＋</button><button id="mapFit">全体を表示</button></div>
+      <p class="map-help">＋／−で拡大・縮小、指でスクロール。区画をタップすると色・訪問済みを変更できます。灰色は着色せず、訪問済みには✓を表示します。</p>
+      <div id="mapScroll" class="map-scroll" tabindex="0" aria-label="配置図。拡大後は上下左右にスクロールできます"><div id="mapStage" class="map-stage"></div></div>
+    </div>
+  </section>
   <p class="small footer-links"><a href="./data/research77.csv" download>リンク調査表（CSV）</a><a href="./RESEARCH.md" target="_blank" rel="noopener">調査方法と確認範囲</a><span id="version"></span></p>
 </main>
+<dialog id="mapDialog" class="map-dialog" aria-labelledby="mapDialogName">
+  <div class="map-dialog-head"><div><div id="mapDialogSpace" class="map-dialog-space"></div><h2 id="mapDialogName"></h2></div><button id="mapDialogClose" aria-label="サークル情報を閉じる">閉じる</button></div>
+  <div id="mapDialogLinks" class="links"></div><div id="mapDialogExtras" class="extra-links"></div>
+  <div id="mapDialogColors" class="chips" aria-label="サークルの色を変更"></div>
+  <label class="map-visited"><input id="mapDialogVisited" type="checkbox"> ✓ 訪問済み</label>
+  <p id="mapDialogMemo" class="small"></p><button id="mapDialogList" class="primary map-dialog-list">一覧で開く・メモを編集</button>
+</dialog>
 <noscript><p>このカタログを使うにはJavaScriptを有効にしてください。</p></noscript>
 </body>
 </html>

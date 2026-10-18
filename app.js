@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = '2026-10-18-kc12';
+const VERSION = '2026-10-18-kc13';
 const OFFICIAL = 'https://www.k-comitia.com/list77/';
 const KEY = 'kansai_comitia_catalog_v1';
 const PREF = 'kansai_comitia_catalog_prefs_v1';
@@ -63,7 +63,7 @@ function card(c){
   const sourceList=sources.map(s=>`<li><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title||s.kind||'確認元')} ↗</a>${s.note?` — ${esc(s.note)}`:''}</li>`).join('');
   const query=`"${c.name}" 関西コミティア`;
   const searchLinks=[['Xで検索','https://x.com/search?q='+encodeURIComponent(query)+'&src=typed_query'],['pixivで検索','https://www.pixiv.net/users?nick='+encodeURIComponent(c.name)],['Webで検索','https://www.google.com/search?q='+encodeURIComponent(query)]];
-  return `<article class="card" data-id="${esc(c.id)}"><div class="top"><div class="space">${esc(c.space)}</div><div class="name">${esc(c.name)}</div></div>
+  return `<article class="card" data-id="${esc(c.id)}"><div class="top"><button class="space map-jump" data-map-focus="${esc(c.space)}" aria-label="${esc(c.space)} ${esc(c.name)}の配置図を開く">${esc(c.space)}<small>配置図</small></button><div class="name">${esc(c.name)}</div></div>
   <div class="links">${link(c.web,'Web',c.status?.web)}${link(c.pixiv,'pixiv',c.status?.pixiv)}${link(c.x,'X',c.status?.x)}</div>
   ${extras.length?`<div class="extra-links">${extras.map(e=>`<a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener noreferrer">${esc(e.label||extrasLabel[e.kind]||'関連リンク')} ↗</a>`).join('')}</div>`:''}
   <div class="chips">${colors.map(k=>`<button class="chip c-${k} ${c.state.color===k?'on':''}" data-color="${k}" aria-pressed="${c.state.color===k}" aria-label="${esc(c.name)}を${colorLabel[k]}にする">${colorLabel[k]}</button>`).join('')}</div>
@@ -79,6 +79,7 @@ function render(){
   const rows=filtered(),shown=rows.slice(0,visibleCount);$('resultCount').textContent=`${rows.length}件中 ${shown.length}件表示`;
   $('list').innerHTML=rows.length?shown.map(card).join(''):'<div class="empty">条件に合うサークルがありません</div>';
   $('moreBtn').hidden=shown.length>=rows.length;$('moreBtn').textContent=`続きを表示（あと${rows.length-shown.length}件）`;$('version').textContent=VERSION;
+  window.catalogMap?.refresh();
 }
 function update(id,fn){const c=circles.find(c=>c.id===id);if(!c)return;fn(c);save();}
 function setFilter(key,value){prefs[key]=value;visibleCount=PAGE_SIZE;save();render();}
